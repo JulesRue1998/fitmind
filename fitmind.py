@@ -11,6 +11,8 @@ if page == "Fitness":
     st.title("Fitness")
     st.write("Hier können Sie Informationen über unsere Anwendung finden.")
     st.subheader("Squats")
+    st.write("Für welche Muskulatur Gut?")
+    st.subheader("Pushups")
 elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
