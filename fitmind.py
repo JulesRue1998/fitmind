@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title('FitMind')
 
-st.image("https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F025%2F220%2F125%2Fsmall_2x%2Fpicture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg&tbnid=KnSoW1OO4dAxcM&vet=12ahUKEwigxdCG4ICFAxUEtv0HHXVyBTIQMygAegQIARBM..i&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fpicture&docid=wska7sM6RxRdCM&w=600&h=400&q=picture&client=safari&ved=2ahUKEwigxdCG4ICFAxUEtv0HHXVyBTIQMygAegQIARBM")
+st.image("https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F025%2F220%2F125%2Fsmall_2x%2Fpicture-a-captivating-scene-of-a-tranquil-lake-at-sunset-ai-generative-photo.jpg")
 
 st.sidebar.title("Menu")
 page = st.sidebar.radio("Navigation",["Fitness", "Mental Health"])
