@@ -13,7 +13,13 @@ if page == "FitMind - Introduction":
 
 elif page == "Fitness":
     st.title("Fitness")
-    
+    with st.expander("See explanation"):
+with st.expander("See explanation"):
+    st.write(\"\"\" Levels
+        Beginners
+        Intermediate
+        Advanced
+    \"\"\")
     st.title("workouts")
     st.subheader("Beginners")
     st.write("If you're new to exercise or a particular exercise, start with 1 to 2 sets per exercise. Focus on learning proper form and gradually increasing the number of sets as you become more comfortable with the movements.")
