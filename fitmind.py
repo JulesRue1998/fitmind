@@ -70,8 +70,7 @@ elif menu_option == 'View Water Intake History':
 
 increment_water_tracker()
 
-
-elif page == "Food & Recipes":
+    elif page == "Food & Recipes":
     st.title("Food & Recipes")
 
 
