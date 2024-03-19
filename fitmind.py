@@ -11,7 +11,8 @@ if page == "Fitness":
     st.title("Fitness")
     st.write("Hier können Sie Informationen über unsere Anwendung finden.")
     st.subheader("Squats")
-    st.write("Für welche Muskulatur Gut?")
+    st.write("Stand with your feet shoulder-width apart, lower your body by bending your knees, and then return to the starting position.")
+    st.write("Squats primarily target the legs and glutes.")
     st.subheader("Pushups")
 elif page == "Mental Health":
     st.title("Mental Health")
