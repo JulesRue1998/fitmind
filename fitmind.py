@@ -19,6 +19,8 @@ if page == "Fitness":
 
     st.subheader("Choose your Workouts")
 
+
+    st.video(https://youtu.be/xqvCmoLULNY)
 elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
