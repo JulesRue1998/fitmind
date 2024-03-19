@@ -14,7 +14,6 @@ if page == "FitMind - Introduction":
 elif page == "Fitness":
     st.title("Fitness")
     with st.expander("See explanation"):
-with st.expander("See explanation"):
     st.write(\"\"\" Levels
         Beginners
         Intermediate
