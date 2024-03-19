@@ -5,7 +5,7 @@ st.title('FitMind')
 
 st.sidebar.title("Menu")
 
-page = st.sidebar.radio(["Fitness", "Mental Health"])
+page = st.sidebar.radio("Navigation",["Fitness", "Mental Health"])
 
 if page == "Fitness":
     st.title("Fitness")
