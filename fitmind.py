@@ -4,8 +4,6 @@ import pandas as pd
 st.title('FitMind')
 
 st.sidebar.title("Menu")
-
-
 page = st.sidebar.radio("Navigation",["Fitness", "Mental Health"])
 
 if page == "Fitness":
@@ -19,17 +17,16 @@ if page == "Fitness":
     
     st.title("workouts")
     
-    
     popover = st.popover("Filter items")
     Glutes = popover.checkbox("Squats", True)
     Arms = popover.checkbox("Pushups", True)
 
 if red:
-    st.write(":Glutes[
+    st.write(":Glutes["
     st.subheader("Squats")
     st.write("Stand with your feet shoulder-width apart, lower your body by bending your knees, and then return to the starting position.")
-    st.write("Squats primarily target the legs and glutes.")
-             ]")
+    st.write("Squats primarily target the legs and glutes.") ]")
+    
 if blue:
     st.write(":Arms[This is a blue item.]")
     
