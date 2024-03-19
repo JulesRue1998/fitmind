@@ -25,6 +25,8 @@ elif page == "Fitness":
 
     st.subheader("Squats")
     st.video('https://youtu.be/xqvCmoLULNY')
+
+elif page == "Food & Recipes":
     
 elif page == "Mental Health":
     st.title("Mental Health")
@@ -58,9 +60,6 @@ def increment_water_tracker():
     if st.button('💧'):
         water_data.loc[len(water_data)] = [pd.Timestamp.now().date(), 1]
         st.success('Water intake tracked successfully!')
-
-elif page == "Food & Recipes":
-    st.title("Food & Recipes")
 
 # Main code
 st.sidebar.title('Menu')
