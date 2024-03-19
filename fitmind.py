@@ -17,14 +17,17 @@ if page == "Fitness":
     st.subheader("Advanced")
     st.write("Advanced individuals who are looking to increase muscle size or strength may benefit from performing 4 to 5 sets per exercise. Higher volume workouts can help stimulate muscle hypertrophy and strength gains.")
     st.title("workouts")
+
+    
+popover = st.popover("Filter items")
+Glutes = popover.checkbox("Squats", True)
+Arms = popover.checkbox("Pushups", True)
+
     st.subheader("Squats")
     st.write("Stand with your feet shoulder-width apart, lower your body by bending your knees, and then return to the starting position.")
     st.write("Squats primarily target the legs and glutes.")
     st.subheader("Pushups")
 
-popover = st.popover("Filter items")
-Glutes = popover.checkbox("st.subheader("Squats")", True)
-Arms = popover.checkbox("st.subheader("Pushups")", True)
 elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
