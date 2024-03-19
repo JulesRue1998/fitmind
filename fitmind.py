@@ -27,5 +27,24 @@ elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
 
+    st.write("Wie geht es dir heute?")
+
+    mood = st.slider("Stimmung", 0, 10, 5)
+    stress_level = st.slider("Stresslevel", 0, 10, 5)
+
+    mood_data = pd.DataFrame({
+        'Datum': pd.date_range(start='2024-01-01', periods=30),
+        'Stimmung': np.random.randint(0, 11, size=30),
+        'Stresslevel': np.random.randint(0, 11, size=30)
+    })
+    st.write("Verlauf der Stimmung und des Stresslevels:")
+    plt.figure(figsize=(10, 6))
+    plt.plot(mood_data['Datum'], mood_data['Stimmung'], label='Stimmung')
+    plt.plot(mood_data['Datum'], mood_data['Stresslevel'], label='Stresslevel')
+    plt.xlabel('Datum')
+    plt.ylabel('Wert')
+    plt.legend()
+    st.pyplot()
+
 elif page == "Food & Recipes":
     st.title("Food & Recipes")
