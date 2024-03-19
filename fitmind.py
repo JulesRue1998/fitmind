@@ -34,7 +34,7 @@ elif page == "Mental Health":
 health_data = pd.DataFrame(columns=['Date', 'Sleep Hours', 'Exercise (minutes)', 'Calories Consumed'])
 
 # Function to display the health tracking form
-    def display_health_form():
+def display_health_form():
     date = st.date_input('Date', datetime.today())
     sleep_hours = st.number_input('Sleep Hours', min_value=0, max_value=24, step=0.5)
     exercise_minutes = st.number_input('Exercise (minutes)', min_value=0, max_value=1440, step=5)
@@ -45,7 +45,7 @@ health_data = pd.DataFrame(columns=['Date', 'Sleep Hours', 'Exercise (minutes)',
         st.success('Health entry added successfully!')
 
 # Function to display the health tracking calendar
-    def display_health_calendar():
+def display_health_calendar():
     st.title('Health Tracking Calendar')
     
     # Display the calendar interface
