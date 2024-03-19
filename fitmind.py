@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 
 st.sidebar.title("Menu")
-page = st.sidebar.radio("Choose what you need",["FitMind", "Fitness", "Mental Health", "Food & Recipes"])
+page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
 
-if page == "FitMind":
+if page == "FitMind - Introduction":
     st.title("FitMind")
 
 elif page == "Fitness":
