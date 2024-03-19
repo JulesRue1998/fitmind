@@ -63,12 +63,12 @@ def increment_water_tracker():
 st.sidebar.title('Menu')
 menu_option = st.sidebar.radio('Select option', ['Track Water Intake', 'View Water Intake History'])
 
-if menu_option == 'Track Water Intake':
-    display_water_intake_form()
-elif menu_option == 'View Water Intake History':
-    display_water_intake_history()
+    if menu_option == 'Track Water Intake':
+        display_water_intake_form()
+    elif menu_option == 'View Water Intake History':
+        display_water_intake_history()
 
-increment_water_tracker()
+    increment_water_tracker()
 
 elif page == "Food & Recipes":
     st.title("Food & Recipes")
