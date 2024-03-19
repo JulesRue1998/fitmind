@@ -22,10 +22,7 @@ if page == "Fitness":
     Arms = popover.checkbox("Pushups", True)
 
 if red:
-    st.write(":Glutes["
-    st.subheader("Squats")
-    st.write("Stand with your feet shoulder-width apart, lower your body by bending your knees, and then return to the starting position.")
-    st.write("Squats primarily target the legs and glutes.") ]")
+    st.write(":Glutes[Squats]")
     
 if blue:
     st.write(":Arms[This is a blue item.]")
