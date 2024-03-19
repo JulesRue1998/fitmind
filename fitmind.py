@@ -23,6 +23,15 @@ if page == "Fitness":
     popover = st.popover("Filter items")
     Glutes = popover.checkbox("Squats", True)
     Arms = popover.checkbox("Pushups", True)
+
+    if red:
+    st.write(":Glutes[
+    st.subheader("Squats")
+    st.write("Stand with your feet shoulder-width apart, lower your body by bending your knees, and then return to the starting position.")
+    st.write("Squats primarily target the legs and glutes.")
+             ]")
+    if blue:
+    st.write(":Arms[This is a blue item.]")
     
     st.subheader("Squats")
     st.write("Stand with your feet shoulder-width apart, lower your body by bending your knees, and then return to the starting position.")
