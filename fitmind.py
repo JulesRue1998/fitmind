@@ -30,16 +30,12 @@ elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
 
-import streamlit as st
-import pandas as pd
 
-# Load or create DataFrame to store water intake data
 try:
     water_data = pd.read_csv("water_intake.csv")
 except FileNotFoundError:
     water_data = pd.DataFrame(columns=['Date', 'Glasses of Water'])
 
-# Function to display water intake form
 def display_water_intake_form():
     st.title('Water Intake Tracking')
     st.write('💧 Use this form to track your daily water intake 💧')
@@ -50,7 +46,6 @@ def display_water_intake_form():
         water_data.loc[len(water_data)] = [date, glasses]
         st.success('Water intake tracked successfully!')
 
-# Function to display water intake history
 def display_water_intake_history():
     st.title('Water Intake History')
     if water_data.empty:
