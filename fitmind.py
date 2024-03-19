@@ -12,9 +12,8 @@ st.sidebar.title("Menu")
 
 page = st.sidebar.radio("FitMind", ["Fitness", "Mental Health"])
 
-# Abhängig von der ausgewählten Seite wird der entsprechende Inhalt angezeigt
 if page == "Fitness":
-    st.title("Willkommen auf der Startseite")
+    st.title("Fitness")
     st.write("Hier können Sie Informationen über unsere Anwendung finden.")
 elif page == "Mental Health":
     st.title("Mental Health")
