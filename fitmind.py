@@ -25,51 +25,13 @@ elif page == "Fitness":
 
     st.subheader("Squats")
     st.video('https://youtu.be/xqvCmoLULNY')
-
-elif page == "Food & Recipes":
     
-    elif page == "Mental Health":
+elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
 
+elif page == "Food & Recipes":
 
-try:
-    water_data = pd.read_csv("water_intake.csv")
-except FileNotFoundError:
-    water_data = pd.DataFrame(columns=['Date', 'Glasses of Water'])
 
-def display_water_intake_form():
-    st.title('Water Intake Tracking')
-    st.write('💧 Use this form to track your daily water intake 💧')
-    date = st.date_input('Date', pd.Timestamp.now().date())
-    glasses = st.slider('Glasses of Water', min_value=0, max_value=20, value=8)
-    
-    if st.button('Track Water Intake'):
-        water_data.loc[len(water_data)] = [date, glasses]
-        st.success('Water intake tracked successfully!')
-
-def display_water_intake_history():
-    st.title('Water Intake History')
-    if water_data.empty:
-        st.write('No water intake data available.')
-    else:
-        st.write(water_data)
-
-# Function to increment water intake tracker
-def increment_water_tracker():
-    if st.button('💧'):
-        water_data.loc[len(water_data)] = [pd.Timestamp.now().date(), 1]
-        st.success('Water intake tracked successfully!')
-
-# Main code
-st.sidebar.title('Menu')
-menu_option = st.sidebar.radio('Select option', ['Track Water Intake', 'View Water Intake History'])
-
-if menu_option == 'Track Water Intake':
-     display_water_intake_form()
-elif menu_option == 'View Water Intake History':
-     display_water_intake_history()
-
-    increment_water_tracker()
 
 
