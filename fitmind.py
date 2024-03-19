@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-st.title('FitMind')
-
 st.sidebar.title("Menu")
 page = st.sidebar.radio("Navigation",["FitMind", "Fitness", "Mental Health"])
 
