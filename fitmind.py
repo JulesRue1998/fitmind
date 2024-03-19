@@ -27,5 +27,5 @@ elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
 
-elif page == "Food & Recipes"
+elif page == "Food & Recipes":
     st.title("Food & Recipes")
