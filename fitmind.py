@@ -30,44 +30,51 @@ elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
 
-# Create a DataFrame to store health data
-health_data = pd.DataFrame(columns=['Date', 'Sleep Hours', 'Exercise (minutes)', 'Calories Consumed'])
+import streamlit as st
+import pandas as pd
 
-# Function to display the health tracking form
-def display_health_form():
-    date = st.date_input('Date', datetime.today())
-    sleep_hours = st.number_input('Sleep Hours', min_value=0, max_value=24, step=0.5)
-    exercise_minutes = st.number_input('Exercise (minutes)', min_value=0, max_value=1440, step=5)
-    calories_consumed = st.number_input('Calories Consumed', min_value=0, step=10)
-    
-    if st.button('Add Entry'):
-        health_data.loc[len(health_data)] = [date, sleep_hours, exercise_minutes, calories_consumed]
-        st.success('Health entry added successfully!')
+# Load or create DataFrame to store water intake data
+try:
+    water_data = pd.read_csv("water_intake.csv")
+except FileNotFoundError:
+    water_data = pd.DataFrame(columns=['Date', 'Glasses of Water'])
 
-# Function to display the health tracking calendar
-def display_health_calendar():
-    st.title('Health Tracking Calendar')
+# Function to display water intake form
+def display_water_intake_form():
+    st.title('Water Intake Tracking')
+    st.write('💧 Use this form to track your daily water intake 💧')
+    date = st.date_input('Date', pd.Timestamp.now().date())
+    glasses = st.slider('Glasses of Water', min_value=0, max_value=20, value=8)
     
-    # Display the calendar interface
-    selected_date = st.calendar_header("Pick a date")
-    
-    # Filter health data for the selected date
-    selected_date = pd.Timestamp(selected_date)
-    filtered_data = health_data[health_data['Date'].dt.date == selected_date.date()]
-    
-    if not filtered_data.empty:
-        st.write(filtered_data)
+    if st.button('Track Water Intake'):
+        water_data.loc[len(water_data)] = [date, glasses]
+        st.success('Water intake tracked successfully!')
+
+# Function to display water intake history
+def display_water_intake_history():
+    st.title('Water Intake History')
+    if water_data.empty:
+        st.write('No water intake data available.')
     else:
-        st.write('No health data available for selected date.')
+        st.write(water_data)
+
+# Function to increment water intake tracker
+def increment_water_tracker():
+    if st.button('💧'):
+        water_data.loc[len(water_data)] = [pd.Timestamp.now().date(), 1]
+        st.success('Water intake tracked successfully!')
 
 # Main code
 st.sidebar.title('Menu')
-menu_option = st.sidebar.radio('Select option', ['Add Health Entry', 'View Calendar'])
+menu_option = st.sidebar.radio('Select option', ['Track Water Intake', 'View Water Intake History'])
 
-if menu_option == 'Add Health Entry':
-    display_health_form()
-elif menu_option == 'View Calendar':
-    display_health_calendar()
+if menu_option == 'Track Water Intake':
+    display_water_intake_form()
+elif menu_option == 'View Water Intake History':
+    display_water_intake_history()
+
+increment_water_tracker()
+
 
 elif page == "Food & Recipes":
     st.title("Food & Recipes")
