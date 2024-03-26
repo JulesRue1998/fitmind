@@ -134,11 +134,11 @@ elif page == "Food & Recipes":
             # Hier kannst du spezifische Rezepte für Eier anzeigen
             
         elif selected_breakfast_subcategory == "Toast":
-            st.write("Oatmeal Recipes")
+            st.write("Toast Recipes")
             # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
             
         elif selected_breakfast_subcategory == "Müsli":
-            st.write("Smoothie Recipes")
+            st.write("Müsli Recipes")
             # Hier kannst du spezifische Rezepte für Smoothies anzeigen
             
     elif selected_subcategory == "Lunch":
@@ -149,15 +149,15 @@ elif page == "Food & Recipes":
         selected_Lunch_subcategory = st.sidebar.selectbox("Choose a Lunch ", Lunch_subcategories)
         
         if selected_Lunch_subcategory == "Ceasar Salad":
-            st.write("Egg Recipes")
+            st.write("Ceasar Salad Recipes")
             # Hier kannst du spezifische Rezepte für Eier anzeigen
             
         elif selected_Lunch_subcategory == "Omurice":
-            st.write("Oatmeal Recipes")
+            st.write("Omurice Recipes")
             # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
             
         elif selected_Lunch_subcategory == "Sandwiches":
-            st.write("Smoothie Recipes")
+            st.write("Sandwiches Recipes")
             # Hier kannst du spezifische Rezepte für Smoothies anzeigen
         
     elif selected_subcategory == "Dinner":
@@ -168,15 +168,15 @@ elif page == "Food & Recipes":
         selected_Dinner_subcategory = st.sidebar.selectbox("Choose a Dinner", Dinner_subcategories)
         
         if selected_Dinner_subcategory == "Spaghetti":
-            st.write("Egg Recipes")
+            st.write("Spaghetti Recipes")
             # Hier kannst du spezifische Rezepte für Eier anzeigen
             
         elif selected_Dinner_subcategory == "Salmon":
-            st.write("Oatmeal Recipes")
+            st.write("Salmon Recipes")
             # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
             
         elif selected_Dinner_subcategory == "Feta Pasta":
-            st.write("Smoothie Recipes")
+            st.write("Feta Pasta Recipes")
             # Hier kannst du spezifische Rezepte für Smoothies anzeigen
         
     elif selected_subcategory == "Snacks":
@@ -187,7 +187,7 @@ elif page == "Food & Recipes":
         selected_Snacks_subcategory = st.sidebar.selectbox("Choose a Snack", Snacks_subcategories)
         
         if selected_breakfast_subcategory == "Brownies":
-            st.write("Egg Recipes")
+            st.write("Brownies Recipes")
             # Hier kannst du spezifische Rezepte für Eier anzeigen
             
         elif selected_breakfast_subcategory == "Oatmeal":
