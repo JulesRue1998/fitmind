@@ -38,7 +38,7 @@ elif page == "Fitness":
 
     st.subheader("Sumo Squats")
 
-    elif page == "Fitness":
+    if page == "Fitness":
     st.sidebar.subheader("Planned Programms")
     
     Planned_Programms = ["Arms", "Abs", "Legs", "Butt"]
