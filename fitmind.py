@@ -45,13 +45,13 @@ elif page == "Fitness":
         selected_subcategory = st.sidebar.selectbox("Choose a planned programm", Planned_Programms)
         
     if selected_subcategory == "Arms":
-            st.write("Content for Cardio category")
+        st.write("Content for Cardio category")
     elif selected_subcategory == "Abs":
-            st.write("Content for Strength Training category")
+        st.write("Content for Strength Training category")
     elif selected_subcategory == "Legs":
-            st.write("Content for Flexibility category")
+        st.write("Content for Flexibility category")
     elif selected_subcategory == "Butt":
-            st.write("Content for Endurance category")
+        st.write("Content for Endurance category")
 
 elif page == "Mental Health":
     st.title("Mental Health")
