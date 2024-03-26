@@ -59,7 +59,7 @@ elif page == "Fitness":
         st.subheader("Sumo Squats")
 
         Planned_Programms = ["Summerbody", "Get that booty", "Waschbrettbauch", "Warm ups"]
-        selected_subcategory = st.sidebar.selectbox("Choose a programm", Program)
+        selected_subcategory = st.sidebar.selectbox("Choose a programm", Planned_Programms)
 
     if selected_subcategory == "Summerbody":
         st.subheader("Summerbody")
