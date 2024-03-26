@@ -110,4 +110,4 @@ st.sidebar.info("Diese App wurde von Julia und Cherilyn entwickelt.")
 
 st.sidebar.subheader("Kontakt")
 st.sidebar.text("Bei Fragen oder Anregungen kontaktieren Sie uns unter:")
-st.sidebar.text("fitmind@example.com")
+st.sidebar.text("fitmindbyjc@gmail.com")
