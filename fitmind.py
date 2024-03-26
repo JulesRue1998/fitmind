@@ -77,18 +77,18 @@ elif page == "Fitness":
         st.write("Summerbody")
         
 
-        tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
         
         with tab1:
-           st.header("A cat")
+           st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
         
         with tab2:
-           st.header("A dog")
+           st.header("Intermediate Training")
            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
         
         with tab3:
-           st.header("An owl")
+           st.header("Advanced Training")
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
     
