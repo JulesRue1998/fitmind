@@ -24,10 +24,10 @@ elif page == "Fitness":
     st.write("Choose the area you want to train in our navigation system")
     
     if page == "Fitness":
-        st.sidebar.subheader("Planned Programms")
+        st.sidebar.subheader("Train a specific area")
         
-        Planned_Programms = ["Arms", "Abs", "Legs", "Butt"]
-        selected_subcategory = st.sidebar.selectbox("Choose a planned programm", Planned_Programms)
+        Train_a_specific_area = ["Arms", "Abs", "Legs", "Butt"]
+        selected_subcategory = st.sidebar.selectbox("Choose a planned programm", Train_a_specific_area)
         
     if selected_subcategory == "Arms":
         st.subheader("Arms")
