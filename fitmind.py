@@ -168,10 +168,10 @@ elif page == "Fitness":
     if third_subcategory == " ":
         st.write(" ")
         
-    elif third_subcategory == "Suboption 1":
+    elif third_subcategory == "Water intake":
         st.write("Content for Suboption 1")
         
-    elif third_subcategory == "Suboption 2":
+    elif third_subcategory == "calorie traker":
         st.write("Content for Suboption 2")
 
 
