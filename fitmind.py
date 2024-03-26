@@ -12,7 +12,7 @@ page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitne
 
 if page == "FitMind - Introduction":
     st.title("FitMind")
-    st.snow()
+    
 
 elif page == "Fitness":
     st.title("Fitness")
