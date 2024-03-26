@@ -120,9 +120,9 @@ elif page == "Food & Recipes":
 
 # Footer
 st.sidebar.markdown("---")
-st.sidebar.subheader("Über uns")
-st.sidebar.info("Diese App wurde von Julia und Cherilyn entwickelt.")
+st.sidebar.subheader("About us")
+st.sidebar.info("This app was developed by Julia and Cherilyn.")
 
-st.sidebar.subheader("Kontakt")
-st.sidebar.text("Bei Fragen oder Anregungen kontaktieren Sie uns unter:")
+st.sidebar.subheader("Contact")
+st.sidebar.text("For questions or suggestions, contact us at")
 st.sidebar.text("fitmindbyjc@gmail.com")
