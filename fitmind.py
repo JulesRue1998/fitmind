@@ -36,9 +36,12 @@ elif page == "Fitness":
     
     elif selected_subcategory == "Abs":
         st.write("Content for Strength Training category")
+        
     elif selected_subcategory == "Legs":
         st.write("Content for Flexibility category")
+        
     elif selected_subcategory == "Butt":
+        st.subheader("Butt")
         st.write("Content for Endurance category")
         st.subheader("Squats")
         st.write("Instructions:")
