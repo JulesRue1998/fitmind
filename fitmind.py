@@ -85,14 +85,16 @@ elif page == "Fitness":
         st.subheader("ABS ABS ABS")
 
     st.sidebar.subheader("Fitness Tracker")
-    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["Suboption 1", "Suboption 2", "Suboption 3"])
+    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "Suboption 1", "Suboption 2"])
     
-    if third_subcategory == "Suboption 1":
+    if third_subcategory == " ":
+        st.write(" ")
+        
+    elif third_subcategory == "Suboption 1":
         st.write("Content for Suboption 1")
+        
     elif third_subcategory == "Suboption 2":
         st.write("Content for Suboption 2")
-    elif third_subcategory == "Suboption 3":
-        st.write("Content for Suboption 3")
 
 
 elif page == "Mental Health":
