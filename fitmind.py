@@ -175,7 +175,7 @@ elif page == "Fitness":
         
         # Display the water emoji
         water_emoji = "💧"
-        st.write(water_emoji)
+        st.write("if you drank a glass of water, press the button below!", water_emoji)
         
         # Add a button to increment the water intake counter when clicked
         if st.button("Drink a glass of water", water_emoji):
