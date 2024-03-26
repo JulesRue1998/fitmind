@@ -170,7 +170,6 @@ elif page == "Fitness":
         
     elif third_subcategory == "water intake":
         st.subheader("Track your water intake")
-# Initialize the water intake counter using session state
         if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
         
@@ -193,23 +192,22 @@ elif page == "Fitness":
         st.subheader("Workout tracker")
         st.write("Define your Goals here. write down what you achieved")
         
-            diary_data = pd.read_csv("diary.csv") if "diary.csv" in st.session_state else pd.DataFrame(columns=["Date", "Entry"])
+        diary_data = pd.read_csv("diary.csv") if "diary.csv" in st.session_state else pd.DataFrame(columns=["Date", "Entry"])
             
-            st.title("Diary")
-            entry_date = st.date_input("Date", value=pd.Timestamp.now())
-            entry_text = st.text_area("Enter your diary entry")
+        st.title("Diary")
+        entry_date = st.date_input("Date", value=pd.Timestamp.now())
+        entry_text = st.text_area("Enter your diary entry")
             
-            if st.button("Save Entry"):
-                diary_data = diary_data.append({"Date": entry_date, "Entry": entry_text}, ignore_index=True)
-                diary_data.to_csv("diary.csv", index=False)
-                st.success("Entry saved successfully!")
+        if st.button("Save Entry"):
+            diary_data = diary_data.append({"Date": entry_date, "Entry": entry_text}, ignore_index=True)
+            diary_data.to_csv("diary.csv", index=False)
+            st.success("Entry saved successfully!")
             
-            # Display existing diary entries
-            if not diary_data.empty:
-                st.subheader("Previous Entries")
-                st.write(diary_data)
-            else:
-                st.info("No entries yet.")
+        if not diary_data.empty:
+            st.subheader("Previous Entries")
+            st.write(diary_data)
+        else:
+             st.info("No entries yet.")
 
 
 
