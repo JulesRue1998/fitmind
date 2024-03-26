@@ -67,9 +67,13 @@ elif page == "Fitness":
         st.subheader("Sumo Squats")
         
     st.sidebar.subheader("Planned Programms")
-    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", ["Summerbody", "Get That Booty", "VERY HARD ABS"])
+    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS"])
+   
+    if second_subcategory == " ":
+        st.subheader(" ")
+        st.write(" ")
     
-    if second_subcategory == "Summerbody":
+    elif second_subcategory == "Summerbody":
         st.subheader("Summerbody")
         st.write("Summerbody")
         
