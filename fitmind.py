@@ -102,9 +102,9 @@ elif page == "Mental Health":
     page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
 
     if page == "Mental Health":
-    st.sidebar.subheader("Mental Health Subcategories")
-    mental_health_subcategories = ["Stress Management", "Anxiety Relief", "Mindfulness"]
-    selected_subcategory = st.sidebar.selectbox("Choose a mental health subcategory", mental_health_subcategories)
+        st.sidebar.subheader("Mental Health Subcategories")
+        mental_health_subcategories = ["Stress Management", "Anxiety Relief", "Mindfulness"]
+        selected_subcategory = st.sidebar.selectbox("Choose a mental health subcategory", mental_health_subcategories)
     
     if selected_subcategory == "Stress Management":
         st.write("Content for Stress Management category")
