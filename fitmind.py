@@ -97,9 +97,9 @@ elif page == "Fitness":
 
 
 elif page == "Mental Health":
-st.sidebar.title("Menu")
-st.sidebar.header("Categories")
-page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
+    st.sidebar.title("Menu")
+    st.sidebar.header("Categories")
+    page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
 
 if page == "Mental Health":
     st.sidebar.subheader("Mental Health Subcategories")
