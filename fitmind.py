@@ -163,14 +163,14 @@ elif page == "Fitness":
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
     st.sidebar.subheader("Fitness Tracker")
-    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "Water intake", "Calorie tracker"])
+    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "water intake", "Calorie tracker"])
     
     if third_subcategory == " ":
         st.write(" ")
         
-    elif third_subcategory == "Water intake":
+    elif third_subcategory == "water intake":
 # Initialize the water intake counter using session state
-        if "Water_intake" not in st.session_state:
+        if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
         
         # Display the water emoji
