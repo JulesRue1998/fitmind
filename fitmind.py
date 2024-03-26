@@ -24,7 +24,7 @@ elif page == "Fitness":
     st.write("Choose the area you want to train in our navigation system")
     
     if page == "Fitness":
-        st.sidebar.subheader("Workouts", "Planned Programs")
+        st.sidebar.subheader("Workouts", "Planned Programms")
         
         Workouts = ["Arms", "Abs", "Legs", "Butt"]
         selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
@@ -58,8 +58,23 @@ elif page == "Fitness":
     
         st.subheader("Sumo Squats")
 
-        Workouts = ["Summerbody", "Get that booty", "Waschbrettbauch", "Warm ups"]
+        Planned_Programms = ["Summerbody", "Get that booty", "Waschbrettbauch", "Warm ups"]
         selected_subcategory = st.sidebar.selectbox("Choose a programm", Program)
+
+    if selected_subcategory == "Summerbody":
+        st.subheader("Summerbody")
+        st.write("Get ready for your summerbody!")
+    
+    elif selected_subcategory == "Get that booty":
+        st.subheader("Booty training")
+        st.write("Content for Booty Training category")
+        
+    elif selected_subcategory == "Waschbrettbauch":
+        st.subheader("ABS ABS ABS")
+        st.write("Content for Abs category")
+        
+    elif selected_subcategory == "Warm ups":
+        st.subheader("WArm ups")
 
 elif page == "Mental Health":
     st.title("Mental Health")
