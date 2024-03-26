@@ -97,9 +97,9 @@ elif page == "Fitness":
 
 
 elif page == "Mental Health":
-     st.sidebar.subheader("Mental Health Subcategories")
-     Mental_Health_Subcategories = [" ", "Stresslevel tracker ", "Mood tracker", "Sleep tracker"]
-     selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
+    st.sidebar.subheader("Mental Health Subcategories")
+    Mental_Health_Subcategories = [" ", "Stresslevel tracker ", "Mood tracker", "Sleep tracker"]
+    selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
   
     if selected_subcategory == " ":
         st.write(" ")
@@ -112,6 +112,7 @@ elif page == "Mental Health":
     
     elif selected_subcategory == "Sleep tracker":
         st.write("track your sleeping hours")
+
 
 
 elif page == "Food & Recipes":
