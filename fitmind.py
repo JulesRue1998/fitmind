@@ -24,7 +24,7 @@ elif page == "Fitness":
     st.subheader("Advanced")
     st.write("Advanced individuals who are looking to increase muscle size or strength may benefit from performing 4 to 5 sets per exercise. Higher volume workouts can help stimulate muscle hypertrophy and strength gains.")
    
-
+    st.divider()
     
     if page == "Fitness":
         st.sidebar.subheader("Workouts")
