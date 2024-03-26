@@ -26,10 +26,14 @@ elif page == "Fitness":
     if page == "Fitness":
         st.sidebar.subheader("Workouts")
         
-        Workouts = ["Arms", "Abs", "Legs", "Butt"]
+        Workouts = [" ", "Arms", "Abs", "Legs", "Butt"]
         selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
+                
+    if selected_subcategory == " ":
+        st.subheader(" ")
+        st.write(" ")
         
-    if selected_subcategory == "Arms":
+    elif selected_subcategory == "Arms":
         st.subheader("Arms")
         st.write("Content for Cardio category")
     
