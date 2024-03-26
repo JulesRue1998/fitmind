@@ -57,24 +57,16 @@ elif page == "Fitness":
         st.subheader("Narrow Squats")
     
         st.subheader("Sumo Squats")
-
-        Planned_Programms = ["Summerbody", "Get that booty", "Waschbrettbauch", "Warm ups"]
-        selected_subcategory = st.sidebar.selectbox("Choose a programm", Planned_Programms)
-
-    if selected_subcategory == "Summerbody":
-        st.subheader("Summerbody")
-        st.write("Get ready for your summerbody!")
+        
+    st.sidebar.subheader("Second Subcategory")
+    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", ["Option 1", "Option 2", "Option 3"])
     
-    elif selected_subcategory == "Get that booty":
-        st.subheader("Booty training")
-        st.write("Content for Booty Training category")
-        
-    elif selected_subcategory == "Waschbrettbauch":
-        st.subheader("ABS ABS ABS")
-        st.write("Content for Abs category")
-        
-    elif selected_subcategory == "Warm ups":
-        st.subheader("WArm ups")
+    if second_subcategory == "Option 1":
+        st.write("Content for Option 1")
+    elif second_subcategory == "Option 2":
+        st.write("Content for Option 2")
+    elif second_subcategory == "Option 3":
+        st.write("Content for Option 3")
 
 elif page == "Mental Health":
     st.title("Mental Health")
