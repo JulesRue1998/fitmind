@@ -66,7 +66,7 @@ elif page == "Fitness":
         st.subheader("Sumo Squats")
         
     st.sidebar.subheader("Planned Programms")
-    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS"])
+    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Oberkörper", "Unterkörper"])
    
     if second_subcategory == " ":
         st.subheader(" ")
@@ -97,8 +97,66 @@ elif page == "Fitness":
         st.subheader("Get That Booty")
         st.write("Get That Booty")
         
+        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
+        
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+        
     elif second_subcategory == "VERY HARD ABS":
         st.subheader("ABS ABS ABS")
+        
+        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
+        
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+    elif second_subcategory == "Oberkörper":
+        st.subheader("Arme, Rücken, Brust")
+        
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+    elif second_subcategory == "Unterkörper":
+        st.subheader("Bauch, Beine, Po")
+        
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
     st.sidebar.subheader("Fitness Tracker")
     third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "Suboption 1", "Suboption 2"])
