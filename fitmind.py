@@ -194,7 +194,7 @@ elif page == "Fitness":
         
         diary_data = pd.read_csv("diary.csv") if "diary.csv" in st.session_state else pd.DataFrame(columns=["Date", "Entry"])
             
-        st.title("Diary")
+        st.subheader("Diary")
         entry_date = st.date_input("Date", value=pd.Timestamp.now())
         entry_text = st.text_area("Enter your diary entry")
             
