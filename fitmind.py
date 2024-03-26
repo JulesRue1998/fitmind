@@ -13,7 +13,6 @@ page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitne
 if page == "FitMind - Introduction":
     st.title("FitMind")
     
-
 elif page == "Fitness":
     st.title("Fitness")
     
@@ -36,10 +35,9 @@ elif page == "Fitness":
     st.write("Repeat.")
     st.video('https://youtu.be/xqvCmoLULNY')
 
-    st.write("Narrow Squats")
+    st.subheader("Narrow Squats")
 
     st.subheader("Sumo Squats")
-    
     
 elif page == "Mental Health":
     st.title("Mental Health")
