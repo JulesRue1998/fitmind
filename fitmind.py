@@ -35,6 +35,15 @@ elif page == "Fitness":
         
     if selected_subcategory == "Arms":
         st.write("Content for Cardio category")
+        
+
+    
+    elif selected_subcategory == "Abs":
+        st.write("Content for Strength Training category")
+    elif selected_subcategory == "Legs":
+        st.write("Content for Flexibility category")
+    elif selected_subcategory == "Butt":
+        st.write("Content for Endurance category")
         st.subheader("Squats")
         st.write("Instructions:")
         st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
@@ -47,14 +56,6 @@ elif page == "Fitness":
         st.subheader("Narrow Squats")
     
         st.subheader("Sumo Squats")
-
-    
-    elif selected_subcategory == "Abs":
-        st.write("Content for Strength Training category")
-    elif selected_subcategory == "Legs":
-        st.write("Content for Flexibility category")
-    elif selected_subcategory == "Butt":
-        st.write("Content for Endurance category")
 
 elif page == "Mental Health":
     st.title("Mental Health")
