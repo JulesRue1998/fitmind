@@ -118,6 +118,86 @@ elif page == "Mental Health":
 elif page == "Food & Recipes":
     st.title("Food & Recipes")
 
+    st.sidebar.subheader("Food & Recipes")
+    food_subcategories = ["Breakfast", "Lunch", "Dinner", "Snacks"]
+    selected_subcategory = st.sidebar.selectbox("Choose a subcategory", food_subcategories)
+    
+    if selected_subcategory == "Breakfast":
+        st.write("Breakfast Recipes")
+        
+        st.sidebar.subheader("Breakfast Subcategories")
+        breakfast_subcategories = ["Eggs", "Toast", "Müsli"]
+        selected_breakfast_subcategory = st.sidebar.selectbox("Choose a breakfast", breakfast_subcategories)
+        
+        if selected_breakfast_subcategory == "Eggs":
+            st.write("Egg Recipes")
+            # Hier kannst du spezifische Rezepte für Eier anzeigen
+            
+        elif selected_breakfast_subcategory == "Toast":
+            st.write("Oatmeal Recipes")
+            # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
+            
+        elif selected_breakfast_subcategory == "Müsli":
+            st.write("Smoothie Recipes")
+            # Hier kannst du spezifische Rezepte für Smoothies anzeigen
+            
+    elif selected_subcategory == "Lunch":
+        st.write("Lunch Recipes")
+        # Hier kannst du spezifische Rezepte für das Mittagessen anzeigen
+        st.sidebar.subheader("Lunch Subcategories")
+        Lunch_subcategories = ["Ceasar Salad", "Omurice", "Sandwiches"]
+        selected_Lunch_subcategory = st.sidebar.selectbox("Choose a Lunch ", Lunch_subcategories)
+        
+        if selected_Lunch_subcategory == "Ceasar Salad":
+            st.write("Egg Recipes")
+            # Hier kannst du spezifische Rezepte für Eier anzeigen
+            
+        elif selected_Lunch_subcategory == "Omurice":
+            st.write("Oatmeal Recipes")
+            # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
+            
+        elif selected_Lunch_subcategory == "Sandwiches":
+            st.write("Smoothie Recipes")
+            # Hier kannst du spezifische Rezepte für Smoothies anzeigen
+        
+    elif selected_subcategory == "Dinner":
+        st.write("Dinner Recipes")
+        # Hier kannst du spezifische Rezepte für das Abendessen anzeigen
+        st.sidebar.subheader("Dinner Subcategories")
+        Dinner_subcategories = ["Spaghetti", "Salmon", "Feta Pasta"]
+        selected_Dinner_subcategory = st.sidebar.selectbox("Choose a Dinner", Dinner_subcategories)
+        
+        if selected_Dinner_subcategory == "Spaghetti":
+            st.write("Egg Recipes")
+            # Hier kannst du spezifische Rezepte für Eier anzeigen
+            
+        elif selected_Dinner_subcategory == "Salmon":
+            st.write("Oatmeal Recipes")
+            # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
+            
+        elif selected_Dinner_subcategory == "Feta Pasta":
+            st.write("Smoothie Recipes")
+            # Hier kannst du spezifische Rezepte für Smoothies anzeigen
+        
+    elif selected_subcategory == "Snacks":
+        st.write("Snack Recipes")
+        # Hier kannst du spezifische Rezepte für Snacks anzeigen
+        st.sidebar.subheader("Snacks Subcategories")
+        Snacks_subcategories = ["Brownies", "Oatmeal", "Smoothies"]
+        selected_Snacks_subcategory = st.sidebar.selectbox("Choose a Snack", Snacks_subcategories)
+        
+        if selected_breakfast_subcategory == "Brownies":
+            st.write("Egg Recipes")
+            # Hier kannst du spezifische Rezepte für Eier anzeigen
+            
+        elif selected_breakfast_subcategory == "Oatmeal":
+            st.write("Oatmeal Recipes")
+            # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
+            
+        elif selected_breakfast_subcategory == "Smoothies":
+            st.write("Smoothie Recipes")
+            # Hier kannst du spezifische Rezepte für Smoothies anzeigen
+
 # Footer
 st.sidebar.markdown("---")
 st.sidebar.subheader("About us")
