@@ -8,12 +8,11 @@ st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
 
 if page == "FitMind - Introduction":
-    st.title("FitMind")
+    st.title("Welcome to FitMind!")
     st.markdown("""
-    FitMind ist eine ganzheitliche Gesundheits-App, die Fitness und mentales Wohlbefinden kombiniert, um Benutzern zu helfen, ein ausgewogenes und gesundes Leben zu führen.
+    FitMind is a health app that combines fitness and mental wellbeing to help users lead a balanced and healthy life.
     """)
-    st.subheader("Willkommen bei FitMind!")
-    st.write("FitMind unterstützt dich dabei, deine Fitnessziele zu erreichen und gleichzeitig dein mentales Wohlbefinden zu verbessern.")
+    st.write("FitMind helps you to achieve your fitness goals and improve your mental well-being at the same time.")
 
 elif page == "Fitness":
     st.title("Fitness")
