@@ -38,20 +38,20 @@ elif page == "Fitness":
 
     st.subheader("Sumo Squats")
 
-    if page == "Fitness":
-    st.sidebar.subheader("Planned Programms")
-    
-    Planned_Programms = ["Arms", "Abs", "Legs", "Butt"]
-    selected_subcategory = st.sidebar.selectbox("Choose a planned programm", Planned_Programms)
-    
-    if selected_subcategory == "Arms":
-        st.write("Content for Cardio category")
-    elif selected_subcategory == "Abs":
-        st.write("Content for Strength Training category")
-    elif selected_subcategory == "Legs":
-        st.write("Content for Flexibility category")
-    elif selected_subcategory == "Butt":
-        st.write("Content for Endurance category")
+        if page == "Fitness":
+        st.sidebar.subheader("Planned Programms")
+        
+        Planned_Programms = ["Arms", "Abs", "Legs", "Butt"]
+        selected_subcategory = st.sidebar.selectbox("Choose a planned programm", Planned_Programms)
+        
+        if selected_subcategory == "Arms":
+            st.write("Content for Cardio category")
+        elif selected_subcategory == "Abs":
+            st.write("Content for Strength Training category")
+        elif selected_subcategory == "Legs":
+            st.write("Content for Flexibility category")
+        elif selected_subcategory == "Butt":
+            st.write("Content for Endurance category")
 
 elif page == "Mental Health":
     st.title("Mental Health")
