@@ -186,15 +186,15 @@ elif page == "Food & Recipes":
         Snacks_subcategories = ["Brownies", "Oatmeal", "Smoothies"]
         selected_Snacks_subcategory = st.sidebar.selectbox("Choose a Snack", Snacks_subcategories)
         
-        if selected_breakfast_subcategory == "Brownies":
+        if selected_Snacks_subcategory == "Brownies":
             st.write("Brownies Recipes")
             # Hier kannst du spezifische Rezepte für Eier anzeigen
             
-        elif selected_breakfast_subcategory == "Oatmeal":
+        elif selected_Snacks_subcategory == "Oatmeal":
             st.write("Oatmeal Recipes")
             # Hier kannst du spezifische Rezepte für Haferflocken anzeigen
             
-        elif selected_breakfast_subcategory == "Smoothies":
+        elif selected_Snacks_subcategory == "Smoothies":
             st.write("Smoothie Recipes")
             # Hier kannst du spezifische Rezepte für Smoothies anzeigen
 
