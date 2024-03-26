@@ -43,4 +43,3 @@ elif page == "Mental Health":
 
 elif page == "Food & Recipes":
     st.title("Food & Recipes")
-
