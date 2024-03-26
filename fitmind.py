@@ -21,12 +21,7 @@ elif page == "Fitness":
     st.write("Advanced individuals who are looking to increase muscle size or strength may benefit from performing 4 to 5 sets per exercise. Higher volume workouts can help stimulate muscle hypertrophy and strength gains.")
    
     st.title("workouts")
-    st.subheader("Choose your Workouts")
-
-    st.subheader("Lunges")
-
     
-
     if page == "Fitness":
         st.sidebar.subheader("Planned Programms")
         
@@ -50,8 +45,9 @@ elif page == "Fitness":
         st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
         st.write(" 3. Push back up until you reach standing positions.")
         st.write(" 4. Repeat.")
-        
         st.video('https://youtu.be/xqvCmoLULNY')
+
+        st.subheader("Lunges")
     
         st.subheader("Narrow Squats")
     
