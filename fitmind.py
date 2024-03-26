@@ -4,7 +4,7 @@ import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 
-st.sidebar.title("Menu")
+st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
 
 if page == "FitMind - Introduction":
