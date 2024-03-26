@@ -25,6 +25,10 @@ elif page == "Fitness":
     st.subheader("Choose your Workouts")
 
     st.subheader("Squats")
+    st.write("Stand with your feet wider than your Hips and feet pointed slightly out.")
+    st.write("Begin bendin your knees until parallel to the floor with your back as straight as possible.)
+    st.write(Push back up until you reach standing positions.")
+    st.write("Repeat.")
     st.video('https://youtu.be/xqvCmoLULNY')
     
 elif page == "Mental Health":
