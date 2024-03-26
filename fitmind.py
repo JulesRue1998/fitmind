@@ -170,14 +170,13 @@ elif page == "Fitness":
         
     elif third_subcategory == "Water intake":
         st.write("Content for Suboption 1")
-        
-        if "water_intake" not in st.session_state:
+    if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
         
-        water_emoji = "💧"
-        st.write(water_emoji)
+    water_emoji = "💧"
+    st.write(water_emoji)
         
-        if st.button(water_emoji):
+    if st.button(water_emoji):
             st.session_state.water_intake += 1
             st.write("You drank a glass of water!")
             st.write("Total glasses of water drank today:", st.session_state.water_intake)
