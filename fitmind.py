@@ -38,19 +38,19 @@ elif page == "Fitness":
 
     st.subheader("Sumo Squats")
 
-        if page == "Fitness":
+     if page == "Fitness":
         st.sidebar.subheader("Planned Programms")
         
         Planned_Programms = ["Arms", "Abs", "Legs", "Butt"]
         selected_subcategory = st.sidebar.selectbox("Choose a planned programm", Planned_Programms)
         
-        if selected_subcategory == "Arms":
+     if selected_subcategory == "Arms":
             st.write("Content for Cardio category")
-        elif selected_subcategory == "Abs":
+     elif selected_subcategory == "Abs":
             st.write("Content for Strength Training category")
-        elif selected_subcategory == "Legs":
+     elif selected_subcategory == "Legs":
             st.write("Content for Flexibility category")
-        elif selected_subcategory == "Butt":
+     elif selected_subcategory == "Butt":
             st.write("Content for Endurance category")
 
 elif page == "Mental Health":
