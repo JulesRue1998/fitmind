@@ -72,6 +72,17 @@ elif page == "Fitness":
     elif second_subcategory == "VERY HARD ABS":
         st.Subheader("ABS ABS ABS")
 
+    st.sidebar.subheader("Fitness Trackefr")
+    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["Suboption 1", "Suboption 2", "Suboption 3"])
+    
+    if third_subcategory == "Suboption 1":
+        st.write("Content for Suboption 1")
+    elif third_subcategory == "Suboption 2":
+        st.write("Content for Suboption 2")
+    elif third_subcategory == "Suboption 3":
+        st.write("Content for Suboption 3")
+
+
 elif page == "Mental Health":
     st.title("Mental Health")
     st.write("Hier finden Sie Informationen über unser Team und unsere Mission.")
