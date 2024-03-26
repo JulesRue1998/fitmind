@@ -5,7 +5,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 from PIL import Image
 
-st.set_page_config(page_title="FitMind App", page_icon=":brain:")
+
 
 st.sidebar.title("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
