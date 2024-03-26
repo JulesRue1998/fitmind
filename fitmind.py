@@ -174,7 +174,7 @@ elif page == "Fitness":
             st.session_state.water_intake = 0
         
     water_emoji = "💧"
-    st.write("track your water intake here! for every glass of water, click a button!" water_emoji)
+    st.write("track your water intake here! for every glass of water, click a button!", water_emoji)
         
     if st.button(water_emoji):
             st.session_state.water_intake += 1
