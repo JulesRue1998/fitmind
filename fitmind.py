@@ -102,3 +102,12 @@ elif page == "Mental Health":
 
 elif page == "Food & Recipes":
     st.title("Food & Recipes")
+
+# Footer
+st.sidebar.markdown("---")
+st.sidebar.subheader("Über uns")
+st.sidebar.info("Diese App wurde von Julia und Cherilyn entwickelt.")
+
+st.sidebar.subheader("Kontakt")
+st.sidebar.text("Bei Fragen oder Anregungen kontaktieren Sie uns unter:")
+st.sidebar.text("fitmind@example.com")
