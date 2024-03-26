@@ -179,7 +179,7 @@ elif page == "Fitness":
         
         # Add a button to increment the water intake counter when clicked
         if st.button("Drink a glass of water", water_emoji):
-            st.session_state.Water_intake += 1
+            st.session_state.water_intake += 1
             st.write("You drank a glass of water!")
             st.write("Total glasses of water drank today:", st.session_state.water_intake)
 
