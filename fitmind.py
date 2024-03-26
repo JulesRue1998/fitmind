@@ -130,6 +130,8 @@ elif page == "Fitness":
 
     elif second_subcategory == "Oberkörper":
         st.subheader("Arme, Rücken, Brust")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
         
         with tab1:
            st.header("Beginner Training")
@@ -145,7 +147,9 @@ elif page == "Fitness":
 
     elif second_subcategory == "Unterkörper":
         st.subheader("Bauch, Beine, Po")
-        
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
+
         with tab1:
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
