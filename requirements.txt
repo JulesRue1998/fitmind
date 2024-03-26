@@ -1,6 +1,6 @@
 pandas
 streamlit
 numpy
-datetine
+datetime
 PIL
 matplotlib
