@@ -25,18 +25,7 @@ elif page == "Fitness":
 
     st.subheader("Lunges")
 
-    st.subheader("Squats")
-    st.write("Instructions:")
-    st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
-    st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
-    st.write(" 3. Push back up until you reach standing positions.")
-    st.write(" 4. Repeat.")
     
-    st.video('https://youtu.be/xqvCmoLULNY')
-
-    st.subheader("Narrow Squats")
-
-    st.subheader("Sumo Squats")
 
     if page == "Fitness":
         st.sidebar.subheader("Planned Programms")
@@ -46,6 +35,20 @@ elif page == "Fitness":
         
     if selected_subcategory == "Arms":
         st.write("Content for Cardio category")
+        st.subheader("Squats")
+        st.write("Instructions:")
+        st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
+        st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
+        st.write(" 3. Push back up until you reach standing positions.")
+        st.write(" 4. Repeat.")
+        
+        st.video('https://youtu.be/xqvCmoLULNY')
+    
+        st.subheader("Narrow Squats")
+    
+        st.subheader("Sumo Squats")
+
+    
     elif selected_subcategory == "Abs":
         st.write("Content for Strength Training category")
     elif selected_subcategory == "Legs":
