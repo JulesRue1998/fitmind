@@ -169,7 +169,7 @@ elif page == "Fitness":
         st.write(" ")
         
     elif third_subcategory == "water intake":
-        st.subheader("Track your water intake"
+        st.subheader("Track your water intake")
 # Initialize the water intake counter using session state
         if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
