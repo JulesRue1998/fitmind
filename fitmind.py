@@ -191,6 +191,27 @@ elif page == "Fitness":
 
     elif third_subcategory == "Workout tracker":
         st.write("Define your Goals here. write down what you achieved")
+        # Load diary data (if it exists)
+        diary_data = pd.read_csv("diary.csv") if "diary.csv" in st.session_state else pd.DataFrame(columns=["Date", "Entry"])
+        
+        # Display the diary entry form
+        st.title("Diary")
+        entry_date = st.date_input("Date", value=pd.Timestamp.now())
+        entry_text = st.text_area("Enter your diary entry")
+        
+        # Save the diary entry when submitted
+        if st.button("Save Entry"):
+            diary_data = diary_data.append({"Date": entry_date, "Entry": entry_text}, ignore_index=True)
+            diary_data.to_csv("diary.csv", index=False)
+            st.success("Entry saved successfully!")
+        
+        # Display existing diary entries
+        if not diary_data.empty:
+            st.subheader("Previous Entries")
+            st.write(diary_data)
+        else:
+            st.info("No entries yet.")
+
 
 
 elif page == "Mental Health":
