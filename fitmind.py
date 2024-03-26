@@ -78,7 +78,7 @@ elif page == "Fitness":
         st.write("Get That Booty")
         
     elif second_subcategory == "VERY HARD ABS":
-        st.Subheader("ABS ABS ABS")
+        st.subheader("ABS ABS ABS")
 
     st.sidebar.subheader("Fitness Tracker")
     third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["Suboption 1", "Suboption 2", "Suboption 3"])
