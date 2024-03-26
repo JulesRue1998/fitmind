@@ -163,7 +163,7 @@ elif page == "Fitness":
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
     st.sidebar.subheader("Fitness Tracker")
-    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "Suboption 1", "Suboption 2"])
+    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "water intake", "calorie tracker"])
     
     if third_subcategory == " ":
         st.write(" ")
