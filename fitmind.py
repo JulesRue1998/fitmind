@@ -27,10 +27,10 @@ elif page == "Fitness":
 
     st.subheader("Squats")
     st.write("Instructions")
-    st.write("1. Stand with your feet wider than your Hips and feet pointed slightly out.")
-    st.write("2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
-    st.write("3. Push back up until you reach standing positions.")
-    st.write("4. Repeat.")
+    st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
+    st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
+    st.write(" 3. Push back up until you reach standing positions.")
+    st.write(" 4. Repeat.")
     st.video('https://youtu.be/xqvCmoLULNY')
 
     st.subheader("Narrow Squats")
