@@ -169,15 +169,20 @@ elif page == "Fitness":
         st.write(" ")
         
     elif third_subcategory == "Water intake":
-        if "water_intake" not in st.session_state:
+# Initialize the water intake counter using session state
+    if "water_intake" not in st.session_state:
         st.session_state.water_intake = 0
-                
-        water_emoji = "💧"
-        st.write("track your water intake here! for every glass of water, click a button!", water_emoji)    
-        if st.button(water_emoji):
+    
+    # Display the water emoji
+    water_emoji = "💧"
+    st.write(water_emoji)
+    
+    # Add a button to increment the water intake counter when clicked
+    if st.button("Drink a glass of water", water_emoji):
         st.session_state.water_intake += 1
         st.write("You drank a glass of water!")
         st.write("Total glasses of water drank today:", st.session_state.water_intake)
+
 
         
     elif third_subcategory == "calorie traker":
