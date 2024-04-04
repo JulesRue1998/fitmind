@@ -227,56 +227,28 @@ elif page == "Fitness":
 
 
     elif third_subcategory == "Butt":
+        butt_fitness_übungen = [
+            "Squats",
+            "Lunges",
+            "Hip Thrusts",
+            "Deadlifts",
+            "Donkey Kicks",
+            "Fire Hydrants"
+        ]
         st.subheader("Randomized Butt Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
            st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-           st.title("Zufällige Fitnessübungen")
-
-fitness_übungen = [
-    "Liegestütze",
-    "Kniebeugen",
-    "Plank",
-    "Ausfallschritte",
-    "Seilspringen",
-    "Burpees",
-    "Mountain Climbers",
-    "Klimmzüge",
-    "Russian Twists",
-    "Beinheben"
-]
-            zufällige_übungen = random.sample(fitness_übungen, 3)
-            for übung in zufällige_übungen:
-            st.write(übung)
-
+           st.write("Hier könnten Anfängerübungen stehen, die spezifisch für den Hintern sind.")
+           st.write("Zufällige Übungen für Anfänger:")
+           zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 3)
+           for übung in zufällige_übungen_beginner:
+           st.write(übung)
+          
         elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
-            st.header("Zufällige Fitnessübungen")
-            fitness_übungen = [
-                "Liegestütze",
-                "Kniebeugen",
-                "Plank",
-                "Ausfallschritte",
-                "Seilspringen",
-                "Burpees",
-                "Mountain Climbers",
-                "Klimmzüge",
-                "Russian Twists",
-                "Beinheben"
-            ]
-
-            def zufällige_übungen_anzeigen(anzahl):
-                zufällige_übungen = random.sample(fitness_übungen, anzahl)
-                return zufällige_übungen
-            
-            anzahl_übungen = st.slider("Anzahl der Übungen:", min_value=1, max_value=len(fitness_übungen), value=3)
-            
-            st.header(f"Deine zufälligen Fitnessübungen ({anzahl_übungen} Übungen):")
-            for übung in zufällige_übungen_anzeigen(anzahl_übungen):
-                st.write(übung)
 
         
         with tab2:
@@ -286,6 +258,7 @@ fitness_übungen = [
         with tab3:
            st.header("Advanced Training")
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            
 
     elif third_subcategory == "Legs":
         st.subheader("Randomized Leg Workout")
