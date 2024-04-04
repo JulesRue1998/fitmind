@@ -235,7 +235,7 @@ elif page == "Fitness":
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
            st.title("Zufällige Fitnessübungen")
-           fitness_übungen = [
+            fitness_übungen = [
                 "Liegestütze",
                 "Kniebeugen",
                 "Plank",
@@ -248,7 +248,33 @@ elif page == "Fitness":
                 "Beinheben"
             ]
 
-        def zufällige_übungen_anzeigen(anzahl):
+            def zufällige_übungen_anzeigen(anzahl):
+                zufällige_übungen = random.sample(fitness_übungen, anzahl)
+                return zufällige_übungen
+            
+            anzahl_übungen = st.slider("Anzahl der Übungen:", min_value=1, max_value=len(fitness_übungen), value=3)
+            
+            st.header(f"Deine zufälligen Fitnessübungen ({anzahl_übungen} Übungen):")
+            for übung in zufällige_übungen_anzeigen(anzahl_übungen):
+                st.write(übung)
+
+        elif third_subcategory == "Abs":
+            st.subheader("Randomized Abs Workout")
+            st.header("Zufällige Fitnessübungen")
+            fitness_übungen = [
+                "Liegestütze",
+                "Kniebeugen",
+                "Plank",
+                "Ausfallschritte",
+                "Seilspringen",
+                "Burpees",
+                "Mountain Climbers",
+                "Klimmzüge",
+                "Russian Twists",
+                "Beinheben"
+            ]
+
+            def zufällige_übungen_anzeigen(anzahl):
                 zufällige_übungen = random.sample(fitness_übungen, anzahl)
                 return zufällige_übungen
             
