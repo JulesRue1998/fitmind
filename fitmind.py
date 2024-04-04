@@ -140,10 +140,6 @@ elif page == "Fitness":
         st.write("")
         st.divider()
 
-        st.subheader("Bulgarian Split Squats")
-        st.write("")
-        st.divider()
-
         st.subheader("Clamshells")
         st.write("")
         st.divider()
@@ -167,16 +163,14 @@ elif page == "Fitness":
         st.subheader("Lunges")
         st.write("")
 
-        st.subheader("Variation: Reverse lunges")
+        st.subheader("Variation: Reverse Lunges")
         st.write("")
 
-        st.subheader("Variation: Lateral lunges")
+        st.subheader("Variation: Lateral Lunges")
         st.write("")
 
-        st.subheader("Variation: Walking lunges")
+        st.subheader("Variation: Walking Lunges")
         st.write("")
-        st.divider()
-        
         st.divider()
 
         st.subheader("Quadruped Leg Lifts")
@@ -210,8 +204,14 @@ elif page == "Fitness":
         st.write(" 3. Push back up until you reach standing positions.")
         st.write(" 4. Repeat.")
         st.video('https://youtu.be/xqvCmoLULNY')
+
+        
+        st.subheader("Variation: Bulgarian Split Squats")
+        st.write("")
+        
         st.subheader("Variation: Plie Squats")
         st.write("")
+        
         st.subheader("Variation: Sumo Squats")
         st.divider()
         
@@ -420,13 +420,31 @@ elif page == "Fitness":
 
     elif third_subcategory == "Butt":
         butt_fitness_übungen = [
-            "Squats",
-            "Lunges",
-            "Hip Thrusts",
-            "Deadlifts",
+            "Bridge",
+            "Clamshells",
             "Donkey Kicks",
-            "Fire Hydrants"
+            "Donkey Kicks",
+            "Fire Hydrants",
+            "Glute Bridges",
+            "Hip Thrusts",
+            "Forward Lunges",
+            "Reverse Lunges",
+            "Lateral Lunges",
+            "Walking Lunges",
+            "Quadruped Leg Lifts",
+            "Quadruped Hip Extensions",
+            "Side Leg Raises",
+            "Single-Leg Glute Bridges",
+            "Standard Squats",
+            "Bulgarian Split Squats",
+            "Sumo Squats",
+            "Plie Squats",
+            "Standing Leg Abduction",
+            "Standing Kickbacks",
+            "Wall Sit"
         ]
+
+
         st.subheader("Randomized Butt Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
