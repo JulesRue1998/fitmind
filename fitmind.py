@@ -250,10 +250,10 @@ elif page == "Fitness":
     elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
 
-        
         with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+            st.header("Intermediate Training")
+            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+         
         
         with tab3:
            st.header("Advanced Training")
