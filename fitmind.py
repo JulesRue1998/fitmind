@@ -135,7 +135,8 @@ elif page == "Fitness":
         st.subheader("Butt")
         col1, col2 = st.columns(2)
         with col1:
-           st.write("Content for Butt Workouts")
+           st.subheader("Content for Butt Workouts")
+           st.write("glute exercises, are beneficial for several reason: they strenghten the glutes, improve posture and enhance athletic performances.")
            
         with col2:
            st.subheader("betroffene Muskeln")
