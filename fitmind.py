@@ -374,28 +374,25 @@ elif page == "Fitness":
 
         with tab1:
             st.header("Beginner Training")
-            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-            st.write("Hier könnten Anfängerübungen stehen, die spezifisch für die Bauchmuskeln sind.")
+            st.write("Here are 5 randomized exercises for your abs. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
             st.write("Zufällige Übungen für Anfänger:")
-            zufällige_übungen_beginner = random.sample(abs_fitness_übungen, 3)
+            zufällige_übungen_beginner = random.sample(abs_fitness_übungen, 5)
             for übung in zufällige_übungen_beginner:
                 st.write(übung)
 
         with tab2:
             st.header("Intermediate Training")
-            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-            st.write("Hier könnten Übungen für fortgeschrittenere Benutzer stehen, die spezifisch für die Bauchmuskeln sind.")
+            st.write("Here are 8 randomized exercises for your abs. Do 3-4 sets with each 10 repetitions. Take a break of 45 Seconds in between the exercises.")
             st.write("Zufällige Übungen für Fortgeschrittene:")
-            zufällige_übungen_intermediate = random.sample(abs_fitness_übungen, 5)
+            zufällige_übungen_intermediate = random.sample(abs_fitness_übungen, 8)
             for übung in zufällige_übungen_intermediate:
                 st.write(übung)
 
         with tab3:
             st.header("Advanced Training")
-            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-            st.write("Hier könnten fortgeschrittene Übungen stehen, die spezifisch für die Bauchmuskeln sind.")
+            st.write("Here are 11 randomized exercises for your abs. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
             st.write("Zufällige Übungen für Fortgeschrittene:")
-            zufällige_übungen_advanced = random.sample(abs_fitness_übungen, 6)
+            zufällige_übungen_advanced = random.sample(abs_fitness_übungen, 11)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
             
@@ -451,27 +448,24 @@ elif page == "Fitness":
 
         with tab1:
             st.header("Beginner Training")
-            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-            st.write("Hier könnten Anfängerübungen stehen, die spezifisch für den Hintern sind.")
+            st.write("Here are 5 randomized exercises for your butt. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
             st.write("Zufällige Übungen für Anfänger:")
-            zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 3)
+            zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 5)
             for übung in zufällige_übungen_beginner:
                 st.write(übung)
         with tab2:
             st.header("Intermediate Training")
-            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-            st.write("Hier könnten Übungen für fortgeschrittenere Benutzer stehen, die spezifisch für den Hintern sind.")
+            st.write("Here are 8 randomized exercises for your butt. Do 3-4 sets with each 10 repetitions. Take a break of 45 Seconds in between the exercises.")
             st.write("Zufällige Übungen für Fortgeschrittene:")
-            zufällige_übungen_intermediate = random.sample(butt_fitness_übungen, 3)
+            zufällige_übungen_intermediate = random.sample(butt_fitness_übungen, 8)
             for übung in zufällige_übungen_intermediate:
                 st.write(übung)
 
         with tab3:
             st.header("Advanced Training")
-            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-            st.write("Hier könnten fortgeschrittene Übungen stehen, die spezifisch für den Hintern sind.")
+            st.write("Here are 11 randomized exercises for your butt. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
             st.write("Zufällige Übungen für Fortgeschrittene:")
-            zufällige_übungen_advanced = random.sample(butt_fitness_übungen, 3)
+            zufällige_übungen_advanced = random.sample(butt_fitness_übungen, 11)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
 
