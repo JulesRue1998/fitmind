@@ -234,6 +234,38 @@ elif page == "Fitness":
         with tab1:
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+
+
+# Liste von Fitnessübungen
+fitness_übungen = [
+    "Liegestütze",
+    "Kniebeugen",
+    "Plank",
+    "Ausfallschritte",
+    "Seilspringen",
+    "Burpees",
+    "Mountain Climbers",
+    "Klimmzüge",
+    "Russian Twists",
+    "Beinheben"
+]
+
+# Streamlit App
+st.title("Zufällige Fitnessübungen")
+
+# Funktion zum Zufällig Auswählen von Übungen
+def zufällige_übungen_anzeigen(anzahl):
+    zufällige_übungen = random.sample(fitness_übungen, anzahl)
+    return zufällige_übungen
+
+# Anzahl der zufälligen Übungen, die angezeigt werden sollen
+anzahl_übungen = st.slider("Anzahl der Übungen:", min_value=1, max_value=len(fitness_übungen), value=3)
+
+# Zufällige Übungen anzeigen
+st.header(f"Deine zufälligen Fitnessübungen ({anzahl_übungen} Übungen):")
+for übung in zufällige_übungen_anzeigen(anzahl_übungen):
+    st.write(übung)
+
         
         with tab2:
            st.header("Intermediate Training")
