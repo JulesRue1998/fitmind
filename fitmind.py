@@ -203,8 +203,10 @@ elif page == "Fitness":
         st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
         st.write(" 3. Push back up until you reach standing positions.")
         st.write(" 4. Repeat.")
-        st.video('https://youtu.be/xqvCmoLULNY')
-
+        show_video = st.checkbox("Show Video")
+        if show_video:
+            st.video('https://youtu.be/xqvCmoLULNY')
+        
         
         st.subheader("Variation: Bulgarian Split Squats")
         st.write("")
