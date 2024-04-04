@@ -218,7 +218,7 @@ elif page == "Fitness":
             st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
             st.write("Hier könnten Übungen für fortgeschrittenere Benutzer stehen, die spezifisch für die Bauchmuskeln sind.")
             st.write("Zufällige Übungen für Fortgeschrittene:")
-            zufällige_übungen_intermediate = random.sample(abs_fitness_übungen, 3)
+            zufällige_übungen_intermediate = random.sample(abs_fitness_übungen, 5)
             for übung in zufällige_übungen_intermediate:
                 st.write(übung)
 
@@ -227,7 +227,7 @@ elif page == "Fitness":
             st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
             st.write("Hier könnten fortgeschrittene Übungen stehen, die spezifisch für die Bauchmuskeln sind.")
             st.write("Zufällige Übungen für Fortgeschrittene:")
-            zufällige_übungen_advanced = random.sample(abs_fitness_übungen, 3)
+            zufällige_übungen_advanced = random.sample(abs_fitness_übungen, 6)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
             
