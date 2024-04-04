@@ -240,8 +240,8 @@ elif page == "Fitness":
            
         with col2:
            st.subheader("used Muscles")
-           st.image("anatomie-mannliches-muskelsystem-beine-vorne.jpg")
-           st.write("Image source: https://www.fitness-insights.at/beine-wachsen-nicht/")
+           st.image("beinmuskeln.jpg")
+           st.write("Image source: https://www.muskelpower.de/beinmuskeln/")
         st.divider()
 
         st.subheader("Alternating stance jumps")
