@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
+import random
 
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
@@ -119,6 +120,35 @@ elif page == "Fitness":
         with tab1:
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+            
+            import random
+            
+            # Liste von Fitnessübungen
+            fitness_übungen = [
+                "Liegestütze",
+                "Kniebeugen",
+                "Plank",
+                "Ausfallschritte",
+                "Seilspringen",
+                "Burpees",
+                "Mountain Climbers",
+                "Klimmzüge",
+                "Russian Twists",
+                "Beinheben"
+            ]
+            
+            # Streamlit App
+            st.title("Zufällige Fitnessübung")
+            
+            # Funktion zum Zufällig Auswählen einer Übung
+            def zufällige_übung():
+                return random.choice(fitness_übungen)
+            
+            # Zufällige Übung anzeigen
+            übung = zufällige_übung()
+            st.header("Deine zufällige Fitnessübung:")
+            st.write(übung)
+
         
         with tab2:
            st.header("Intermediate Training")
