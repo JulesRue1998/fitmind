@@ -166,7 +166,7 @@ elif page == "Fitness":
     st.sidebar.subheader("Randomized workout")
     third_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Abs", "Back", "Butt", "Legs"])
     
-    if second_subcategory == " ":
+    if third_subcategory == " ":
         st.subheader(" ")
         st.write(" ")
 
