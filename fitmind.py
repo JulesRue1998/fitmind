@@ -134,6 +134,7 @@ elif page == "Fitness":
     elif selected_subcategory == "Butt":
         st.subheader("Butt")
         st.write("Content for Butt category")
+        st.divier()
 
         st.subheader("Bridge")
         st.write
