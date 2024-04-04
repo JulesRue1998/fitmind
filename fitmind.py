@@ -30,7 +30,7 @@ elif page == "Fitness":
     if page == "Fitness":
         st.sidebar.subheader("Workouts")
         
-        Workouts = [" ", "Arms", "Abs", "Back", "Butt", "Legs"]
+        Workouts = [" ", "Arms", "Abs", "Back", "Glutes", "Legs"]
         selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
                 
     if selected_subcategory == " ":
@@ -131,12 +131,12 @@ elif page == "Fitness":
         st.subheader("Back")
 
         
-    elif selected_subcategory == "Butt":
-        st.subheader("Butt")
+    elif selected_subcategory == "Glutes":
+        st.subheader("Glutes")
         col1, col2 = st.columns(2)
         with col1:
-           st.subheader("Content for Butt Workouts")
-           st.write("glute exercises, are beneficial for several reason: they strenghten the glutes, improve posture and enhance athletic performances.")
+           st.subheader("Content for Glutes Workouts")
+           st.write("Glute exercises, are beneficial for several reason: they strenghten the glutes, improve posture and enhance athletic performances. They also enhance and shape your body to your liking.")
            
         with col2:
            st.subheader("betroffene Muskeln")
