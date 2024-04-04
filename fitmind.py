@@ -249,7 +249,7 @@ elif page == "Fitness":
             ]
            zufällige_übungen = random.sample(fitness_übungen, 3)
            for übung in zufällige_übungen:
-           st.write(übung)
+               st.write(übung)
 
 
         elif third_subcategory == "Abs":
