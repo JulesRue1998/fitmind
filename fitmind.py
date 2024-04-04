@@ -134,6 +134,69 @@ elif page == "Fitness":
     elif selected_subcategory == "Butt":
         st.subheader("Butt")
         st.write("Content for Butt category")
+
+        st.subheader("Bridge")
+        st.write
+        st.divider()
+
+        st.subheader("Bulgarian Split Squats")
+        st.write("")
+        st.divider()
+
+        st.subheader("Clamshells")
+        st.write("")
+        st.divider()
+
+        st.subheader("Donkey Kicks")
+        st.write("")
+        st.divider()
+
+        st.subheader("Fire Hydrants")
+        st.write("")
+        st.divider()
+
+        st.subheader("Glute Bridges")
+        st.write("")
+        st.divider()
+
+        st.subheader("Hip Thrusts")
+        st.write("")
+        st.divider()
+
+        st.subheader("Lunges")
+        st.write("")
+
+        st.subheader("Variation: reverse")
+        st.write("")
+
+        st.subheader("Variation: lateral")
+        st.write("")
+        st.divider()
+
+        st.subheader("Quadruped Leg Lifts")
+        st.write("")
+        st.divider()
+
+        st.subheader("Quadruped Hip Extensions")
+        st.write("")
+        st.divider()
+
+        st.subheader("Side Leg Raises")
+        st.write("")
+        st.divider()
+
+        st.subheader("Single-Leg Glute Bridges")
+        st.write("")
+        st.divider()
+
+        st.subheader("Standing Leg Abduction")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Standing Kickbacks")
+        st.write("")
+        st.divider()
+        
         st.subheader("Squats")
         st.write("Instructions:")
         st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
@@ -141,12 +204,19 @@ elif page == "Fitness":
         st.write(" 3. Push back up until you reach standing positions.")
         st.write(" 4. Repeat.")
         st.video('https://youtu.be/xqvCmoLULNY')
+        st.subheader("Variation: Plie Squats")
+        st.write("")
+        st.subheader("Variation: Sumo Squats")
+        st.divider()
+        
+        st.subheader("Walking Lunges")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Wall Sit")
+        st.write("Wall Sit with Leg Lifts")
+        st.divider()
 
-        st.subheader("Lunges")
-    
-        st.subheader("Narrow Squats")
-    
-        st.subheader("Sumo Squats")
         
     st.sidebar.subheader("Planned Programms")
     second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Oberkörper", "Unterkörper"])
