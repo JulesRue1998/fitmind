@@ -5,7 +5,6 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 import random
 
-
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
 
@@ -127,8 +126,6 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
-
-
         
     elif selected_subcategory == "Legs":
         st.subheader("Legs")
@@ -338,15 +335,12 @@ elif page == "Fitness":
 
         with tab1:
            st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
         
         with tab2:
            st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
         
         with tab3:
            st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
             
 
         
@@ -409,15 +403,12 @@ elif page == "Fitness":
 
         with tab1:
            st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
         
         with tab2:
            st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
         
         with tab3:
            st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
 
     elif third_subcategory == "Butt":
