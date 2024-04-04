@@ -244,7 +244,7 @@ elif page == "Fitness":
            st.write("Image source: https://www.muskelpower.de/beinmuskeln/")
         st.divider()
 
-        st.subheader("Alternating stance jumps")
+        st.subheader("Alternating Stance Jumps")
         st.write("")
         st.divider()
 
@@ -256,15 +256,15 @@ elif page == "Fitness":
         st.write("")
         st.divider()
 
-        st.subheader("Butt kicks")
+        st.subheader("Butt Kicks")
         st.write("")
         st.divider()
 
-        st.subheader("Flutter kicks")
+        st.subheader("Flutter Kicks")
         st.write("")
         st.divider()
 
-        st.subheader("Half Squat walk")
+        st.subheader("Half Squat Walk")
         st.write("")
         st.divider()
 
@@ -276,56 +276,56 @@ elif page == "Fitness":
         st.write("")
         st.divider()
 
-        st.subheader("Knee side leg lifts")
+        st.subheader("Knee Side Leg Lifts")
         st.write("")
         st.divider()
 
-        st.subheader("Lateral hops")
+        st.subheader("Lateral Hops")
         st.write("")
         st.divider()
 
-        st.subheader("Lying leg circles")
-        st.write("")
-        st.divider
-
-        st.subheader("Marching hip raises")
+        st.subheader("Lying Leg Circles")
         st.write("")
         st.divider()
 
-        st.subheader("Pulsing side lying leg raises")
+        st.subheader("Marching Hip Raises")
         st.write("")
         st.divider()
 
-        st.subheader("Rainbow leg lifts")
+        st.subheader("Pulsing Side Lying Leg Raises")
         st.write("")
         st.divider()
 
-        st.subheader("Side and cross crunches")
+        st.subheader("Rainbow Leg Lifts")
         st.write("")
         st.divider()
 
-        st.subheader("Side knee raises")
+        st.subheader("Side And Cross Crunches")
         st.write("")
         st.divider()
 
-        st.subheader("Side lying bottom leg lifts")
+        st.subheader("Side Knee Raises")
+        st.write("")
+        st.divider()
+
+        st.subheader("Side Lying Bottom Leg Lifts")
         st.write("")
         st.divider()
 
 
-        st.subheader("Side lying leg raises")
+        st.subheader("Side Lying Leg Raises")
         st.write("")
         st.divider()
 
-        st.subheader("Single leg V-ups")
+        st.subheader("Single Leg V-Ups")
         st.write("")
         st.divider()
 
-        st.subheader("Straight leg circles")
+        st.subheader("Straight Leg Circles")
         st.write("")
         st.divider()
 
-        st.subheader("Walking high knees")
+        st.subheader("Walking High Knees")
         st.write("")
         st.divider()
     
