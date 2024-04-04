@@ -205,8 +205,8 @@ elif page == "Fitness":
         st.write(" 4. Repeat.")
         show_video = st.checkbox("Show Video")
         with st.expander("Watch Video"):
-            # Embed the video inside the expander
             st.video('https://www.youtube.com/watch?v=xqvCmoLULNY')
+            st.write("Video Source: [Title of the Video](https://www.youtube.com/watch?v=xqvCmoLULNY)")
         
         st.subheader("Variation: Bulgarian Split Squats")
         st.write("")
