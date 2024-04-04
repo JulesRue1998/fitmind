@@ -149,7 +149,7 @@ elif page == "Fitness":
     elif second_subcategory == "Unterkörper":
         st.subheader("Bauch, Beine, Po")
 
-        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
            st.header("Beginner Training")
@@ -163,8 +163,102 @@ elif page == "Fitness":
            st.header("Advanced Training")
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
-    st.sidebar.subheader("RAndomized workout")
+    st.sidebar.subheader("Randomized workout")
     third_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Abs", "Back", "Butt", "Legs"])
+    
+    if second_subcategory == " ":
+        st.subheader(" ")
+        st.write(" ")
+
+    
+    elif third_subcategory == "Arms":
+        st.subheader("Randomized Arm Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            
+
+        
+    elif third_subcategory == "Abs":
+        st.subheader("Randomized Abs Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            
+
+    elif third_subcategory == "Back":
+        st.subheader("Randomized Back Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+
+    elif third_subcategory == "Butt":
+        st.subheader("Randomized Butt Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+    elif third_subcategory == "Legs":
+        st.subheader("Randomized Leg Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+        
+        with tab2:
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+        
+        with tab3:
+           st.header("Advanced Training")
+           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
     st.sidebar.subheader("Fitness Tracker")
     fourth_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Calorie tracker", "Workout tracker"])
