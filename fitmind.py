@@ -167,11 +167,16 @@ elif page == "Fitness":
         st.subheader("Lunges")
         st.write("")
 
-        st.subheader("Variation: reverse")
+        st.subheader("Variation: Reverse lunges")
         st.write("")
 
-        st.subheader("Variation: lateral")
+        st.subheader("Variation: Lateral lunges")
         st.write("")
+
+        st.subheader("Variation: Walking lunges")
+        st.write("")
+        st.divider()
+        
         st.divider()
 
         st.subheader("Quadruped Leg Lifts")
@@ -208,10 +213,6 @@ elif page == "Fitness":
         st.subheader("Variation: Plie Squats")
         st.write("")
         st.subheader("Variation: Sumo Squats")
-        st.divider()
-        
-        st.subheader("Walking Lunges")
-        st.write("")
         st.divider()
         
         st.subheader("Wall Sit")
