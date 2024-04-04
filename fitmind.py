@@ -127,7 +127,7 @@ elif page == "Fitness":
         st.divider()
         
         
-    elif selected_subcategory == "Legs":
+    elif selected_subcategory == "Back":
         st.subheader("Legs")
         st.write("Content for Flexibility category")
         
@@ -221,7 +221,10 @@ elif page == "Fitness":
         st.subheader("Wall Sit with Leg Lifts")
         st.write("")
         st.divider()
-
+        
+    elif selected_subcategory == "Legs":
+        st.subheader("Arms")
+        st.write("Content for Cardio category")
         
     st.sidebar.subheader("Planned Programms")
     second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Oberkörper", "Unterkörper"])
