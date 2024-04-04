@@ -58,7 +58,7 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
-        st.subheader st.write("Russian Twists")
+        st.subheader("Russian Twists")
         st.write("")
         st.divider()
         
