@@ -140,7 +140,8 @@ elif page == "Fitness":
            
         with col2:
            st.subheader("betroffene Muskeln")
-           st.image("glutes_muscles_480x480.jpeg")            
+           st.image("glutes_muscles_480x480.jpeg")
+            st.write("Image source: https://www.google.com/url?sa=i&url=https%3A%2F%2Fasitisnutrition.com%2Fblogs%2Fhealth%2F7-exercises-to-achieve-strong-butt-improve-your-posture&psig=AOvVaw2SZkBvpvPY4eSwCV9WEnj5&ust=1712319973563000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNDE75THqIUDFQAAAAAdAAAAABAE")
         st.divider()
 
         st.subheader("Bridge")
