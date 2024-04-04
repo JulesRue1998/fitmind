@@ -43,7 +43,89 @@ elif page == "Fitness":
     
     elif selected_subcategory == "Abs":
         st.subheader("Abs")
-        st.write("Content for Strength Training category")
+        st.write("Content for Core-Strength Training category")
+        st.divider()
+        
+        st.subheader("Crunches")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Planks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Leg Raises")
+        st.write("")
+        st.divider()
+        
+        st.subheader st.write("Russian Twists")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Mountain Climbers")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Bicycle Crunches")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Sit-ups")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Flutter Kicks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("V-ups")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Boat pose")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Russian Twists with Dumbbell")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Reverse Crunches")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Side Planks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Hanging Leg Raises")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Ab Rollouts")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Jackknife Sit-ups")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Scissor Kicks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Toe Touches")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Seated Knee Tucks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Standing Oblique Crunches")
+        st.write("")
+        st.divider()
+
         
     elif selected_subcategory == "Legs":
         st.subheader("Legs")
@@ -51,7 +133,7 @@ elif page == "Fitness":
         
     elif selected_subcategory == "Butt":
         st.subheader("Butt")
-        st.write("Content for Endurance category")
+        st.write("Content for Butt category")
         st.subheader("Squats")
         st.write("Instructions:")
         st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
@@ -197,7 +279,21 @@ elif page == "Fitness":
             "Leg Raises",
             "Russian Twists",
             "Mountain Climbers",
-            "Bicycle Crunches"
+            "Bicycle Crunches",
+            "Sit-ups",
+            "Flutter Kicks",
+            "V-ups",
+            "Russian Twists with Dumbbell",
+            "Reverse Crunches",
+            "Side Planks",
+            "Hanging Leg Raises",
+            "Ab Rollouts",
+            "Jackknife Sit-ups",
+            "Scissor Kicks",
+            "Toe Touches",
+            "Seated Knee Tucks",
+            "Standing Oblique Crunches",
+            "Russian Twists with Medicine Ball"
         ]
 
         st.subheader("Randomized Abs Workout")
