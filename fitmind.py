@@ -247,6 +247,23 @@ elif page == "Fitness":
             zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 3)
             for übung in zufällige_übungen_beginner:
                 st.write(übung)
+        with tab2:
+            st.header("Intermediate Training")
+            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+            st.write("Hier könnten Übungen für fortgeschrittenere Benutzer stehen, die spezifisch für den Hintern sind.")
+            st.write("Zufällige Übungen für Fortgeschrittene:")
+            zufällige_übungen_intermediate = random.sample(butt_fitness_übungen, 3)
+            for übung in zufällige_übungen_intermediate:
+                st.write(übung)
+
+        with tab3:
+            st.header("Advanced Training")
+            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            st.write("Hier könnten fortgeschrittene Übungen stehen, die spezifisch für den Hintern sind.")
+            st.write("Zufällige Übungen für Fortgeschrittene:")
+            zufällige_übungen_advanced = random.sample(butt_fitness_übungen, 3)
+            for übung in zufällige_übungen_advanced:
+                st.write(übung)
           
     elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
