@@ -252,10 +252,6 @@ elif page == "Fitness":
         st.write("")
         st.divider()
 
-        st.subheader("")
-        st.write("")
-        st.divider()
-
         st.subheader("Butt Kicks")
         st.write("")
         st.divider()
@@ -331,7 +327,7 @@ elif page == "Fitness":
     
         
     st.sidebar.subheader("Planned Programms")
-    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Oberkörper", "Unterkörper"])
+    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Upper Body", "Lower Body"])
    
     if second_subcategory == " ":
         st.subheader(" ")
@@ -393,7 +389,7 @@ elif page == "Fitness":
            st.header("Advanced Training")
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
-    elif second_subcategory == "Oberkörper":
+    elif second_subcategory == "Upper Body":
         st.subheader("Arme, Rücken, Brust")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
@@ -410,7 +406,7 @@ elif page == "Fitness":
            st.header("Advanced Training")
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
-    elif second_subcategory == "Unterkörper":
+    elif second_subcategory == "Lower Body":
         st.subheader("Bauch, Beine, Po")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
@@ -564,7 +560,7 @@ elif page == "Fitness":
 
         with tab3:
             st.header("Advanced Training")
-            st.write("Here are 11 randomized exercises for your butt. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
+            st.write("Here are 11 randomized exercises for your glutes. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
             zufällige_übungen_advanced = random.sample(butt_fitness_übungen, 11)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
@@ -572,20 +568,51 @@ elif page == "Fitness":
 
     elif third_subcategory == "Legs":
         st.subheader("Randomized Leg Workout")
-
+        legs_fitness_übungen = [
+            "Alternating Stance Jumps",
+            "Boxer Shuffle",
+            "Butt Kicks",
+            "Flutter Kicks",
+            "Half Squat walk",
+            "High Kicks",
+            "30 Jumping Jacks",
+            "Knee Side Leg Lifts",
+            "Lateral Hops",
+            "Lying Leg Circles",
+            "Marching Hip Raises",
+            "Pulsing Side Lying Leg Raises",
+            "Rainbow Leg Lifts",
+            "Side And Cross Crunches",
+            "Side Knee Raises",
+            "Side Lying Bottom Leg Lifts",
+            "Side Lying Leg Raises",
+            "Single Leg V-Ups",
+            "Straight Leg Circles",
+            "Walking High Knees",
+        ]
+                
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+            st.header("Beginner Training")
+            st.write("Here are 5 randomized exercises for your legs. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
+            zufällige_übungen_beginner = random.sample(legs_fitness_übungen, 5)
+            for übung in zufällige_übungen_beginner:
+                st.write(übung)
         
         with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
+            st.header("Intermediate Training")
+            st.write("Here are 8 randomized exercises for your legs. Do 3-4 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
+            zufällige_übungen_beginner = random.sample(legs_fitness_übungen, 8)
+            for übung in zufällige_übungen_intermediate:
+                st.write(übung)
+                
         with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            st.header("Advanced Training")
+            st.write("Here are 11 randomized exercises for your legs. Do 4-5 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
+            zufällige_übungen_beginner = random.sample(legs_fitness_übungen, 11)
+            for übung in zufällige_übungen_advanced:
+                st.write(übung)
 
     st.sidebar.subheader("Fitness Tracker")
     fourth_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Calorie tracker", "Workout tracker"])
