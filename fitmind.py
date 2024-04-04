@@ -237,7 +237,7 @@ elif page == "Fitness":
         ]
         st.subheader("Randomized Butt Workout")
 
-        tab1, tab2, tab3 = st.columns(3)
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
             st.header("Beginner Training")
