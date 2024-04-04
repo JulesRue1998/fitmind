@@ -135,11 +135,11 @@ elif page == "Fitness":
         st.subheader("Glutes")
         col1, col2 = st.columns(2)
         with col1:
-           st.subheader("Content for Glutes Workouts")
+           st.subheader("Benefits")
            st.write("Glute exercises, are beneficial for several reason: they strenghten the glutes, improve posture and enhance athletic performances. They also enhance and shape your body to your liking.")
            
         with col2:
-           st.subheader("betroffene Muskeln")
+           st.subheader("Used Muscles")
            st.image("glutes_muscles_480x480.jpeg")
            st.write("Image source: https://asitisnutrition.com/blogs/health/7-exercises-to-achieve-strong-butt-improve-your-posture")
         st.divider()
@@ -235,11 +235,11 @@ elif page == "Fitness":
         st.subheader("Legs")
         col1, col2 = st.columns(2)
         with col1:
-           st.subheader("Content for Leg Workouts")
+           st.subheader("Benefits")
            st.write("leg exercises offer benefits like increased muscle strength, better Bone Health, improved cardiovascular health and reduce the risk of chronic diseases")
            
         with col2:
-           st.subheader("betroffene Muskeln")
+           st.subheader("used Muscles")
            st.image("glutes_muscles_480x480.jpeg")
            st.write("Image source: https://asitisnutrition.com/blogs/health/7-exercises-to-achieve-strong-butt-improve-your-posture")
         st.divider()
