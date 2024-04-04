@@ -138,7 +138,7 @@ elif page == "Fitness":
            st.write("Content for Butt Workouts")
            
         with col2:
-           st.header("betroffene Muskeln")
+           st.subheader("betroffene Muskeln")
            st.image("glutes_muscles_480x480.jpeg")
             
         st.divider()
