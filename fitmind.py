@@ -233,7 +233,15 @@ elif page == "Fitness":
         
     elif selected_subcategory == "Legs":
         st.subheader("Legs")
-        st.write("Content for Legs category")
+        col1, col2 = st.columns(2)
+        with col1:
+           st.subheader("Content for Leg Workouts")
+           st.write("leg exercises offer benefits like increased muscle strength, better Bone Health, improved cardiovascular health and reduce the risk of chronic diseases")
+           
+        with col2:
+           st.subheader("betroffene Muskeln")
+           st.image("glutes_muscles_480x480.jpeg")
+           st.write("Image source: https://asitisnutrition.com/blogs/health/7-exercises-to-achieve-strong-butt-improve-your-posture")
         st.divider()
 
         st.subheader("Alternating stance jumps")
