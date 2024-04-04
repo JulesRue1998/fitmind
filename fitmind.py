@@ -219,7 +219,7 @@ elif page == "Fitness":
         st.subheader("Wall Sit")
         st.write("")
 
-        st.subheader("Wall Sit with Leg Lifts")
+        st.subheader("Variation: Wall Sit with Leg Lifts")
         st.write("")
         st.divider()
         
