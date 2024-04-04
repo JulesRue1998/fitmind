@@ -264,19 +264,7 @@ elif page == "Fitness":
             zufällige_übungen_advanced = random.sample(butt_fitness_übungen, 3)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
-          
-    elif third_subcategory == "Abs":
-            st.subheader("Randomized Abs Workout")
 
-        with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-         
-        
-        with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-            
 
     elif third_subcategory == "Legs":
         st.subheader("Randomized Leg Workout")
