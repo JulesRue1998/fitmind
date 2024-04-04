@@ -137,7 +137,7 @@ elif page == "Fitness":
         st.divider()
 
         st.subheader("Bridge")
-        st.write
+        st.write("")
         st.divider()
 
         st.subheader("Bulgarian Split Squats")
