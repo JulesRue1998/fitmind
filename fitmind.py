@@ -248,14 +248,12 @@ elif page == "Fitness":
                 "Beinheben"
             ]
 
-            def zufällige_übungen_anzeigen(anzahl):
+        def zufällige_übungen_anzeigen(anzahl):
                 zufällige_übungen = random.sample(fitness_übungen, anzahl)
                 return zufällige_übungen
             
-            # Anzahl der zufälligen Übungen, die angezeigt werden sollen
             anzahl_übungen = st.slider("Anzahl der Übungen:", min_value=1, max_value=len(fitness_übungen), value=3)
             
-            # Zufällige Übungen anzeigen
             st.header(f"Deine zufälligen Fitnessübungen ({anzahl_übungen} Übungen):")
             for übung in zufällige_übungen_anzeigen(anzahl_übungen):
                 st.write(übung)
