@@ -206,6 +206,24 @@ elif page == "Fitness":
         show_video = st.checkbox("Show Video")
         if show_video:
             st.video('https://youtu.be/xqvCmoLULNY')
+
+        popover_content = """
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xqvCmoLULNY" frameborder="0" allowfullscreen></iframe>
+        """
+        
+        button_clicked = st.button("Watch Video")
+        
+        if button_clicked:
+            st.markdown(
+                f'<div style="position:relative;">'
+                f'<div style="position:absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; justify-content: center; align-items: center; background-color: rgba(0,0,0,0.5); z-index: 1;">'
+                f'<button style="position:absolute; top: 0; right: 0; padding: 5px 10px; background-color: white; border: none; cursor: pointer; z-index: 2;" onclick="this.parentElement.parentElement.style.display=\'none\'">Close</button>'
+                f'{popover_content}'
+                f'</div>'
+                f'</div>', 
+                unsafe_allow_html=True
+            )
+
         
         
         st.subheader("Variation: Bulgarian Split Squats")
