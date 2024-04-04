@@ -206,7 +206,7 @@ elif page == "Fitness":
         show_video = st.checkbox("Show Video")
         with st.expander("Watch Video"):
             st.video('https://www.youtube.com/watch?v=xqvCmoLULNY')
-            st.write("Video Source: [Title of the Video](https://www.youtube.com/watch?v=xqvCmoLULNY)")
+            st.write("Video Source:(https://www.youtube.com/watch?v=xqvCmoLULNY)")
         
         st.subheader("Variation: Bulgarian Split Squats")
         st.write("")
