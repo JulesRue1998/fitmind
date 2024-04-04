@@ -30,7 +30,7 @@ elif page == "Fitness":
     if page == "Fitness":
         st.sidebar.subheader("Workouts")
         
-        Workouts = [" ", "Arms", "Abs", "Back", "Glutes", "Legs"]
+        Workouts = [" ", "Arms", "Back", "Core", "Glutes", "Legs"]
         selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
                 
     if selected_subcategory == " ":
@@ -38,11 +38,14 @@ elif page == "Fitness":
         st.write(" ")
         
     elif selected_subcategory == "Arms":
-        st.subheader("Arms")
+        st.subheader("Arm Training")
         st.write("Content for Cardio category")
+        
+    elif selected_subcategory == "Back":
+        st.subheader("Back Training")
     
-    elif selected_subcategory == "Abs":
-        st.subheader("Abs")
+    elif selected_subcategory == "Core":
+        st.subheader("Core Training")
         st.write("Content for Core-Strength Training category")
         st.divider()
         
@@ -127,12 +130,8 @@ elif page == "Fitness":
         st.divider()
         
         
-    elif selected_subcategory == "Back":
-        st.subheader("Back")
-
-        
     elif selected_subcategory == "Glutes":
-        st.subheader("Glutes")
+        st.subheader("Glute Training")
         col1, col2 = st.columns(2)
         with col1:
            st.subheader("Benefits")
@@ -232,7 +231,7 @@ elif page == "Fitness":
         st.divider()
         
     elif selected_subcategory == "Legs":
-        st.subheader("Legs")
+        st.subheader("Leg Training")
         col1, col2 = st.columns(2)
         with col1:
            st.subheader("Benefits")
@@ -307,7 +306,6 @@ elif page == "Fitness":
         st.subheader("Side Lying Bottom Leg Lifts")
         st.write("")
         st.divider()
-
 
         st.subheader("Side Lying Leg Raises")
         st.write("")
