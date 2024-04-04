@@ -203,7 +203,6 @@ elif page == "Fitness":
         st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
         st.write(" 3. Push back up until you reach standing positions.")
         st.write(" 4. Repeat.")
-        show_video = st.checkbox("Show Video")
         with st.expander("Watch Video"):
             st.video('https://www.youtube.com/watch?v=xqvCmoLULNY')
             st.write("Video Source: https://www.youtube.com/watch?v=xqvCmoLULNY")
