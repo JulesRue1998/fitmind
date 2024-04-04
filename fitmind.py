@@ -247,7 +247,7 @@ elif page == "Fitness":
            for übung in zufällige_übungen_beginner:
                st.write(übung)
           
-        elif third_subcategory == "Abs":
+    elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
 
         
