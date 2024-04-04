@@ -237,22 +237,23 @@ elif page == "Fitness":
         ]
         st.subheader("Randomized Butt Workout")
 
-        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+        tab1, tab2, tab3 = st.columns(3)
 
         with tab1:
-           st.header("Beginner Training")
-           st.write("Hier könnten Anfängerübungen stehen, die spezifisch für den Hintern sind.")
-           st.write("Zufällige Übungen für Anfänger:")
-           zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 3)
-           for übung in zufällige_übungen_beginner:
-               st.write(übung)
+            st.header("Beginner Training")
+            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+            st.write("Hier könnten Anfängerübungen stehen, die spezifisch für den Hintern sind.")
+            st.write("Zufällige Übungen für Anfänger:")
+            zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 3)
+            for übung in zufällige_übungen_beginner:
+                st.write(übung)
           
     elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
 
         with tab2:
-            st.header("Intermediate Training")
-            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+           st.header("Intermediate Training")
+           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
          
         
         with tab3:
