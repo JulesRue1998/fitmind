@@ -235,8 +235,7 @@ elif page == "Fitness":
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
            st.title("Zufällige Fitnessübungen")
-
-            fitness_übungen = [
+           fitness_übungen = [
                 "Liegestütze",
                 "Kniebeugen",
                 "Plank",
