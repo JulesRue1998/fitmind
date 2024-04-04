@@ -4,6 +4,24 @@ import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 import random
+import time
+
+def display_timer(duration):
+    # Create an empty slot to display the timer
+    timer_placeholder = st.empty()
+    
+    # Loop to update the timer every second
+    while duration:
+        # Update the timer display
+        timer_placeholder.write(f"Time remaining: {duration} seconds")
+        # Wait for one second
+        time.sleep(1)
+        # Decrease the duration by one second
+        duration -= 1
+    
+    # Display a message when the timer ends
+    timer_placeholder.write("Time's up!")
+
 
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health", "Food & Recipes"])
@@ -384,6 +402,9 @@ elif page == "Fitness":
             zufällige_übungen_beginner = random.sample(abs_fitness_übungen, 5)
             for übung in zufällige_übungen_beginner:
                 st.write(übung)
+            duration_beginner = 60
+            if st.button("Start Beginner Timer"):
+                display_timer(duration_beginner)
 
         with tab2:
             st.header("Intermediate Training")
@@ -391,6 +412,9 @@ elif page == "Fitness":
             zufällige_übungen_intermediate = random.sample(abs_fitness_übungen, 8)
             for übung in zufällige_übungen_intermediate:
                 st.write(übung)
+            duration_intermediate = 45
+            if st.button("Start Intermediate Timer"):
+                display_timer(duration_intermediate)
 
         with tab3:
             st.header("Advanced Training")
@@ -398,6 +422,9 @@ elif page == "Fitness":
             zufällige_übungen_advanced = random.sample(abs_fitness_übungen, 11)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
+            duration_advanced = 30
+            if st.button("Start advanced Timer"):
+                display_timer(duration_advanced)
             
 
     elif third_subcategory == "Back":
