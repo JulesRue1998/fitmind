@@ -235,22 +235,22 @@ elif page == "Fitness":
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
            st.title("Zufällige Fitnessübungen")
-           fitness_übungen = [
-                "Liegestütze",
-                "Kniebeugen",
-                "Plank",
-                "Ausfallschritte",
-                "Seilspringen",
-                "Burpees",
-                "Mountain Climbers",
-                "Klimmzüge",
-                "Russian Twists",
-                "Beinheben"
-            ]
-           zufällige_übungen = random.sample(fitness_übungen, 3)
-           for übung in zufällige_übungen:
-               st.write(übung)
 
+fitness_übungen = [
+    "Liegestütze",
+    "Kniebeugen",
+    "Plank",
+    "Ausfallschritte",
+    "Seilspringen",
+    "Burpees",
+    "Mountain Climbers",
+    "Klimmzüge",
+    "Russian Twists",
+    "Beinheben"
+]
+            zufällige_übungen = random.sample(fitness_übungen, 3)
+            for übung in zufällige_übungen:
+            st.write(übung)
 
         elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
