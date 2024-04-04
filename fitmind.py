@@ -191,21 +191,45 @@ elif page == "Fitness":
 
         
     elif third_subcategory == "Abs":
+        abs_fitness_übungen = [
+            "Crunches",
+            "Planks",
+            "Leg Raises",
+            "Russian Twists",
+            "Mountain Climbers",
+            "Bicycle Crunches"
+        ]
+
         st.subheader("Randomized Abs Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-        
+            st.header("Beginner Training")
+            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+            st.write("Hier könnten Anfängerübungen stehen, die spezifisch für die Bauchmuskeln sind.")
+            st.write("Zufällige Übungen für Anfänger:")
+            zufällige_übungen_beginner = random.sample(abs_fitness_übungen, 3)
+            for übung in zufällige_übungen_beginner:
+                st.write(übung)
+
         with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
+            st.header("Intermediate Training")
+            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+            st.write("Hier könnten Übungen für fortgeschrittenere Benutzer stehen, die spezifisch für die Bauchmuskeln sind.")
+            st.write("Zufällige Übungen für Fortgeschrittene:")
+            zufällige_übungen_intermediate = random.sample(abs_fitness_übungen, 3)
+            for übung in zufällige_übungen_intermediate:
+                st.write(übung)
+
         with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            st.header("Advanced Training")
+            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+            st.write("Hier könnten fortgeschrittene Übungen stehen, die spezifisch für die Bauchmuskeln sind.")
+            st.write("Zufällige Übungen für Fortgeschrittene:")
+            zufällige_übungen_advanced = random.sample(abs_fitness_übungen, 3)
+            for übung in zufällige_übungen_advanced:
+                st.write(übung)
             
 
     elif third_subcategory == "Back":
