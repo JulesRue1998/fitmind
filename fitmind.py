@@ -46,23 +46,7 @@ elif page == "Fitness":
         st.write("Content for Core-Strength Training category")
         st.divider()
         
-        st.subheader("Crunches")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Planks")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Leg Raises")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Russian Twists")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Mountain Climbers")
+        st.subheader("Ab Rollouts")
         st.write("")
         st.divider()
         
@@ -70,7 +54,11 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
-        st.subheader("Sit-ups")
+        st.subheader("Boat pose")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Crunches")
         st.write("")
         st.divider()
         
@@ -78,31 +66,7 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
-        st.subheader("V-ups")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Boat pose")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Russian Twists with Dumbbell")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Reverse Crunches")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Side Planks")
-        st.write("")
-        st.divider()
-        
         st.subheader("Hanging Leg Raises")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Ab Rollouts")
         st.write("")
         st.divider()
         
@@ -110,11 +74,27 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
-        st.subheader("Scissor Kicks")
+        st.subheader("Leg Raises")
         st.write("")
         st.divider()
         
-        st.subheader("Toe Touches")
+        st.subheader("Mountain Climbers")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Planks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Reverse Crunches")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Russian Twists")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Scissor Kicks")
         st.write("")
         st.divider()
         
@@ -122,9 +102,31 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
+        st.subheader("Seated Leg Tugs")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Side Planks")
+        st.write("")
+        st.divider()
+        
+        st.subheader("Sit-ups")
+        st.write("")
+        st.divider()
+        
         st.subheader("Standing Oblique Crunches")
         st.write("")
         st.divider()
+        
+        st.subheader("Toe Touches")
+        st.write("")
+        st.divider()
+        
+        st.subheader("V-ups")
+        st.write("")
+        st.divider()
+        
+
 
         
     elif selected_subcategory == "Legs":
@@ -346,28 +348,29 @@ elif page == "Fitness":
         
     elif third_subcategory == "Abs":
         abs_fitness_übungen = [
-            "Crunches",
-            "Planks",
-            "Leg Raises",
-            "Russian Twists",
-            "Mountain Climbers",
-            "Bicycle Crunches",
-            "Sit-ups",
-            "Flutter Kicks",
-            "V-ups",
-            "Russian Twists with Dumbbell",
-            "Reverse Crunches",
-            "Side Planks",
-            "Hanging Leg Raises",
             "Ab Rollouts",
+            "Bicycle Crunches",
+            "Boat pose",
+            "Crunches",
+            "Flutter Kicks",
+            "Hanging Leg Raises",
             "Jackknife Sit-ups",
+            "Leg Raises",
+            "Mountain Climbers",
+            "Plank for 30 Seconds",
+            "Reverse Crunches",
+            "Russian Twists",
             "Scissor Kicks",
-            "Toe Touches",
             "Seated Knee Tucks",
+            "Seated Leg Tugs",
+            "Side Planks",
+            "Sit-ups",
             "Standing Oblique Crunches",
-            "Russian Twists with Medicine Ball"
+            "Toe Touches",
+            "V-ups"
         ]
 
+        
         st.subheader("Randomized Abs Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
