@@ -234,7 +234,93 @@ elif page == "Fitness":
     elif selected_subcategory == "Legs":
         st.subheader("Legs")
         st.write("Content for Legs category")
-        
+        st.divider()
+
+        st.subheader("Alternating stance jumps")
+        st.write("")
+        st.divider()
+
+        st.subheader("Boxer Shuffle")
+        st.write("")
+        st.divider()
+
+        st.subheader("")
+        st.write("")
+        st.divider()
+
+        st.subheader("Butt kicks")
+        st.write("")
+        st.divider()
+
+        st.subheader("Flutter kicks")
+        st.write("")
+        st.divider()
+
+        st.subheader("Half Squat walk")
+        st.write("")
+        st.divider()
+
+        st.subheader("High Kicks")
+        st.write("")
+        st.divider()
+
+        st.subheader("Jumping Jack")
+        st.write("")
+        st.divider()
+
+        st.subheader("Knee side leg lifts")
+        st.write("")
+        st.divider()
+
+        st.subheader("Lateral hops")
+        st.write("")
+        st.divider()
+
+        st.subheader("Lying leg circles")
+        st.write("")
+        st.divider
+
+        st.subheader("Marching hip raises")
+        st.write("")
+        st.divider()
+
+        st.subheader("Pulsing side lying leg raises")
+        st.write("")
+        st.divider()
+
+        st.subheader("Rainbow leg lifts")
+        st.write("")
+        st.divider()
+
+        st.subheader("Side and cross crunches")
+        st.write("")
+        st.divider()
+
+        st.subheader("Side knee raises")
+        st.write("")
+        st.divider()
+
+        st.subheader("Side lying bottom leg lifts")
+        st.write("")
+        st.divider()
+
+
+        st.subheader("Side lying leg raises")
+        st.write("")
+        st.divider()
+
+        st.subheader("Single leg V-ups")
+        st.write("")
+        st.divider()
+
+        st.subheader("Straight leg circles")
+        st.write("")
+        st.divider()
+
+        st.subheader("Walking high knees")
+        st.write("")
+        st.divider()
+    
         
     st.sidebar.subheader("Planned Programms")
     second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Oberkörper", "Unterkörper"])
