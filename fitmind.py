@@ -133,16 +133,14 @@ elif page == "Fitness":
         
     elif selected_subcategory == "Butt":
         st.subheader("Butt")
-        col1, col2, col3 = st.columns(3)
+        col1, col2 = st.columns(2)
         with col1:
            st.write("Content for Butt Workouts")
            
-        
         with col2:
            st.header("betroffene Muskeln")
            st.image("glutes_muscles_480x480.jpeg")
             
-        st.write("Content for Butt category")
         st.divider()
 
         st.subheader("Bridge")
