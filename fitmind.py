@@ -245,7 +245,7 @@ elif page == "Fitness":
            st.write("Zufällige Übungen für Anfänger:")
            zufällige_übungen_beginner = random.sample(butt_fitness_übungen, 3)
            for übung in zufällige_übungen_beginner:
-           st.write(übung)
+               st.write(übung)
           
         elif third_subcategory == "Abs":
             st.subheader("Randomized Abs Workout")
