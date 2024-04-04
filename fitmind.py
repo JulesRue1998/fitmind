@@ -602,15 +602,15 @@ elif page == "Fitness":
         
         with tab2:
             st.header("Intermediate Training")
-            st.write("Here are 8 randomized exercises for your legs. Do 3-4 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
-            zufällige_übungen_beginner = random.sample(legs_fitness_übungen, 8)
+            st.write("Here are 8 randomized exercises for your legs. Do 3-4 sets with each 10 repetitions. Take a break of 45 Seconds in between the exercises.")
+            zufällige_übungen_intermediate = random.sample(legs_fitness_übungen, 8)
             for übung in zufällige_übungen_intermediate:
                 st.write(übung)
                 
         with tab3:
             st.header("Advanced Training")
-            st.write("Here are 11 randomized exercises for your legs. Do 4-5 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
-            zufällige_übungen_beginner = random.sample(legs_fitness_übungen, 11)
+            st.write("Here are 11 randomized exercises for your legs. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
+            zufällige_übungen_advanced = random.sample(legs_fitness_übungen, 11)
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
 
