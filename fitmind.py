@@ -141,6 +141,21 @@ elif page == "Fitness":
         with col2:
            st.subheader("betroffene Muskeln")
            st.image("glutes_muscles_480x480.jpeg")
+        st.markdown(
+            """
+            <style>
+                .vertical-divider {
+                    border-left: 1px solid #ccc;
+                    height: 100%;
+                    margin: 0 10px;
+                }
+            </style>
+            """,
+            unsafe_allow_html=True
+        )
+
+# Add the vertical divider between columns
+st.markdown('<div class="vertical-divider"></div>', unsafe_allow_html=True)
             
         st.divider()
 
