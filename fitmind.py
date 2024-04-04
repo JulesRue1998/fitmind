@@ -120,36 +120,7 @@ elif page == "Fitness":
         with tab1:
            st.header("Beginner Training")
            st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-            
-            import random
-            
-            # Liste von Fitnessübungen
-            fitness_übungen = [
-                "Liegestütze",
-                "Kniebeugen",
-                "Plank",
-                "Ausfallschritte",
-                "Seilspringen",
-                "Burpees",
-                "Mountain Climbers",
-                "Klimmzüge",
-                "Russian Twists",
-                "Beinheben"
-            ]
-            
-            # Streamlit App
-            st.title("Zufällige Fitnessübung")
-            
-            # Funktion zum Zufällig Auswählen einer Übung
-            def zufällige_übung():
-                return random.choice(fitness_übungen)
-            
-            # Zufällige Übung anzeigen
-            übung = zufällige_übung()
-            st.header("Deine zufällige Fitnessübung:")
-            st.write(übung)
-
-        
+                    
         with tab2:
            st.header("Intermediate Training")
            st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
@@ -192,13 +163,16 @@ elif page == "Fitness":
            st.header("Advanced Training")
            st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
+    st.sidebar.subheader("RAndomized workout")
+    third_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Abs", "Back", "Butt", "Legs"])
+
     st.sidebar.subheader("Fitness Tracker")
-    third_subcategory = st.sidebar.selectbox("Choose a third subcategory", ["  ", "water intake", "Calorie tracker", "Workout tracker"])
+    fourth_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Calorie tracker", "Workout tracker"])
     
-    if third_subcategory == " ":
+    if fourth_subcategory == " ":
         st.write(" ")
         
-    elif third_subcategory == "water intake":
+    elif fourth_subcategory == "water intake":
         st.subheader("Track your water intake")
         if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
@@ -215,10 +189,10 @@ elif page == "Fitness":
 
 
         
-    elif third_subcategory == "Calorie traker":
+    elif fourth_subcategory == "Calorie traker":
         st.write("Content for Suboption 2")
 
-    elif third_subcategory == "Workout tracker":
+    elif fourth_subcategory == "Workout tracker":
         st.subheader("Workout tracker")
         st.write("Define your Goals here. write down what you achieved")
         
