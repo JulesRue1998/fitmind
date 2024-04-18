@@ -59,7 +59,7 @@ elif page == "Fitness":
         st.write("3. As you crunch up, simultaneously bring your right elbow towards your left knee while straightening your right leg, as if you're riding a bicycle. At the same time, twist your torso to bring your left elbow towards your right knee.")
         st.write("4. Continue this pedaling motion, alternating sides with each repetition. Try to touch your elbow to the opposite knee or as close as you can comfortably reach while maintaining proper form.")
         st.write("5. Exhale as you crunch up and twist, inhale as you return to the starting position. Focus on controlled breathing throughout the exercise to help engage your core muscles effectively.")
-        st.repear
+        st.write("6. Repeat")
         with st.expander("Watch Video"):
             st.video('https://youtu.be/cbKIDZ_XyjY')
             st.write("Video Source: https://youtu.be/cbKIDZ_XyjY")
