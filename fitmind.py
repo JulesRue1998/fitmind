@@ -67,7 +67,17 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Boat pose")
-        st.write("")
+        with st.expander(":information_source: Read Instructions")
+            st.write("1. Sit on the floor with your legs extended in front of you. Keep your spine tall and your hands resting on the floor beside your hips for support.")
+            st.write("2. As you exhale, lean back slightly and lift your feet off the ground. Your torso and legs should form a V shape.")
+            st.write("3. Balance on your glutes while keeping your spine straight. Avoid rounding your back; instead, imagine lengthening through the crown of your head.")
+            st.write("4. Extend your arms straight out in front of you, parallel to the floor, with your palms facing each other. Alternatively, you can hold onto the backs of your thighs for additional support, especially if you're a beginner.")
+            st.write("5. Take deep breaths in and out as you hold the pose. Aim to maintain steady, even breaths to help you stay focused and relaxed.")
+            st.write("6. Hold the pose for as long as you feel comfortable, aiming for 10-30 seconds to start. As you become more experienced, you can gradually increase the duration of your hold.")
+            st.write("7. To release the pose, exhale as you lower your feet back to the floor, returning to a seated position with your legs extended.")
+        with st.expander(":video_camera: Watch Video")
+            st.video('https://youtu.be/VN-6jygZ094')
+            st.write("Video Source: https://youtu.be/VN-6jygZ094")
         st.divider()
         
         st.subheader("Crunches")
