@@ -75,7 +75,7 @@ elif page == "Fitness":
             st.write("5. Take deep breaths in and out as you hold the pose. Aim to maintain steady, even breaths to help you stay focused and relaxed.")
             st.write("6. Hold the pose for as long as you feel comfortable, aiming for 10-30 seconds to start. As you become more experienced, you can gradually increase the duration of your hold.")
             st.write("7. To release the pose, exhale as you lower your feet back to the floor, returning to a seated position with your legs extended.")
-        with st.expander(":video_camera: Watch Video")
+        with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/VN-6jygZ094')
             st.write("Video Source: https://youtu.be/VN-6jygZ094")
         st.divider()
