@@ -117,23 +117,27 @@ elif page == "Fitness":
         
         st.subheader("Flutter Kicks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lay on your back, extending your legs at a 45-degree angle. Your arms should be down at your sides and your legs off the ground.")
+            st.write("2. Lift your head, shoulders, and neck slightly off the ground.")
+            st.write("3. Start kicking your legs up and down, alternating as you go. Flutter your legs at a pace you can maintain whilst also keeping your core still.")
+            st.write("4. Flutter until you give up.")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/ZB1SwBRVLCc')
+            st.write("Video Source: https://youtu.be/ZB1SwBRVLCc")
         st.divider()
         
-        st.subheader("Hanging Leg Raises")
+        st.subheader("Lying Leg Raises")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/Wp4BlxcFTkE')
+            st.write("Video Source: https://youtu.be/Wp4BlxcFTkE")
+
+        st.subheader("Variation: Hanging Leg Raises")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
             st.write("Video Source:")
-        st.divider()
-        
-        st.subheader("Leg Raises")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Mountain Climbers")
@@ -196,7 +200,6 @@ elif page == "Fitness":
             st.write("")
         with st.expander(":video_camera: Watch Video"):
             st.write("Video Source: ")
-      
         st.divider()
         
         st.subheader("Toe Touches")
