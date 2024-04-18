@@ -172,7 +172,7 @@ elif page == "Fitness":
         st.subheader("Russian Twists")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Sit on the floor or mat with your knees bent and feet flat on the ground.")
-            st.write("2. Sitting up, angle your upper body 45 degrees backward. Keep your back neutral and your shoulders in their natural position in order to maintain good posture and avoid strain.
+            st.write("2. Sitting up, angle your upper body 45 degrees backward. Keep your back neutral and your shoulders in their natural position in order to maintain good posture and avoid strain.")
             st.write("3. Gently lift your feet a few inches off the ground, being sure to keep your back neutral and at a 45-degree angle throughout.")
             st.write("4. Rotate your arms to one side of your body, and then rotate them to the opposite side.")
         with st.expander(":video_camera: Watch Video"):
