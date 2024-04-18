@@ -54,14 +54,14 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Bicycle Crunches")
-        with st.expander("Read Instructions"):
+        with st.expander(":information_source: Read Instructions"):
             st.write("1. Lie flat on your back on a mat or comfortable surface. Place your hands lightly behind your head, elbows bent, and lift your legs off the ground, bending your knees to form a 90-degree angle.")
             st.write("2. Lift your shoulder blades off the ground, engaging your core muscles. Make sure to keep your lower back pressed into the floor throughout the exercise to avoid straining your back. ")
             st.write("3. As you crunch up, simultaneously bring your right elbow towards your left knee while straightening your right leg, as if you're riding a bicycle. At the same time, twist your torso to bring your left elbow towards your right knee.")
             st.write("4. Continue this pedaling motion, alternating sides with each repetition. Try to touch your elbow to the opposite knee or as close as you can comfortably reach while maintaining proper form.")
             st.write("5. Exhale as you crunch up and twist, inhale as you return to the starting position. Focus on controlled breathing throughout the exercise to help engage your core muscles effectively.")
             st.write("6. Repeat")
-        with st.expander("Watch Video, :video_camera:"):
+        with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/cbKIDZ_XyjY')
             st.write("Video Source: https://youtu.be/cbKIDZ_XyjY")
         st.divider()
@@ -214,12 +214,12 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Squats")
-        st.write("Instructions:")
-        st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
-        st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
-        st.write(" 3. Push back up until you reach standing positions.")
-        st.write(" 4. Repeat.")
-        with st.expander("Watch Video"):
+        with st.expander(":information_source: Read Instructions"):
+            st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
+            st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
+            st.write(" 3. Push back up until you reach standing positions.")
+            st.write(" 4. Repeat.")
+        with st.expander(":video_camera: Watch Video"):
             st.video('https://www.youtube.com/watch?v=xqvCmoLULNY')
             st.write("Video Source: https://www.youtube.com/watch?v=xqvCmoLULNY")
         
