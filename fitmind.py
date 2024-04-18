@@ -103,7 +103,15 @@ elif page == "Fitness":
             st.write("Video Source: https://youtu.be/XY8KzdDcMFg")
 
         st.subheader("Variation: Standing Oblique Crunches")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("1. 1. Stand with your knees slightly bent, your feet hip-width apart, and your hands behind your head.")
+            st.write("2. Shift your weight to the left leg, crunch to the right side, and bring your right knee up toward your elbow.")
+            st.write("3. Lower your right leg and return to the starting position.")
+            st.write("4. Switch sides.")
+            st.write("5. Repeat exercise")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/j12PC1m6va4')
+            st.write("Video Source: https://youtu.be/j12PC1m6va4")
         st.divider()
         
         st.subheader("Flutter Kicks")
