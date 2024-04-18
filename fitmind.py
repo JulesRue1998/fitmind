@@ -119,7 +119,7 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: "))
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Hanging Leg Raises")
