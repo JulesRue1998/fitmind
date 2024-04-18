@@ -50,7 +50,8 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Ab Rollouts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
         st.divider()
        
         st.subheader("Boat pose")
@@ -115,62 +116,87 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Flutter Kicks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Hanging Leg Raises")
-        st.write("")
-        st.divider()
-        
-        st.subheader("Jackknife Sit-ups")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Leg Raises")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Mountain Climbers")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Planks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
-
         
         st.subheader("Russian Twists")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Scissor Kicks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Seated Knee Tucks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Seated Leg Tugs")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Side Planks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("Sit-ups")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+
+        st.subheader("Variation: Jackknife Sit-ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+      
         st.divider()
         
-
-        
         st.subheader("Toe Touches")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         st.subheader("V-ups")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
         st.divider()
         
         
