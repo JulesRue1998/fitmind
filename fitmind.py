@@ -120,7 +120,7 @@ elif page == "Fitness":
             st.write("1. Lay on your back, extending your legs at a 45-degree angle. Your arms should be down at your sides and your legs off the ground.")
             st.write("2. Lift your head, shoulders, and neck slightly off the ground.")
             st.write("3. Start kicking your legs up and down, alternating as you go. Flutter your legs at a pace you can maintain whilst also keeping your core still.")
-            st.write("4. Flutter until you give up.")
+            st.write("4. Flutter as long as possible.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/ZB1SwBRVLCc')
             st.write("Video Source: https://youtu.be/ZB1SwBRVLCc")
@@ -144,7 +144,7 @@ elif page == "Fitness":
             st.write("3. Pull your right knee into your chest as far as you can.")
             st.write("4. Switch legs, pulling one knee out and bringing the other knee in.")
             st.write("5. Keep your hips down and run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change.")
-            st.write("6. Repeat until you give up")
+            st.write("6. Repeat as long as possible.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/kLh-uczlPLg')
             st.write("Video Source: https://youtu.be/kLh-uczlPLg")
@@ -155,24 +155,40 @@ elif page == "Fitness":
             st.write("1. Start in a tabletop position on your hands and knees, then lower down to your forearms with your elbows stacked beneath your shoulders.")
             st.write("2. Step your feet back until your body makes a line from shoulders to heels.")
             st.write("3. Squeeze your core and think about pulling your belly button towards your sternum to engage the abs.")
-            st.write("4. Hold the position for as long as possible or intended time.")
+            st.write("4. Hold the position for as long as possible.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/q4rDeHYMcIg')
             st.write("Video Source: https://youtu.be/q4rDeHYMcIg")
         st.divider()
-        
-        st.subheader("Russian Twists")
+
+        st.subheader("Variation: Side Planks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/0Rl5ZQwmS-o')
             st.write("Video Source: ")
+        st.divider()
+        
+        st.subheader("Russian Twists")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("1. Sit on the floor or mat with your knees bent and feet flat on the ground.")
+            st.write("2. Sitting up, angle your upper body 45 degrees backward. Keep your back neutral and your shoulders in their natural position in order to maintain good posture and avoid strain.
+            st.write("3. Gently lift your feet a few inches off the ground, being sure to keep your back neutral and at a 45-degree angle throughout.")
+            st.write("4. Rotate your arms to one side of your body, and then rotate them to the opposite side.")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/VfWoNC-NMII')
+            st.write("Video Source: https://youtu.be/VfWoNC-NMII")
         st.divider()
         
         st.subheader("Scissor Kicks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lay on your with your hands on your side.")
+            st.write("2. Pick your feet up off the ground 6-8 inches.")
+            st.write("3. Bring your right foot over your left foot and then alternate your left foot over your right foot.")
+            st.write("4. Alternate back and forth so that it looks like a scissor motion.")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/91NZ7XKG1UA')
+            st.write("Video Source: https://youtu.be/91NZ7XKG1UA")
         st.divider()
         
         st.subheader("Seated Knee Tucks")
@@ -183,13 +199,6 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Seated Leg Tugs")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
-        st.divider()
-        
-        st.subheader("Side Planks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
