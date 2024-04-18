@@ -61,7 +61,7 @@ elif page == "Fitness":
             st.write("4. Continue this pedaling motion, alternating sides with each repetition. Try to touch your elbow to the opposite knee or as close as you can comfortably reach while maintaining proper form.")
             st.write("5. Exhale as you crunch up and twist, inhale as you return to the starting position. Focus on controlled breathing throughout the exercise to help engage your core muscles effectively.")
             st.write("6. Repeat")
-        with st.expander("Watch Video"):
+        with st.expander("Watch Video, :video_camera:"):
             st.video('https://youtu.be/cbKIDZ_XyjY')
             st.write("Video Source: https://youtu.be/cbKIDZ_XyjY")
         st.divider()
