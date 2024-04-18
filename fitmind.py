@@ -128,30 +128,37 @@ elif page == "Fitness":
         
         st.subheader("Lying Leg Raises")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lay supine in a relaxed position with your legs straight and your hands underneath your low back for support.")
+            st.write("2. Keep your legs straight and raise them towards your forehead while contracting your abdominals and exhaling.")
+            st.write("3. Once your abs are fully contracted and your legs are slightly above parallel, slowly lower your legs back to the starting position.")
+            st.write("4. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/Wp4BlxcFTkE')
             st.write("Video Source: https://youtu.be/Wp4BlxcFTkE")
-
-        st.subheader("Variation: Hanging Leg Raises")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source:")
         st.divider()
         
         st.subheader("Mountain Climbers")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Get into a plank position, making sure to distribute your weight evenly between your hands and your toes.")
+            st.write("2. Check your form—your hands should be about shoulder-width apart, back flat, abs engaged, and head in alignment.")
+            st.write("3. Pull your right knee into your chest as far as you can.")
+            st.write("4. Switch legs, pulling one knee out and bringing the other knee in.")
+            st.write("5. Keep your hips down and run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change.")
+            st.write("6. Repeat until you give up")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/kLh-uczlPLg')
+            st.write("Video Source: https://youtu.be/kLh-uczlPLg")
         st.divider()
         
         st.subheader("Planks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Start in a tabletop position on your hands and knees, then lower down to your forearms with your elbows stacked beneath your shoulders.")
+            st.write("2. Step your feet back until your body makes a line from shoulders to heels.")
+            st.write("3. Squeeze your core and think about pulling your belly button towards your sternum to engage the abs.")
+            st.write("4. Hold the position for as long as possible or intended time.")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/q4rDeHYMcIg')
+            st.write("Video Source: https://youtu.be/q4rDeHYMcIg")
         st.divider()
         
         st.subheader("Russian Twists")
