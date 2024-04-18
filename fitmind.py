@@ -119,60 +119,70 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: "))
         st.divider()
         
         st.subheader("Hanging Leg Raises")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source:")
         st.divider()
         
         st.subheader("Leg Raises")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Mountain Climbers")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Planks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Russian Twists")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Scissor Kicks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Seated Knee Tucks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Seated Leg Tugs")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Side Planks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("Sit-ups")
@@ -184,6 +194,7 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
       
         st.divider()
         
@@ -191,12 +202,14 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         st.subheader("V-ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: ")
         st.divider()
         
         
