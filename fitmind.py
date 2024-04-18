@@ -104,7 +104,7 @@ elif page == "Fitness":
 
         st.subheader("Variation: Standing Oblique Crunches")
         with st.expander(":information_source: Read Instructions"):
-            st.write("1. 1. Stand with your knees slightly bent, your feet hip-width apart, and your hands behind your head.")
+            st.write("1. Stand with your knees slightly bent, your feet hip-width apart, and your hands behind your head.")
             st.write("2. Shift your weight to the left leg, crunch to the right side, and bring your right knee up toward your elbow.")
             st.write("3. Lower your right leg and return to the starting position.")
             st.write("4. Switch sides.")
