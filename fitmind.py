@@ -52,10 +52,7 @@ elif page == "Fitness":
         st.subheader("Ab Rollouts")
         st.write("")
         st.divider()
-        
-
-        st.divider()
-        
+       
         st.subheader("Boat pose")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Sit on the floor with your legs extended in front of you. Keep your spine tall and your hands resting on the floor beside your hips for support.")
@@ -65,7 +62,7 @@ elif page == "Fitness":
             st.write("5. Take deep breaths in and out as you hold the pose. Aim to maintain steady, even breaths to help you stay focused and relaxed.")
             st.write("6. Hold the pose for as long as you feel comfortable, aiming for 10-30 seconds to start. As you become more experienced, you can gradually increase the duration of your hold.")
             st.write("7. To release the pose, exhale as you lower your feet back to the floor, returning to a seated position with your legs extended.")
-            st.write("8. Repeat Exercise.")
+            st.write("8. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/VN-6jygZ094')
             st.write("Video Source: https://youtu.be/VN-6jygZ094")
@@ -77,25 +74,32 @@ elif page == "Fitness":
             st.write("2. Place your hands crossing over your chest OR with your elbows out wide with your hands behind your head, with your fingers grazing your ears.")
             st.write("3. Relax your shoulders and keep your gaze neutral and tuck your chin slightly towards your chest.")
             st.write("4. Inhale, drawing your abdomen in towards your spine. Exhale and lift your head, neck and shoulder blades off the floor, curling inwards.")
-            st.write("5. Repeat Exercise.")
+            st.write("5. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/nt9jwky07jc')
             st.write("Video Source: ")
 
         st.subheader("Variation: Bicycle Crunches")
         with st.expander(":information_source: Read Instructions"):
-            st.write("1. Lie flat on your back on a mat or comfortable surface. Place your hands lightly behind your head, elbows bent, and lift your legs off the ground, bending your knees to form a 90-degree angle.")
-            st.write("2. Lift your shoulder blades off the ground, engaging your core muscles. Make sure to keep your lower back pressed into the floor throughout the exercise to avoid straining your back. ")
-            st.write("3. As you crunch up, simultaneously bring your right elbow towards your left knee while straightening your right leg, as if you're riding a bicycle. At the same time, twist your torso to bring your left elbow towards your right knee.")
-            st.write("4. Continue this pedaling motion, alternating sides with each repetition. Try to touch your elbow to the opposite knee or as close as you can comfortably reach while maintaining proper form.")
-            st.write("5. Exhale as you crunch up and twist, inhale as you return to the starting position. Focus on controlled breathing throughout the exercise to help engage your core muscles effectively.")
-            st.write("6. Repeat Exercise.")
+            st.write("1. Lie down on the floor with your knees bent and your feet planted hip-width apart.")
+            st.write("2. Place your hands gently on your head with your elbows out wide, with your fingers grazing your ears.")
+            st.write("3. Lift one leg off the ground and straighten it outwards, raising the opposite knee upwards towards your chest.")
+            st.write("4. Lift your chest upwards and turn your torso—opposite elbow to opposite knee.")
+            st.write("5. Lower back to a neutral position with your knees raised. Switch to the other side—opposite elbow and opposite knee")
+            st.write("6. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/cbKIDZ_XyjY')
             st.write("Video Source: https://youtu.be/cbKIDZ_XyjY")
           
         st.subheader("Variation: Reverse Crunches")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("1. Lie down on the floor with your knees bent and your feet planted hip-width apart.")
+            st.write("2. Place your hands on the floor by your side.")
+            st.write("3. Inhale, contract your abs towards your spine.")
+            st.write("4. Exhale and lift your feet off the floor and raise your knees upwards and inwards towards your chest, keeping your knees at a 90 degree angle. Your hips should tilt inwards to crunch your abs.")
+            st.write("5. Repeat exercise.")
+        with st.expander(":video_camera: Watch Video"):
+            st.write("Video Source: https://youtu.be/XY8KzdDcMFg")
 
         st.subheader("Variation: Standing Oblique Crunches")
         st.write("")
