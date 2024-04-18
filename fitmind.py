@@ -53,7 +53,7 @@ elif page == "Fitness":
         st.write("")
         st.divider()
         
-        st.subheader("Bicycle Crunches")
+        st.subheader("Bicycle Crunches"):
         with st.expander("Read Instructions")
             st.write("1. Lie flat on your back on a mat or comfortable surface. Place your hands lightly behind your head, elbows bent, and lift your legs off the ground, bending your knees to form a 90-degree angle.")
             st.write("2. Lift your shoulder blades off the ground, engaging your core muscles. Make sure to keep your lower back pressed into the floor throughout the exercise to avoid straining your back. ")
