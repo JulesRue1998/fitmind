@@ -194,16 +194,13 @@ elif page == "Fitness":
         
         st.subheader("Seated Knee Tucks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("Sit down with your hands on the mat, your legs fully extended, and lean back.")
+            st.write("Bend your legs and bring your knees toward your chest.")
+            st.write("Hold for a second or two and then fully extend your legs without touching the mat.")
+            st.write("Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
-        st.divider()
-        
-        st.subheader("Seated Leg Tugs")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/HR_1AqBmVAU')
+            st.write("Video Source: https://youtu.be/HR_1AqBmVAU")
         st.divider()
         
         st.subheader("Sit-ups")
@@ -698,15 +695,6 @@ elif page == "Fitness":
             zufällige_übungen_beginner = random.sample(legs_fitness_übungen, 5)
             for übung in zufällige_übungen_beginner:
                 st.write(übung)
-        # Show a spinner during a process
-         with st.spinner(text='In progress'):
-             time.sleep(3)
-             st.success('Done')
-
-        # Show and update progress bar
-         bar = st.progress(50)
-         time.sleep(3)
-         bar.progress(100)
         
         with tab2:
             st.header("Intermediate Training")
