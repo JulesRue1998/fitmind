@@ -99,6 +99,7 @@ elif page == "Fitness":
             st.write("4. Exhale and lift your feet off the floor and raise your knees upwards and inwards towards your chest, keeping your knees at a 90 degree angle. Your hips should tilt inwards to crunch your abs.")
             st.write("5. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/XY8KzdDcMFg')
             st.write("Video Source: https://youtu.be/XY8KzdDcMFg")
 
         st.subheader("Variation: Standing Oblique Crunches")
