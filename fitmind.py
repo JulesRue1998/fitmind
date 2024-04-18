@@ -67,7 +67,7 @@ elif page == "Fitness":
         st.divider()
         
         st.subheader("Boat pose")
-        with st.expander(":information_source: Read Instructions")
+        with st.expander(":information_source: Read Instructions"):
             st.write("1. Sit on the floor with your legs extended in front of you. Keep your spine tall and your hands resting on the floor beside your hips for support.")
             st.write("2. As you exhale, lean back slightly and lift your feet off the ground. Your torso and legs should form a V shape.")
             st.write("3. Balance on your glutes while keeping your spine straight. Avoid rounding your back; instead, imagine lengthening through the crown of your head.")
