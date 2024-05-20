@@ -227,7 +227,7 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            sr.video('https://youtu.be/7UVgs18Y1P4')
+            st.video('https://youtu.be/7UVgs18Y1P4')
             st.write("Video Source: https://youtu.be/7UVgs18Y1P4 ")
         st.divider()
         
@@ -613,7 +613,7 @@ elif page == "Fitness":
 
     elif third_subcategory == "Glutes":
         glutes_fitness_übungen = [
-            "Bridge",
+            "Bridge for 30 seconds",
             "Clamshells",
             "Donkey Kicks",
             "Donkey Kicks",
@@ -712,7 +712,7 @@ elif page == "Fitness":
                 st.write(übung)
 
     st.sidebar.subheader("Fitness Tracker")
-    fourth_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Calorie tracker", "Workout tracker"])
+    fourth_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker"])
     
     if fourth_subcategory == " ":
         st.write(" ")
@@ -731,11 +731,6 @@ elif page == "Fitness":
             st.session_state.water_intake += 1
             st.write("You drank a glass of water!")
             st.write("Total glasses of water drank today:", st.session_state.water_intake)
-
-
-        
-    elif fourth_subcategory == "Calorie traker":
-        st.write("Content for Suboption 2")
 
     elif fourth_subcategory == "Workout tracker":
         st.subheader("Workout tracker")
