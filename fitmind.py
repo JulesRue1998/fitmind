@@ -910,7 +910,7 @@ elif page == "Fitness":
         st.write("BMI-Klassifikation:")
         st.dataframe(data)
     
-        sns.barplot(x='Kategorie', y='BMI-Bereich', data=data)
+        st.barplot(x='Kategorie', y='BMI-Bereich', data=data)
         st.pyplot()
 
 
