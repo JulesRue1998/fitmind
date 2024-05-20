@@ -923,13 +923,10 @@ elif page == "Mental Health":
     
     elif selected_subcategory == "Stresslevel tracker":
         st.write("Track your Stresslevels")
-        
+        st.write('Enter your stress level for each day.')
+
         # Create a DataFrame to store stress data
         stress_data = pd.DataFrame(columns=['Date', 'Stress Level'])
-        
-        # Title and instructions
-        st.title('Stress Tracker')
-        st.write('Enter your stress level for each day.')
         
         # Input form for stress level
         date = st.date_input('Date')
