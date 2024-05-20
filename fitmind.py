@@ -46,8 +46,16 @@ elif page == "Fitness":
     
     elif selected_subcategory == "Core":
         st.subheader("Core Training")
-        st.write("Content for Core-Strength Training category")
-        st.divider()
+        col1, col2 = st.columns(2)
+        with col1:
+           st.subheader("Benefits")
+            st.write("Core training offers benefits like including improved stability, better posture, relief from back pain, increased power, improved breathing efficiency and appearance with a stronger, more defined midsection.")
+       
+        with col2:
+           st.subheader("used Muscles")
+           st.image("Muscles-wall.jpeg")
+           st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
+            
        
         st.subheader("Boat pose")
         with st.expander(":information_source: Read Instructions"):
