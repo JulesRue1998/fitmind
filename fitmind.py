@@ -48,11 +48,6 @@ elif page == "Fitness":
         st.subheader("Core Training")
         st.write("Content for Core-Strength Training category")
         st.divider()
-        
-        st.subheader("Ab Rollouts")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        st.divider()
        
         st.subheader("Boat pose")
         with st.expander(":information_source: Read Instructions"):
