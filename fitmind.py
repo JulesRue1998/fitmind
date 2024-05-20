@@ -73,7 +73,7 @@ elif page == "Fitness":
             st.write("5. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/nt9jwky07jc')
-            st.write("Video Source: ")
+            st.write("Video Source: https://youtu.be/nt9jwky07jc")
 
         st.subheader("Variation: Bicycle Crunches")
         with st.expander(":information_source: Read Instructions"):
