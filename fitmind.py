@@ -887,6 +887,7 @@ elif page == "Fitness":
             st.write(diary_data)
         else:
              st.info("No entries yet.")
+            
     elif third_subcategory == "BMI-Calculator":
         st.subheader("BMI-Calculator")
         st.write("Calculate your Body Mass Index here")
@@ -895,7 +896,7 @@ elif page == "Fitness":
         age = st.slider("Alter", 18, 100, 25)
         weight = st.number_input("Gewicht (kg)", min_value=20.0, max_value=500.0, value=70.0, step=0.1)
         height = st.number_input("Größe (cm)", min_value=100, max_value=300, value=170, step=1)
-        activity_level = st.selectbox("Aktivitätslevel", ["Sedentär", "Leicht aktiv", "Mäßig aktiv", "Sehr aktiv", "Extrem aktiv"])
+        activity_level = st.selectbox("Aktivitätslevel", ["nicht aktiv", "Leicht aktiv", "Mäßig aktiv", "Sehr aktiv", "Extrem aktiv"])
     
         # Data elements
         bmi = weight / ((height/100) ** 2)
@@ -909,9 +910,6 @@ elif page == "Fitness":
         })
         st.write("BMI-Klassifikation:")
         st.dataframe(data)
-    
-        st.barplot(x='Kategorie', y='BMI-Bereich', data=data)
-        st.pyplot()
 
 
 
