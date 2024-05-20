@@ -158,10 +158,13 @@ elif page == "Fitness":
 
         st.subheader("Variation: Side Planks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lie on your side, legs extended and stacked.")
+            st.write("2. Place your elbow under your elbow and lift your hips to form a straight line.")
+            st.write("3. Hold this position for 30 seconds or longer.")
+            st.write("4. Switch sides.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/0Rl5ZQwmS-o')
-            st.write("Video Source: ")
+            st.write("Video Source: https://youtu.be/0Rl5ZQwmS-o")
         st.divider()
         
         st.subheader("Russian Twists")
@@ -201,27 +204,31 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/swOyWKk7Oko')
+            st.write("Video Source: https://youtu.be/swOyWKk7Oko")
 
         st.subheader("Variation: Jackknife Sit-ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video('https://youtu.be/GEZ8NLbtc8Q')
+            st.write("Video Source: https://youtu.be/GEZ8NLbtc8Q")
         st.divider()
         
         st.subheader("Toe Touches")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            st.video("https://youtu.be/9iEI95-eZWk")
+            st.write("Video Source: https://youtu.be/9iEI95-eZWk")
         st.divider()
         
         st.subheader("V-ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.write("Video Source: ")
+            sr.video('https://youtu.be/7UVgs18Y1P4')
+            st.write("Video Source: https://youtu.be/7UVgs18Y1P4 ")
         st.divider()
         
         
