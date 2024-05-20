@@ -678,6 +678,7 @@ elif page == "Fitness":
 
     elif second_subcategory == "Lower Body":
         st.subheader("Randomized Lower Body Workout")
+        st.write("This randomized lower body workout contains exercises for your legs and glutes.")
         Lower_Body_fitness_übungen = [
             "Alternating Stance Jumps",
             "Boxer Shuffle",
