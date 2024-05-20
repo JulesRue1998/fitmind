@@ -490,7 +490,7 @@ elif page == "Fitness":
 
   
     st.sidebar.subheader("Randomized workout")
-    second_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Back", "Core", "Glutes", "Legs", "Upper Body", "Lower Body", "Full Body"])
+    second_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Back", "Core", "Glutes", "Legs", "Lower Body", "Upper Body", "Full Body"])
     
     if second_subcategory == " ":
         st.subheader(" ")
@@ -676,21 +676,77 @@ elif page == "Fitness":
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
 
-    elif second_subcategory == "Upper Body":
+    elif second_subcategory == "Lower Body":
         st.subheader("Randomized Lower Body Workout")
+        Lower_Body_fitness_übungen = [
+            "Alternating Stance Jumps",
+            "Boxer Shuffle",
+            "Butt Kicks",
+            "Flutter Kicks",
+            "Half Squat walk",
+            "High Kicks",
+            "30 Jumping Jacks",
+            "Knee Side Leg Lifts",
+            "Lateral Hops",
+            "Lying Leg Circles",
+            "Marching Hip Raises",
+            "Pulsing Side Lying Leg Raises",
+            "Rainbow Leg Lifts",
+            "Side And Cross Crunches",
+            "Side Knee Raises",
+            "Side Lying Bottom Leg Lifts",
+            "Side Lying Leg Raises",
+            "Single Leg V-Ups",
+            "Straight Leg Circles",
+            "Walking High Knees",
+            "Bridge for 30 seconds",
+            "Clamshells",
+            "Donkey Kicks",
+            "Donkey Kicks",
+            "Fire Hydrants",
+            "Glute Bridges",
+            "Hip Thrusts",
+            "Forward Lunges",
+            "Reverse Lunges",
+            "Lateral Lunges",
+            "Walking Lunges",
+            "Quadruped Leg Lifts",
+            "Quadruped Hip Extensions",
+            "Side Leg Raises",
+            "Single-Leg Glute Bridges",
+            "Standard Squats",
+            "Bulgarian Split Squats",
+            "Sumo Squats",
+            "Plie Squats",
+            "Standing Leg Abduction",
+            "Standing Kickbacks",
+            "Wall Sit"
+        ]
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
-           st.header("Beginner Training")
+            st.header("Beginner Training")
+            st.write("Here are 5 randomized exercises for your lower body. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
+            zufällige_übungen_beginner = random.sample(Lower_Body_fitness_übungen, 5)
+            for übung in zufällige_übungen_beginner:
+                st.write(Exercise)
         
         with tab2:
-           st.header("Intermediate Training")
+            st.header("Intermediate Training")
+            st.write("Here are 5 randomized exercises for your lower body. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
+            zufällige_übungen_beginner = random.sample(Lower_Body_fitness_übungen, 8)
+            for übung in zufällige_übungen_beginner:
+                st.write(Exercise)
         
         with tab3:
-           st.header("Advanced Training")
+            st.header("Advanced Training")
+            st.write("Here are 5 randomized exercises for your lower body. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
+            zufällige_übungen_beginner = random.sample(Lower_Body_fitness_übungen, 11)
+            for übung in zufällige_übungen_beginner:
+                st.write(übung)
                 
-    elif second_subcategory == "Lower Body":
+    elif second_subcategory == "Upper Body":
         st.subheader("Randomized Upper Body Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
