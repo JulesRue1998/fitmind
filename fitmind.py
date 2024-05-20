@@ -223,7 +223,7 @@ elif page == "Fitness":
         st.subheader("V-ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Lie flat on your back with arms extended overhead and legs straight.")
-            st.write("2. lift your arms and legs to form a "V" shape, trying to touch your hands to your toes. Keep your legs as straight as possible throughout the movement.")
+            st.write("2. lift your arms and legs to form a V-shape, trying to touch your hands to your toes. Keep your legs as straight as possible throughout the movement.")
             st.write("3. Lower your arms and legs back to the starting position with control.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/7UVgs18Y1P4')
