@@ -56,7 +56,6 @@ elif page == "Fitness":
            st.image("Muscles-wall.jpeg")
            st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
             
-       
         st.subheader("Boat pose")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Sit on the floor with your legs extended in front of you. Keep your spine tall and your hands resting on the floor beside your hips for support.")
@@ -253,64 +252,128 @@ elif page == "Fitness":
         st.divider()
 
         st.subheader("Bridge")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Clamshells")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Donkey Kicks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Fire Hydrants")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Glute Bridges")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Hip Thrusts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Lunges")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
 
         st.subheader("Variation: Reverse Lunges")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
 
         st.subheader("Variation: Lateral Lunges")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
 
         st.subheader("Variation: Walking Lunges")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Quadruped Leg Lifts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Quadruped Hip Extensions")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Side Leg Raises")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Single-Leg Glute Bridges")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
 
         st.subheader("Standing Leg Abduction")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
         
         st.subheader("Standing Kickbacks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source: ")
         st.divider()
         
         st.subheader("Squats")
