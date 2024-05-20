@@ -704,8 +704,8 @@ elif page == "Fitness":
         with tab3:
            st.header("Advanced Training")
 
-     elif second_subcategory == "Full Body":
-        st.subheader("Randomized Full Body Workout")
+    elif second_subcategory == "Full Body":
+        st.subheader("Randomized Upper Body Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
