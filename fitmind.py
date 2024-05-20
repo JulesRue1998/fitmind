@@ -340,32 +340,24 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/6b1hu6iSqok')
+            st.write("Video source: https://youtu.be/6b1hu6iSqok")
         st.divider()
 
         st.subheader("Single-Leg Glute Bridges")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
-        st.divider()
-
-        st.subheader("Standing Leg Abduction")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/AVAXhy6pl7o')
+            st.write("Video source: https://youtu.be/AVAXhy6pl7o")
         st.divider()
         
         st.subheader("Standing Kickbacks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/pdP0uJXvc44')
+            st.write("Video source: https://youtu.be/pdP0uJXvc44")
         st.divider()
         
         st.subheader("Squats")
@@ -379,19 +371,40 @@ elif page == "Fitness":
             st.write("Video Source: https://www.youtube.com/watch?v=xqvCmoLULNY")
         
         st.subheader("Variation: Bulgarian Split Squats")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/vgn7bSXkgkA')
+            st.write("Video source: https://youtu.be/vgn7bSXkgkA")
         
         st.subheader("Variation: Plie Squats")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/8ZBXkH6QHRY')
+            st.write("Video source: https://youtu.be/8ZBXkH6QHRY")
         
         st.subheader("Variation: Sumo Squats")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/sqDGkIBYPAk')
+            st.write("Video source: https://youtu.be/sqDGkIBYPAk")
         st.divider()
         
         st.subheader("Wall Sit")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/-cdph8hv0O0')
+            st.write("Video source: https://youtu.be/-cdph8hv0O0")
 
         st.subheader("Variation: Wall Sit with Leg Lifts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/E-wrrBgLfeQ')
+            st.write("Video source: https://youtu.be/E-wrrBgLfeQ")
         st.divider()
         
     elif selected_subcategory == "Legs":
