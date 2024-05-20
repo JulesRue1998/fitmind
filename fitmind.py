@@ -915,20 +915,21 @@ elif page == "Fitness":
 
 elif page == "Mental Health":
     st.sidebar.subheader("Mental Health Subcategories")
-    Mental_Health_Subcategories = [" ", "Stresslevel tracker", "Mood tracker", "Sleep tracker"]
+    Mental_Health_Subcategories = [" ", "Stress & Mood Tracker", "Sleep tracker"]
     selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
   
     if selected_subcategory == " ":
         st.write(" ")
     
-    elif selected_subcategory == "Stresslevel tracker":
+    elif selected_subcategory == "Stress & Mood tracker":
         st.subheader("Track your stress ")
         st.write('Enter your stress level for each day.')
-            # Text elements
-        st.write("Wie geht es dir heute?")
-    
-        # Input Widgets
+        # Text elements
+        st.write("How is your mood today?")
         mood = st.slider("Stimmung", 0, 10, 5)
+        # Input Widgets
+
+        st.write("How stressed have you been today")
         stress_level = st.slider("Stresslevel", 0, 10, 5)
     
         # Chart elements
