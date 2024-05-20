@@ -676,6 +676,51 @@ elif page == "Fitness":
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
 
+        elif second_subcategory == "Lower Body":
+        st.subheader("Randomized Lower Body Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+        
+        with tab2:
+           st.header("Intermediate Training")
+        
+        with tab3:
+           st.header("Advanced Training")
+                
+        elif second_subcategory == "Upper Body":
+        st.subheader("Randomized Upper Body Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+        
+        with tab2:
+           st.header("Intermediate Training")
+        
+        with tab3:
+           st.header("Advanced Training")
+
+        elif second_subcategory == "Full Body":
+        st.subheader("Randomized Full Body Workout")
+
+        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
+
+        with tab1:
+           st.header("Beginner Training")
+        
+        with tab2:
+           st.header("Intermediate Training")
+        
+        with tab3:
+           st.header("Advanced Training")
+
+
+
+
     st.sidebar.subheader("Fitness Tracker")
     third_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker"])
     
