@@ -921,7 +921,7 @@ elif page == "Mental Health":
     if selected_subcategory == " ":
         st.write(" ")
     
-    elif selected_subcategory == "Stress & Mood tracker":
+    elif selected_subcategory == "Stress & Mood Tracker":
         st.subheader("Track your stress ")
         st.write('Enter your stress level for each day.')
         # Text elements
