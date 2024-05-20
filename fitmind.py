@@ -924,6 +924,21 @@ elif page == "Mental Health":
     elif selected_subcategory == "Stresslevel tracker":
         st.subheader("Track your stress ")
         st.write('Enter your stress level for each day.')
+            # Text elements
+        st.write("Wie geht es dir heute?")
+    
+        # Input Widgets
+        mood = st.slider("Stimmung", 0, 10, 5)
+        stress_level = st.slider("Stresslevel", 0, 10, 5)
+    
+        # Chart elements
+        mood_data = pd.DataFrame({
+            'Datum': pd.date_range(start='2024-01-01', periods=30),
+            'Stimmung': np.random.randint(0, 11, size=30),
+            'Stresslevel': np.random.randint(0, 11, size=30)
+        })
+        st.write("Verlauf der Stimmung und des Stresslevels:")
+        st.line_chart(mood_data.set_index('Datum'))
 
     
     elif selected_subcategory == "Mood tracker":
