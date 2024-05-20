@@ -487,114 +487,17 @@ elif page == "Fitness":
             st.video('https://youtu.be/v0C88boWRIg')
             st.write("Video source: https://youtu.be/v0C88boWRIg")
         st.divider()
+
+  
+    st.sidebar.subheader("Randomized workout")
+    second_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Back", "Core", "Glutes", "Legs", "Upper Body", "Lower Body", "Full Body"])
     
-        
-    st.sidebar.subheader("Planned Programms")
-    second_subcategory = st.sidebar.selectbox("Choose a second subcategory", [" ", "Summerbody", "Get That Booty", "VERY HARD ABS", "Upper Body", "Lower Body"])
-   
     if second_subcategory == " ":
         st.subheader(" ")
         st.write(" ")
-    
-    elif second_subcategory == "Summerbody":
-        st.subheader("Summerbody")
-        st.write("Summerbody")
-        
-
-        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
-        
-        with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-        
-        with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
-        with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
 
     
-        
-    elif second_subcategory == "Get That Booty":
-        st.subheader("Get That Booty")
-        st.write("Get That Booty")
-        
-        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
-        
-        with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-        
-        with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
-        with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-        
-    elif second_subcategory == "VERY HARD ABS":
-        st.subheader("ABS ABS ABS")
-        
-        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
-        
-        with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-                    
-        with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
-        with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-
-    elif second_subcategory == "Upper Body":
-        st.subheader("Arme, Rücken, Brust")
-
-        tab1, tab2, tab3 = st.tabs(["Beginner", "intermediate", "Advanced"])
-        
-        with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-        
-        with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
-        with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-
-    elif second_subcategory == "Lower Body":
-        st.subheader("Bauch, Beine, Po")
-
-        tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
-
-        with tab1:
-           st.header("Beginner Training")
-           st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-        
-        with tab2:
-           st.header("Intermediate Training")
-           st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-        
-        with tab3:
-           st.header("Advanced Training")
-           st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-
-    st.sidebar.subheader("Randomized workout")
-    third_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Back", "Core", "Glutes", "Legs"])
-    
-    if third_subcategory == " ":
-        st.subheader(" ")
-        st.write(" ")
-
-    
-    elif third_subcategory == "Arms":
+    elif second_subcategory == "Arms":
         st.subheader("Randomized Arm Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
@@ -609,7 +512,7 @@ elif page == "Fitness":
            st.header("Advanced Training")
             
 
-    elif third_subcategory == "Back":
+    elif second_subcategory == "Back":
         st.subheader("Randomized Back Workout")
 
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
@@ -624,7 +527,7 @@ elif page == "Fitness":
            st.header("Advanced Training")
 
         
-    elif third_subcategory == "Core":
+    elif second_subcategory == "Core":
         core_fitness_übungen = [
             "Ab Rollouts",
             "Bicycle Crunches",
@@ -674,7 +577,7 @@ elif page == "Fitness":
             for übung in zufällige_übungen_advanced:
                 st.write(übung)
 
-    elif third_subcategory == "Glutes":
+    elif second_subcategory == "Glutes":
         glutes_fitness_übungen = [
             "Bridge for 30 seconds",
             "Clamshells",
@@ -699,7 +602,6 @@ elif page == "Fitness":
             "Standing Kickbacks",
             "Wall Sit"
         ]
-
 
         st.subheader("Randomized Glutes Workout")
 
@@ -726,7 +628,7 @@ elif page == "Fitness":
                 st.write(übung)
 
 
-    elif third_subcategory == "Legs":
+    elif second_subcategory == "Legs":
         st.subheader("Randomized Leg Workout")
         legs_fitness_übungen = [
             "Alternating Stance Jumps",
@@ -775,12 +677,12 @@ elif page == "Fitness":
                 st.write(übung)
 
     st.sidebar.subheader("Fitness Tracker")
-    fourth_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker"])
+    third_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker"])
     
-    if fourth_subcategory == " ":
+    if third_subcategory == " ":
         st.write(" ")
         
-    elif fourth_subcategory == "water intake":
+    elif third_subcategory == "water intake":
         st.subheader("Track your water intake")
         if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
@@ -795,7 +697,7 @@ elif page == "Fitness":
             st.write("You drank a glass of water!")
             st.write("Total glasses of water drank today:", st.session_state.water_intake)
 
-    elif fourth_subcategory == "Workout tracker":
+    elif third_subcategory == "Workout tracker":
         st.subheader("Workout tracker")
         st.write("Define your Goals here. write down what you achieved")
         
