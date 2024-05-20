@@ -464,44 +464,28 @@ elif page == "Fitness":
             st.write("Video source: https://youtu.be/O_8EUJ7i-PI")
         st.divider()
 
-        st.subheader("Side Lying Bottom Leg Lifts")
+        st.subheader("Side Lying Leg Lifts")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source:")
-        st.divider()
-
-        st.subheader("Side Lying Leg Raises")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source:")
+            st.video('https://youtu.be/jgh6sGwtTwk')
+            st.write("Video source: https://youtu.be/jgh6sGwtTwk")
         st.divider()
 
         st.subheader("Single Leg V-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source:")
-        st.divider()
-
-        st.subheader("Straight Leg Circles")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source:")
+            st.video('https://youtu.be/RA9nGJVwtJ4')
+            st.write("Video source: https://youtu.be/RA9nGJVwtJ4")
         st.divider()
 
         st.subheader("Walking High Knees")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source:")
+            st.video('https://youtu.be/v0C88boWRIg')
+            st.write("Video source: https://youtu.be/v0C88boWRIg")
         st.divider()
     
         
