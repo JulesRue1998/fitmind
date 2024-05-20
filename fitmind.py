@@ -352,84 +352,156 @@ elif page == "Fitness":
            st.write("Image source: https://www.muskelpower.de/beinmuskeln/")
         st.divider()
 
-        st.subheader("Alternating Stance Jumps")
-        st.write("")
+        st.subheader("Alternating Split Stance Jumps")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/lPLkTeryw20')
+            st.write("Video source: https://youtu.be/lPLkTeryw20")
         st.divider()
 
         st.subheader("Boxer Shuffle")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/BmfOURosbdo')
+            st.write("Video source: https://youtu.be/BmfOURosbdo")
         st.divider()
 
         st.subheader("Butt Kicks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/-dtvAxibgYQ')
+            st.write("Video source: https://youtu.be/-dtvAxibgYQ")
         st.divider()
 
         st.subheader("Flutter Kicks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/ZB1SwBRVLCc')
+            st.write("Video source: https://youtu.be/ZB1SwBRVLCc")
         st.divider()
 
         st.subheader("Half Squat Walk")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/wqfRvXc7BHY')
+            st.write("Video source: https://youtu.be/wqfRvXc7BHY")
         st.divider()
 
         st.subheader("High Kicks")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/qzQ5qn6IWmM')
+            st.write("Video source: https://youtu.be/qzQ5qn6IWmM")
         st.divider()
 
         st.subheader("Jumping Jack")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/PBHUfBzxczU')
+            st.write("Video source: https://youtu.be/PBHUfBzxczU")
         st.divider()
 
         st.subheader("Knee Side Leg Lifts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/aOpoqD15TLQ')
+            st.write("Video source: https://youtu.be/aOpoqD15TLQ")
         st.divider()
 
         st.subheader("Lateral Hops")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/JNMtkCkIYew')
+            st.write("Video source: https://youtu.be/JNMtkCkIYew")
         st.divider()
 
         st.subheader("Lying Leg Circles")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/_tOo9g-6KcE')
+            st.write("Video source: https://youtu.be/_tOo9g-6KcE")
         st.divider()
 
         st.subheader("Marching Hip Raises")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/VfUSA0y2JeE')
+            st.write("Video source: https://youtu.be/VfUSA0y2JeE")
         st.divider()
 
         st.subheader("Pulsing Side Lying Leg Raises")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/Kk2fiskUG98')
+            st.write("Video source: https://youtu.be/Kk2fiskUG98")
         st.divider()
 
         st.subheader("Rainbow Leg Lifts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/SGALKLTCCDk')
+            st.write("Video source: https://youtu.be/SGALKLTCCDk")
         st.divider()
 
-        st.subheader("Side And Cross Crunches")
-        st.write("")
-        st.divider()
-
-        st.subheader("Side Knee Raises")
-        st.write("")
+        st.subheader("Standing Knee Raises")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('https://youtu.be/O_8EUJ7i-PI')
+            st.write("Video source: https://youtu.be/O_8EUJ7i-PI")
         st.divider()
 
         st.subheader("Side Lying Bottom Leg Lifts")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source:")
         st.divider()
 
         st.subheader("Side Lying Leg Raises")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source:")
         st.divider()
 
         st.subheader("Single Leg V-Ups")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source:")
         st.divider()
 
         st.subheader("Straight Leg Circles")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source:")
         st.divider()
 
         st.subheader("Walking High Knees")
-        st.write("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video source:")
         st.divider()
     
         
