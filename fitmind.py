@@ -4,6 +4,8 @@ import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 import random
+import seaborn as sns
+from PIL import Image
 
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health"])
