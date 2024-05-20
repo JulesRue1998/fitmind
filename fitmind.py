@@ -922,25 +922,8 @@ elif page == "Mental Health":
         st.write(" ")
     
     elif selected_subcategory == "Stresslevel tracker":
-        st.write("Track your Stresslevels")
+        st.subheader("Track your stress ")
         st.write('Enter your stress level for each day.')
-
-        # Create a DataFrame to store stress data
-        stress_data = pd.DataFrame(columns=['Date', 'Stress Level'])
-        
-        # Input form for stress level
-        date = st.date_input('Date')
-        stress_level = st.slider('Stress Level (1-10)', min_value=1, max_value=10, value=5)
-        
-        # Button to submit data
-        if st.button('Submit'):
-            # Append data to DataFrame
-            stress_data = stress_data.append({'Date': date, 'Stress Level': stress_level}, ignore_index=True)
-            st.write('Data submitted successfully!')
-        
-        # Display the stress data
-        st.subheader('Your Stress Data')
-        st.write(stress_data)
 
     
     elif selected_subcategory == "Mood tracker":
