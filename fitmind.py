@@ -255,93 +255,85 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/Xp33YgPZgns')
+            st.write("Video source: https://youtu.be/Xp33YgPZgns")
         st.divider()
 
         st.subheader("Clamshells")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/39vuP5xozsI')
+            st.write("Video source: https://youtu.be/39vuP5xozsI")
         st.divider()
 
         st.subheader("Donkey Kicks")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/SJ1Xuz9D-ZQ')
+            st.write("Video source: https://youtu.be/SJ1Xuz9D-ZQ")
         st.divider()
 
         st.subheader("Fire Hydrants")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
-        st.divider()
-
-        st.subheader("Glute Bridges")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/ofY0RBUtSsw')
+            st.write("Video source: https://youtu.be/ofY0RBUtSsw")
         st.divider()
 
         st.subheader("Hip Thrusts")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/FJNPGhF1R-Y')
+            st.write("Video source: https://youtu.be/FJNPGhF1R-Y")
         st.divider()
 
         st.subheader("Lunges")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/tTej-ax9XiA')
+            st.write("Video source: https://youtu.be/tTej-ax9XiA")
 
         st.subheader("Variation: Reverse Lunges")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/xrPteyQLGAo')
+            st.write("Video source: https://youtu.be/xrPteyQLGAo")
 
         st.subheader("Variation: Lateral Lunges")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/gwWv7aPcD88?t=7')
+            st.write("Video source: https://youtu.be/gwWv7aPcD88?t=7")
 
         st.subheader("Variation: Walking Lunges")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/tQNktxPkSeE')
+            st.write("Video source: https://youtu.be/tQNktxPkSeE")
         st.divider()
 
-        st.subheader("Quadruped Leg Lifts")
+        st.subheader("Quadruped Leg Raise")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/TJbnvoFkLKI')
+            st.write("Video source: https://youtu.be/TJbnvoFkLKI")
         st.divider()
 
         st.subheader("Quadruped Hip Extensions")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video source: ")
+            st.video('https://youtu.be/1UwyzWjFx5k')
+            st.write("Video source: https://youtu.be/1UwyzWjFx5k")
         st.divider()
 
         st.subheader("Side Leg Raises")
