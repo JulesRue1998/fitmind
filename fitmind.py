@@ -847,7 +847,7 @@ elif page == "Fitness":
 
 
     st.sidebar.subheader("Fitness Tracker")
-    third_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker"])
+    third_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker", "BMI-Calculator"])
     
     if third_subcategory == " ":
         st.write(" ")
@@ -887,6 +887,31 @@ elif page == "Fitness":
             st.write(diary_data)
         else:
              st.info("No entries yet.")
+    elif third_subcategory == "BMI-Calculator":
+        st.subheader("BMI-Calculator")
+        st.write("Calculate your Body Mass Index here")
+
+        # Input Widgets
+        age = st.slider("Alter", 18, 100, 25)
+        weight = st.number_input("Gewicht (kg)", min_value=20.0, max_value=500.0, value=70.0, step=0.1)
+        height = st.number_input("Größe (cm)", min_value=100, max_value=300, value=170, step=1)
+        activity_level = st.selectbox("Aktivitätslevel", ["Sedentär", "Leicht aktiv", "Mäßig aktiv", "Sehr aktiv", "Extrem aktiv"])
+    
+        # Data elements
+        bmi = weight / ((height/100) ** 2)
+        st.write(f"Ihr BMI beträgt: {bmi:.2f}")
+    
+        # Chart elements
+        data = pd.DataFrame({
+            'Kategorie': ['Untergewicht', 'Normalgewicht', 'Übergewicht', 'Adipositas'],
+            'BMI-Bereich': ['< 18.5', '18.5 - 24.9', '25.0 - 29.9', '≥ 30.0'],
+            'Empfehlung': ['Zunehmen', 'Normalgewicht halten', 'Abnehmen', 'Stark abnehmen']
+        })
+        st.write("BMI-Klassifikation:")
+        st.dataframe(data)
+    
+        sns.barplot(x='Kategorie', y='BMI-Bereich', data=data)
+        st.pyplot()
 
 
 
