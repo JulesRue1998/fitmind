@@ -915,7 +915,7 @@ elif page == "Fitness":
 
 elif page == "Mental Health":
     st.sidebar.subheader("Mental Health Subcategories")
-    Mental_Health_Subcategories = [" ", "Stresslevel tracker ", "Mood tracker", "Sleep tracker"]
+    Mental_Health_Subcategories = [" ", "Stresslevel tracker", "Mood tracker", "Sleep tracker"]
     selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
   
     if selected_subcategory == " ":
