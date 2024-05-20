@@ -202,22 +202,19 @@ elif page == "Fitness":
         
         st.subheader("Sit-ups")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lie on your back with knees bent and feet flat on the floor and place your hands behind your head or cross them over your chest.")
+            st.write("2. Engage your core and lift your upper body towards your knees. Keep your feet flat on the floor and exhale as you sit up.")
+            st.write("3. Slowly lower your upper body back to the starting position, inhale as you lower down.")
+            st.write("4. Repeat exercise")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/swOyWKk7Oko')
             st.write("Video Source: https://youtu.be/swOyWKk7Oko")
-
-        st.subheader("Variation: Jackknife Sit-ups")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('https://youtu.be/GEZ8NLbtc8Q')
-            st.write("Video Source: https://youtu.be/GEZ8NLbtc8Q")
-        st.divider()
         
         st.subheader("Toe Touches")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lie flat on your back with legs extended straight up towards the ceiling. Your arms can be extended alongside your body or reaching towards your toes.")
+            st.write("2. Engage your core and lift your upper back off the floor. Reach your hands towards your toes, aiming to touch them.")
+            st.write("3. Slowly lower your upper back back down to the floor with control.")
         with st.expander(":video_camera: Watch Video"):
             st.video("https://youtu.be/9iEI95-eZWk")
             st.write("Video Source: https://youtu.be/9iEI95-eZWk")
@@ -225,7 +222,9 @@ elif page == "Fitness":
         
         st.subheader("V-ups")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lie flat on your back with arms extended overhead and legs straight.")
+            st.write("2. lift your arms and legs to form a "V" shape, trying to touch your hands to your toes. Keep your legs as straight as possible throughout the movement.")
+            st.write("3. Lower your arms and legs back to the starting position with control.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/7UVgs18Y1P4')
             st.write("Video Source: https://youtu.be/7UVgs18Y1P4 ")
