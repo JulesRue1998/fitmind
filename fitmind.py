@@ -49,7 +49,7 @@ elif page == "Fitness":
         col1, col2 = st.columns(2)
         with col1:
            st.subheader("Benefits")
-            st.write("Core training offers benefits like including improved stability, better posture, relief from back pain, increased power, improved breathing efficiency and appearance with a stronger, more defined midsection.")
+           st.write("Core training offers benefits like including improved stability, better posture, relief from back pain, increased power, improved breathing efficiency and appearance with a stronger, more defined midsection.")
        
         with col2:
            st.subheader("used Muscles")
