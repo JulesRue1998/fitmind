@@ -1168,11 +1168,11 @@ elif page == "Mental Health":
         col1, col2 = st.columns(2)
         
         with col1:
-            st.subheader("Zeller Schlaf Forte")
+            st.subheader("Lasea")
             st.write(" Einnahmehinweise ")
        
         with col2:
-            st.image("Zeller-Schlaf-Forte.png")
+            st.image("Lasea.jpeg")
             st.write("Image Source: https://zellerag.ch/media/cnrnvuav/zell_zeller_schlaf_forte_30filmtabl_de.png?anchor=bottomcenter&mode=max&format=png&width=940&lazyload=true&lazyloadPixelated=true&height=705&preferFocalPoint=false&useCropDimensions=false&maxwidth=3200&maxheight=3200&c.focalPoint=0.5%2C0.5&c.finalmode=crop&c.zoom=false")
         st.divider()
         
@@ -1196,7 +1196,7 @@ elif page == "Mental Health":
             st.write(" Einnahmehinweise ")
        
         with col2:
-            st.image("vitango.jpeg")
+            st.image("Hyperiforce.png")
             st.write("https://www.avogel-company.ch/img/client/av3-packshots-deutsch/2020_Hyperiforce_120T_CH_d.png?m=1608019976")
         st.divider()
 
