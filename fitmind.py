@@ -26,6 +26,9 @@ elif page == "Fitness":
     st.write("Advanced individuals who are looking to increase muscle size or strength may benefit from performing 4 to 5 sets with 10 repetitions per exercise. Higher volume workouts can help stimulate muscle hypertrophy and strength gains.")
    
     st.divider()
+
+    st.subheader("Gear Requirements")
+    st.write("This app was designed so that people who are new to sports can start their workouts without any gym equipment. Of course, people who want a more intensive workout can use their dumbbells, resistance bands and other equipment for their workouts")
     
     if page == "Fitness":
         st.sidebar.subheader("Workouts")
