@@ -51,8 +51,8 @@ elif page == "Fitness":
        
         with col2:
            st.subheader("used Muscles")
-           st.image("")
-           st.write("")
+           st.image("arm-muscle.jpeg")
+           st.write("Image Source: https://media.geeksforgeeks.org/wp-content/uploads/20240328112244/Diagram-of-arm-muscle.png")
         st.divider()
 
         st.subheader("Arm Circles")
