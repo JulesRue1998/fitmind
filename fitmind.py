@@ -59,169 +59,106 @@ elif page == "Fitness":
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/UVMEnIaY8aU')
+            st.write("Video Source: https://youtu.be/UVMEnIaY8aU")
         st.divider()
 
         st.subheader("Bicep Curls")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/TVflFTempWA?t=20')
+            st.write("Video Source: https://youtu.be/TVflFTempWA?t=20")
         st.divider()
-
-        st.subheader("Bodyweight Rows")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
 
         st.subheader("Chair Dips")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/HCf97NPYeGY')
+            st.write("Video Source: https://youtu.be/HCf97NPYeGY")
         st.divider()
 
         st.subheader("Isometric Bicep Hold")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Hold dumbbells in each hand. If you do not have dumbbells, use full water bottles.")
+            st.write("2. Keep your elbows close to your torso and your palms facing up. Keeping your upper body stationary, bring the weights to a 90 degrees hold.")
+            st.write("3. Hold for a minimum of 5 seconds or other given time.")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/0GYXknAKa8g')
+            st.write("Video Source: https://youtu.be/0GYXknAKa8g")
         st.divider()
 
-        st.subheader("Plank")
+        st.subheader("Plank Shoulder Taps")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/8rgurWd-PB8')
+            st.write("Video Source: https://youtu.be/8rgurWd-PB8")
         st.divider()
 
-        st.subheader("Variation: Planl Shoulder Taps")
+        st.subheader("Reverse Plank")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Variation: Reverse Plank")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Variation: Reverse Plank")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Variation: Side Plank")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/v2pPWNSDorE')
+            st.write("Video Source: https://youtu.be/v2pPWNSDorE")
         st.divider()
         
-        st.subheader("Variation: Walking Plank")
+        st.subheader("Walking Plank")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Punches")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/0EePC0_n6J4')
+            st.write("Video Source: https://youtu.be/0EePC0_n6J4")
         st.divider()
 
         st.subheader("Push-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/NE96m3TvI2o')
+            st.write("Video Source: https://youtu.be/NE96m3TvI2o")
         st.divider()
 
-        st.subheader("Variation: Diamond Push-Ups")
+        st.subheader("Diamond Push-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/XtU2VQVuLYs')
+            st.write("Video Source: https://youtu.be/XtU2VQVuLYs")
         st.divider()
 
         st.subheader("Decline Push-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/QBlYp-EwHlo')
+            st.write("Video Source: https://youtu.be/QBlYp-EwHlo")
         st.divider()
 
         st.subheader("Incline Push-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/yAbg3_pJKvw')
+            st.write("Video Source: https://youtu.be/yAbg3_pJKvw")
         st.divider()
 
         st.subheader("Plank to Push-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/56vUOad6Irs')
+            st.write("Video Source: https://youtu.be/56vUOad6Irs")
         st.divider()
 
         st.subheader("Wall Push-Ups")
         with st.expander(":information_source: Read Instructions"):
             st.write("")
         with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Towel Curls")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Tricep Dips")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
-        st.divider()
-
-        st.subheader("Tricep Extensions")
-        with st.expander(":information_source: Read Instructions"):
-            st.write("")
-        with st.expander(":video_camera: Watch Video"):
-            st.video('')
-            st.write("Video Source: ")
+            st.video('https://youtu.be/-KVhapnEtuk')
+            st.write("Video Source: https://youtu.be/-KVhapnEtuk")
         st.divider()
     
     elif selected_subcategory == "Back":
