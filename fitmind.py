@@ -403,10 +403,10 @@ elif page == "Fitness":
         
         st.subheader("Squats")
         with st.expander(":information_source: Read Instructions"):
-            st.write(" 1. Stand with your feet wider than your Hips and feet pointed slightly out.")
-            st.write(" 2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
-            st.write(" 3. Push back up until you reach standing positions.")
-            st.write(" 4. Repeat.")
+            st.write("1. Stand with your feet wider than your Hips and feet pointed slightly out.")
+            st.write("2. Begin bendin your knees until parallel to the floor with your back as straight as possible.")
+            st.write("3. Push back up until you reach standing positions.")
+            st.write("4. Repeat.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://www.youtube.com/watch?v=xqvCmoLULNY')
             st.write("Video Source: https://www.youtube.com/watch?v=xqvCmoLULNY")
