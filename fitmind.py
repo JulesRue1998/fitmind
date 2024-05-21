@@ -226,7 +226,6 @@ elif page == "Fitness":
     
     elif selected_subcategory == "Back":
         st.subheader("Back Training")
-                st.subheader("Back Training")
         col1, col2 = st.columns(2)
         with col1:
            st.subheader("Benefits")
