@@ -1164,12 +1164,12 @@ elif page == "Mental Health":
         st.divider()
 
         st.subheader("Nervousness")
-        st.write("")
+        st.write("In cases of anxiety and inner restlessness, herbal medicine made from lavender oil supports the neuronal stimulus filter and helps to reduce nervousness.")
         col1, col2 = st.columns(2)
         
         with col1:
             st.subheader("Lasea")
-            st.write(" Einnahmehinweise ")
+            st.write("Lasea is taken once a day, preferably in the evening with a meal and a glass of still water. Lasea is for adults aged 18 and over and is available over the counter in pharmacies and drugstores.")
        
         with col2:
             st.image("Lasea.jpeg")
