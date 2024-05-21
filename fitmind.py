@@ -908,10 +908,10 @@ elif page == "Fitness":
         
         # Display the water emoji
         water_emoji = "💧"
-        st.write("if you drank a glass of water, press the button below!", :droplet:)
+        st.write("if you drank a glass of water, press the button below! :droplet:")
         
         # Add a button to increment the water intake counter when clicked
-        if st.button("Drink a glass of water", :droplet:):
+        if st.button("Drink a glass of water :droplet:"):
             st.session_state.water_intake += 1
             st.write("You drank a glass of water! :droplet:")
             st.write("Total glasses of water drank today:", st.session_state.water_intake)
