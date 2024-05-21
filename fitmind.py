@@ -901,7 +901,7 @@ elif page == "Fitness":
         st.write(" ")
         
     elif third_subcategory == "water intake":
-        st.subheader("Track your water intake", :droplet:)
+        st.subheader("Track your water intake :droplet:")
         st.write("Track your water intake. A glass has about 250ml of water in it. Aim to drink around 2.5 liters of water per day.")
         if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
