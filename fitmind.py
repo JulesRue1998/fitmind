@@ -382,7 +382,10 @@ elif page == "Fitness":
 
         st.subheader("Single-Leg Glute Bridges")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lie on your back with your arms by your sides, knees bent, and feet flat on the floor.")
+            st.write("2. Raise one leg and lift your hips as high as you can.")
+            st.write("3. Lower your hips to the initial position.")
+            st.write("4. Repeat exercise, and then switch legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/AVAXhy6pl7o')
             st.write("Video source: https://youtu.be/AVAXhy6pl7o")
@@ -390,7 +393,9 @@ elif page == "Fitness":
         
         st.subheader("Standing Kickbacks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lift one leg off the ground and extend it behind you. Keep your knee straight and squeeze your glutes as you lift your leg.")
+            st.wirte("2. Keep Core Engaged: Throughout the exercise, keep your core tight.")
+            st.write("3. Repeat exercise, and then switch legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/pdP0uJXvc44')
             st.write("Video source: https://youtu.be/pdP0uJXvc44")
@@ -408,21 +413,28 @@ elif page == "Fitness":
         
         st.subheader("Variation: Bulgarian Split Squats")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand with feet hip width apart and approximately 2 shoulder widths in length with shoelaces down on a bench.")
+            st.write("2. Drop the trailing knee down until it is slighgtly off the ground maintaining a slight forward torso angle.")
+            st.write("3. Reverse the pattern and return to the starting position.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/vgn7bSXkgkA')
             st.write("Video source: https://youtu.be/vgn7bSXkgkA")
         
         st.subheader("Variation: Plie Squats")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand with your feet in a wide stance, your toes pointing out to the sides.")
+            st.write("2. Squat until your thighs are parallel to the floor.")
+            st.write("3. Stand up and bring the dumbbells together in front of your chest.")
+            st.write("4. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/8ZBXkH6QHRY')
             st.write("Video source: https://youtu.be/8ZBXkH6QHRY")
         
         st.subheader("Variation: Sumo Squats")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand with your feet in a wide stance and with your toes pointing out to the sides.")
+            st.write("2. Lower yourself by bending your knees and pressing your hips back. Bend your upper body forwards.")
+            st.write("3. Once your thighs are parallel to the floor, come back up and repeat.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/sqDGkIBYPAk')
             st.write("Video source: https://youtu.be/sqDGkIBYPAk")
@@ -430,14 +442,17 @@ elif page == "Fitness":
         
         st.subheader("Wall Sit")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Start in a squat position, with your thighs parallel to the floor and your back against a wall.")
+            st.write("2. Hold this position for as long as you can.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/-cdph8hv0O0')
             st.write("Video source: https://youtu.be/-cdph8hv0O0")
 
         st.subheader("Variation: Wall Sit with Leg Lifts")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Start in a squat position, with your thighs parallel to the floor and your back against a wall.")
+            st.write("2. Slowly lift one leg and create tension in the other that is grounded.")
+            st.write("3. Alternate between legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/E-wrrBgLfeQ')
             st.write("Video source: https://youtu.be/E-wrrBgLfeQ")
