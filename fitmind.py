@@ -60,7 +60,7 @@ elif page == "Fitness":
            st.subheader("used Muscles")
            st.image("Muscles-wall.jpeg")
            st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
-            
+        st.divider()
         st.subheader("Boat pose")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Sit on the floor with your legs extended in front of you. Keep your spine tall and your hands resting on the floor beside your hips for support.")
