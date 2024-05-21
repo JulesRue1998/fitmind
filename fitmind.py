@@ -901,19 +901,19 @@ elif page == "Fitness":
         st.write(" ")
         
     elif third_subcategory == "water intake":
-        st.subheader("Track your water intake", water_emoji)
+        st.subheader("Track your water intake", :droplet:)
         st.write("Track your water intake. A glass has about 250ml of water in it. Aim to drink around 2.5 liters of water per day.")
         if "water_intake" not in st.session_state:
             st.session_state.water_intake = 0
         
         # Display the water emoji
         water_emoji = "💧"
-        st.write("if you drank a glass of water, press the button below!", water_emoji)
+        st.write("if you drank a glass of water, press the button below!", :droplet:)
         
         # Add a button to increment the water intake counter when clicked
-        if st.button("Drink a glass of water", water_emoji):
+        if st.button("Drink a glass of water", :droplet:):
             st.session_state.water_intake += 1
-            st.write("You drank a glass of water!")
+            st.write("You drank a glass of water! :droplet:")
             st.write("Total glasses of water drank today:", st.session_state.water_intake)
 
     elif third_subcategory == "Workout tracker":
