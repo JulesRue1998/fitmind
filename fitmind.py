@@ -253,7 +253,10 @@ elif page == "Fitness":
 
         st.subheader("Bridge")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("Lie on your back with your knees bent.")
+            st.write("Tighten the muscles in your stomach.")
+            st.write("Raise your hips off the floor until they line up with your knees and shoulders.")
+            st.write("Hold for a chosen amount of time.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/Xp33YgPZgns')
             st.write("Video source: https://youtu.be/Xp33YgPZgns")
@@ -261,7 +264,10 @@ elif page == "Fitness":
 
         st.subheader("Clamshells")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Lie on your side with your knees slightly bent and with one leg on top of the other.")
+            st.write("2. Keep your feet together and lift your top knee until it’s parallel with your hip.")
+            st.write("3. Lower your knee back to the initial position.")
+            st.write("4. Repeat and then switch sides.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/39vuP5xozsI')
             st.write("Video source: https://youtu.be/39vuP5xozsI")
@@ -269,7 +275,10 @@ elif page == "Fitness":
 
         st.subheader("Donkey Kicks")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Get down on your hands and knees, with your hands under your shoulders and your knees under your hips.")
+            st.write("2. Flex your right foot, lift your right leg up, keeping the knee bent at a 90-degree angle, and squeeze the glutes.")
+            st.write("3. Return to the starting position")
+            st.write("4. Repeat, and switch legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/SJ1Xuz9D-ZQ')
             st.write("Video source: https://youtu.be/SJ1Xuz9D-ZQ")
@@ -277,7 +286,10 @@ elif page == "Fitness":
 
         st.subheader("Fire Hydrants")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Get down on your hands and knees, with your wrists under your shoulders and your knees hip-width apart.")
+            st.write("2. Keeping the knee bent, raise one leg up and out to the side, until it’s level with your hip.")
+            st.write("3. Return to the starting position.")
+            st.write("4. Repeat, and then switch legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/ofY0RBUtSsw')
             st.write("Video source: https://youtu.be/ofY0RBUtSsw")
@@ -285,7 +297,10 @@ elif page == "Fitness":
 
         st.subheader("Hip Thrusts")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write( 1. Lie on your back on the floor, with knees bent, feet planted firmly on the floor.")
+            st.write("2. Press your heels into the floor, driving your hips upwards. Pause at the top, making sure to squeeze your glutes.") 
+            st.write("3. Slowly return to your starting position")
+            st.write("4. Repeat for a desired amount.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/FJNPGhF1R-Y')
             st.write("Video source: https://youtu.be/FJNPGhF1R-Y")
@@ -293,28 +308,39 @@ elif page == "Fitness":
 
         st.subheader("Lunges")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand with your feet hip-width apart, keep your back straight, your shoulders back, and your abs tight.
+            st.write("2. Take a step forward and slowly bend both knees, until your back knee is just above the floor.")
+            st.write("3. Stand back up and repeat the movement.")
+            st.write("4. Alternate legs until the set is complete.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/tTej-ax9XiA')
             st.write("Video source: https://youtu.be/tTej-ax9XiA")
 
         st.subheader("Variation: Reverse Lunges")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand with your feet shoulder-width apart. Squeeze your glutes and shoulder blades, keeping your gaze neutral at a point straight ahead of you.")
+            st.write("2. Step one leg back and slightly out, landing with your toe first. Work to avoid slamming your knee into the ground and bending your knees to form right angles with both of your legs.")
+            st.write("3. Drive off the ground with your front foot and step your rear leg forward into the starting position.")
+            st.write("4. Repeat exercise.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/xrPteyQLGAo')
             st.write("Video source: https://youtu.be/xrPteyQLGAo")
 
         st.subheader("Variation: Lateral Lunges")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand straight with your feet hip-width apart.")
+            st.write("2. Step out to the side and transfer your weight to that leg.")
+            st.write("3. Use your lead foot to push you back to the starting position.")
+            st.write("4. Repeat and then switch sides.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/gwWv7aPcD88?t=7')
             st.write("Video source: https://youtu.be/gwWv7aPcD88?t=7")
 
         st.subheader("Variation: Walking Lunges")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand with your feet hip-width apart, take a step forward with your right foot and then slowly bend both knees until your back knee is just above the floor.")
+            st.write("2. Stand back up, take a step forward with your left foot and bend both knees until your back knee is just above the floor.")
+            st.write("3. Repeat this forward movement for the entire duration of the set.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/tQNktxPkSeE')
             st.write("Video source: https://youtu.be/tQNktxPkSeE")
@@ -322,7 +348,10 @@ elif page == "Fitness":
 
         st.subheader("Quadruped Leg Raise")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Start on your hands and knees.")
+            st.write("2. Raise leg straight out while tightening your core. Hold the position for 5 seconds.")
+            st.write("3. Lower your leg back to the starting position.")
+            st.write("4. Repeat the move with the opposite leg.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/TJbnvoFkLKI')
             st.write("Video source: https://youtu.be/TJbnvoFkLKI")
@@ -330,7 +359,11 @@ elif page == "Fitness":
 
         st.subheader("Quadruped Hip Extensions")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Engage your core and make sure your back is straight and flat from the base of your pelvis to the top of your head.")
+            st.write("2. Shift your weight slightly to the right side, keeping your torso stable as you do—your hips and shoulders shouldn't twist or rotate as you shift.")
+            st.write("3. Press your left foot up toward the ceiling, keeping your knee bent at a 90-degree angle as you fully extend your left hip.")
+            st.write("4. Lower your left knee back toward the floor, slowly and with control. Stop just before it touches down.")
+            st.write("5. Repeat exercise, and then change legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/1UwyzWjFx5k')
             st.write("Video source: https://youtu.be/1UwyzWjFx5k")
@@ -338,7 +371,10 @@ elif page == "Fitness":
 
         st.subheader("Side Leg Raises")
         with st.expander(":information_source: Read Instructions"):
-            st.write("")
+            st.write("1. Stand up straight with your feet together and your hands on your hips.")
+            st.write("2. Movement: Slowly lift your right leg straight out to the side.")
+            st.write("3. Pause, then slowly lower the leg. Keep your hips even throughout.")
+            st.write("4. Repeat exercise and change legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/6b1hu6iSqok')
             st.write("Video source: https://youtu.be/6b1hu6iSqok")
