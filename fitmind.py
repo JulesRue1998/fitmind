@@ -29,6 +29,8 @@ elif page == "Fitness":
 
     st.subheader("Gear Requirements")
     st.write("This app was designed so that people who are new to sports can start their workouts without any gym equipment. Of course, people who want a more intensive workout can use their dumbbells, resistance bands and other equipment for their workouts")
+
+    st.divider()
     
     if page == "Fitness":
         st.sidebar.subheader("Workouts")
