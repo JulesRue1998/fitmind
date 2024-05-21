@@ -1153,7 +1153,7 @@ elif page == "Mental Health":
         st.title("Supplements to support your mental health")
         st.subheader("Sleeplessness")
         st.write("")
-        
+        col1, col2 = st.columns(2)
         with col1:
             st.subheader("Zeller Schlaf Forte")
             st.write(" Einnahmehinweise ")
