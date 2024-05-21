@@ -931,16 +931,12 @@ elif page == "Mental Health":
     
         # Chart elements
         mood_data = pd.DataFrame({
-            'Datum': pd.date_range(start='2024-05-01', periods=1),
-            'Stimmung': np.random.randint(0, 11, size=1),
-            'Stresslevel': np.random.randint(0, 11, size=1)
+            'Datum': pd.date_range(start='2024-05-01', periods=10),
+            'Stimmung': np.random.randint(0, 11, size=10),
+            'Stresslevel': np.random.randint(0, 11, size=10)
         })
         st.write("Verlauf der Stimmung und des Stresslevels:")
         st.line_chart(mood_data.set_index('Datum'))
-
-    
-    elif selected_subcategory == "Mood tracker":
-        st.write("Track your mood")
     
     elif selected_subcategory == "Sleep tracker":
         st.write("track your sleeping hours")
