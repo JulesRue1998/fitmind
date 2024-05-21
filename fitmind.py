@@ -842,10 +842,7 @@ elif page == "Fitness":
         
         with tab3:
            st.header("Advanced Training")
-
-
-
-
+            
     st.sidebar.subheader("Fitness Tracker")
     third_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "Workout tracker", "BMI-Calculator"])
     
@@ -934,7 +931,7 @@ elif page == "Mental Health":
     
         # Chart elements
         mood_data = pd.DataFrame({
-            'Datum': pd.date_range(start='2024-01-01', periods=30),
+            'Datum': pd.date_range(start='01-01-2024', periods=30),
             'Stimmung': np.random.randint(0, 11, size=30),
             'Stresslevel': np.random.randint(0, 11, size=30)
         })
