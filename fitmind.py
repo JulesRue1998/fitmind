@@ -1153,49 +1153,51 @@ elif page == "Mental Health":
         st.title("Supplements to support your mental health")
         st.subheader("Sleeplessness")
         st.write("")
+        
         with col1:
-           st.subheader("Zeller Schlaf Forte")
-           st.write(" Einnahmehinweise ")
+            st.subheader("Zeller Schlaf Forte")
+            st.write(" Einnahmehinweise ")
        
         with col2:
-           st.image("Zeller-Schlaf-Forte.png")
-           st.write("Image Source: https://zellerag.ch/media/cnrnvuav/zell_zeller_schlaf_forte_30filmtabl_de.png?anchor=bottomcenter&mode=max&format=png&width=940&lazyload=true&lazyloadPixelated=true&height=705&preferFocalPoint=false&useCropDimensions=false&maxwidth=3200&maxheight=3200&c.focalPoint=0.5%2C0.5&c.finalmode=crop&c.zoom=false")
+            st.image("Zeller-Schlaf-Forte.png")
+            st.write("Image Source: https://zellerag.ch/media/cnrnvuav/zell_zeller_schlaf_forte_30filmtabl_de.png?anchor=bottomcenter&mode=max&format=png&width=940&lazyload=true&lazyloadPixelated=true&height=705&preferFocalPoint=false&useCropDimensions=false&maxwidth=3200&maxheight=3200&c.focalPoint=0.5%2C0.5&c.finalmode=crop&c.zoom=false")
         st.divider()
 
         st.subheader("Nervousness")
         st.write("")
         col1, col2 = st.columns(2)
+        
         with col1:
-           st.subheader("Zeller Schlaf Forte")
-           st.write(" Einnahmehinweise ")
+            st.subheader("Zeller Schlaf Forte")
+            st.write(" Einnahmehinweise ")
        
         with col2:
-           st.image("Zeller-Schlaf-Forte.png")
-           st.write("Image Source: https://zellerag.ch/media/cnrnvuav/zell_zeller_schlaf_forte_30filmtabl_de.png?anchor=bottomcenter&mode=max&format=png&width=940&lazyload=true&lazyloadPixelated=true&height=705&preferFocalPoint=false&useCropDimensions=false&maxwidth=3200&maxheight=3200&c.focalPoint=0.5%2C0.5&c.finalmode=crop&c.zoom=false")
+            st.image("Zeller-Schlaf-Forte.png")
+            st.write("Image Source: https://zellerag.ch/media/cnrnvuav/zell_zeller_schlaf_forte_30filmtabl_de.png?anchor=bottomcenter&mode=max&format=png&width=940&lazyload=true&lazyloadPixelated=true&height=705&preferFocalPoint=false&useCropDimensions=false&maxwidth=3200&maxheight=3200&c.focalPoint=0.5%2C0.5&c.finalmode=crop&c.zoom=false")
         st.divider()
         
         st.subheader("Poor Concentration")
         st.write("")
         col1, col2 = st.columns(2)
         with col1:
-           st.subheader("Vitango")
-           st.write(" Einnahmehinweise ")
+            st.subheader("Vitango")
+            st.write(" Einnahmehinweise ")
        
         with col2:
-           st.image("vitango.jpeg")
-           st.write("https://www.schwabepharma.ch/sites/g/files/oawcqg1436/files/styles/landscape_full/public/2022-04/vitango-stress-muedigkeit-packshot-deutsch.jpg.webp?itok=tIReNZPR")
+            st.image("vitango.jpeg")
+            st.write("https://www.schwabepharma.ch/sites/g/files/oawcqg1436/files/styles/landscape_full/public/2022-04/vitango-stress-muedigkeit-packshot-deutsch.jpg.webp?itok=tIReNZPR")
         st.divider()
         
         st.subheader("Depressed Moods")
         st.write("")
         col1, col2 = st.columns(2)
         with col1:
-           st.subheader("A. Vogel Hyperiforce")
-           st.write(" Einnahmehinweise ")
+            st.subheader("A. Vogel Hyperiforce")
+            st.write(" Einnahmehinweise ")
        
         with col2:
-           st.image("vitango.jpeg")
-           st.write("https://www.avogel-company.ch/img/client/av3-packshots-deutsch/2020_Hyperiforce_120T_CH_d.png?m=1608019976")
+            st.image("vitango.jpeg")
+            st.write("https://www.avogel-company.ch/img/client/av3-packshots-deutsch/2020_Hyperiforce_120T_CH_d.png?m=1608019976")
         st.divider()
 
   
