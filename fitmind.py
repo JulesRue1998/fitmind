@@ -931,7 +931,7 @@ elif page == "Mental Health":
     
         # Chart elements
         mood_data = pd.DataFrame({
-            'Datum': pd.date_range(start='current_date', periods=1),
+            'Datum': pd.date_range(start='01-05-2024', periods=1),
             'Stimmung': np.random.randint(0, 11, size=30),
             'Stresslevel': np.random.randint(0, 11, size=30)
         })
