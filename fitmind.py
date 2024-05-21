@@ -727,20 +727,20 @@ elif page == "Fitness":
         tab1, tab2, tab3 = st.tabs(["Beginner", "Intermediate", "Advanced"])
 
         with tab1:
-            st.header("Beginner Training")
+            st.header(":green[Beginner Training]")
             st.write("Here are 5 randomized exercises for your butt. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
             zufällige_übungen_beginner = random.sample(glutes_fitness_übungen, 5)
             for übung in zufällige_übungen_beginner:
                 st.write(übung)
         with tab2:
-            st.header("Intermediate Training")
+            st.header(":yellow[Intermediate Training]")
             st.write("Here are 8 randomized exercises for your butt. Do 3-4 sets with each 10 repetitions. Take a break of 45 Seconds in between the exercises.")
             zufällige_übungen_intermediate = random.sample(glutes_fitness_übungen, 8)
             for übung in zufällige_übungen_intermediate:
                 st.write(übung)
 
         with tab3:
-            st.header("Advanced Training")
+            st.header(":red[Advanced Training]")
             st.write("Here are 11 randomized exercises for your glutes. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
             zufällige_übungen_advanced = random.sample(glutes_fitness_übungen, 11)
             for übung in zufällige_übungen_advanced:
@@ -908,7 +908,7 @@ elif page == "Fitness":
         
         # Display the water emoji
         water_emoji = "💧"
-        st.write(":blue[if you drank a glass of water, press the button below!] :droplet:")
+        st.write("if you drank a glass of water, press the button below! :droplet:")
         
         # Add a button to increment the water intake counter when clicked
         if st.button(":blue[Drink a glass of water] :droplet:"):
