@@ -308,7 +308,7 @@ elif page == "Fitness":
 
         st.subheader("Lunges")
         with st.expander(":information_source: Read Instructions"):
-            st.write("1. Stand with your feet hip-width apart, keep your back straight, your shoulders back, and your abs tight.
+            st.write("1. Stand with your feet hip-width apart, keep your back straight, your shoulders back, and your abs tight.")
             st.write("2. Take a step forward and slowly bend both knees, until your back knee is just above the floor.")
             st.write("3. Stand back up and repeat the movement.")
             st.write("4. Alternate legs until the set is complete.")
