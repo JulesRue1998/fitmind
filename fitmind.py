@@ -1164,6 +1164,7 @@ elif page == "Mental Health":
 
         st.subheader("Nervousness")
         st.write("")
+        col1, col2 = st.columns(2)
         with col1:
            st.subheader("Zeller Schlaf Forte")
            st.write(" Einnahmehinweise ")
@@ -1175,6 +1176,7 @@ elif page == "Mental Health":
         
         st.subheader("Poor Concentration")
         st.write("")
+        col1, col2 = st.columns(2)
         with col1:
            st.subheader("Vitango")
            st.write(" Einnahmehinweise ")
@@ -1186,6 +1188,7 @@ elif page == "Mental Health":
         
         st.subheader("Depressed Moods")
         st.write("")
+        col1, col2 = st.columns(2)
         with col1:
            st.subheader("A. Vogel Hyperiforce")
            st.write(" Einnahmehinweise ")
