@@ -1152,11 +1152,11 @@ elif page == "Mental Health":
     elif selected_subcategory == "Supplements":
         st.title("Supplements to support your mental health")
         st.subheader("Sleeplessness")
-        st.write("")
+        st.write("Herbal preparations with valerian root and hop cones can support and regulate sleep. These medicinal plants, whose effects complement each other, help to calm the mind and improve sleep disorders. Valerian increases the urge to sleep and shortens the time it takes to fall asleep, similar to the body's own messenger substance adenosine. Hops regulate the cycle of sleep and wakefulness, similar to the hormone melatonin.")
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Zeller Schlaf Forte")
-            st.write(" Einnahmehinweise ")
+            st.write("Adults and adolescents from 12 years of age take 1 tablet per day, about 30min to 1h before planned bedtime")
        
         with col2:
             st.image("Zeller-Schlaf-Forte.png")
@@ -1176,12 +1176,12 @@ elif page == "Mental Health":
             st.write("https://www.lasea.ch/sites/g/files/oawcqg281/files/styles/landscape_extra_large/public/2023-02/lasea-lavendelol_0.jpg.webp?itok=NfKPykot")
         st.divider()
         
-        st.subheader("Poor Concentration")
-        st.write("")
+        st.subheader("Poor Concentration, Fatigue and Exhaustion")
+        st.write("Vitango contains the standardized rose root extract WS 1375 of the highest quality. It is a herbal remedy used to relieve mental and physical symptoms of stress and overwork, such as irritability, tension, tiredness and fatigue. The dual action normalizes the release of stress hormones (adrenaline and cortisol) and at the same time increases the body's energy levels")
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("Vitango")
-            st.write(" Einnahmehinweise ")
+            st.write("Adults over the age of 18 take 2 tablets a day, one before breakfast and one before lunch. The tablet should be taken with a glass of water.")
        
         with col2:
             st.image("vitango.jpeg")
@@ -1189,11 +1189,11 @@ elif page == "Mental Health":
         st.divider()
         
         st.subheader("Depressed Moods")
-        st.write("")
+        st.write("Hyperiforce is a fresh plant preparation made from the fresh shoot tips of flowering St. John's wort (Hypericum perforatum). Hyperiforce is used for depressed mood, lack of drive, imbalance, mood instability and states of tension")
         col1, col2 = st.columns(2)
         with col1:
             st.subheader("A. Vogel Hyperiforce")
-            st.write(" Einnahmehinweise ")
+            st.write("The preparation should be taken for at least 14 days until it takes effect. At the start of treatment, take 1 tablet 3 times a day with meals and a little liquid. After 2 weeks, take 1 tablet twice a day. A treatment period of 4-6 weeks is recommended.")
        
         with col2:
             st.image("Hyperiforce.png")
