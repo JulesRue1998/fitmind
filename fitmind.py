@@ -170,8 +170,8 @@ elif page == "Fitness":
        
         with col2:
            st.subheader("used Muscles")
-           st.image("")
-           st.write("")
+           st.image("Rückenmuskulatur.jpeg")
+           st.write("Image Source: https://www.gorillasports.de/magazin/wp-content/uploads/2020/02/Rückenmuskulatur-Gorilla-Sports-Magazin.jpg")
         st.divider()
 
         st.subheader("")
