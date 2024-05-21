@@ -959,10 +959,6 @@ elif page == "Fitness":
         st.write("BMI-Klassifikation:")
         st.dataframe(data)
 
-        st.write("Klassifikation nach Alter:")
-        st.image("2.jpeg")
-        st.write("Image Source: https://besserlaengerleben.at/wp-content/uploads/2021/01/2.jpeg")
-
 
 
 elif page == "Mental Health":
