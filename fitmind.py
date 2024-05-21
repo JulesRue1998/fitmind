@@ -44,10 +44,223 @@ elif page == "Fitness":
         
     elif selected_subcategory == "Arms":
         st.subheader("Arm Training")
-        st.write("Content for Cardio category")
+        col1, col2 = st.columns(2)
+        with col1:
+           st.subheader("Benefits")
+           st.write(" ")
+       
+        with col2:
+           st.subheader("used Muscles")
+           st.image("")
+           st.write("")
+        st.divider()
+
+        st.subheader("Arm Circles")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Bicep Curls")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Bodyweight Rows")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+
+        st.subheader("Chair Dips")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Isometric Bicep Hold")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Plank")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Variation: Planl Shoulder Taps")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Variation: Reverse Plank")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Variation: Reverse Plank")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Variation: Side Plank")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
         
+        st.subheader("Variation: Walking Plank")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Punches")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Push-Ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Variation: Diamond Push-Ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Decline Push-Ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Incline Push-Ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Plank to Push-Ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Wall Push-Ups")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Towel Curls")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Tricep Dips")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("Tricep Extensions")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+    
     elif selected_subcategory == "Back":
         st.subheader("Back Training")
+                st.subheader("Back Training")
+        col1, col2 = st.columns(2)
+        with col1:
+           st.subheader("Benefits")
+           st.write(" ")
+       
+        with col2:
+           st.subheader("used Muscles")
+           st.image("")
+           st.write("")
+        st.divider()
+
+        st.subheader("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
+
+        st.subheader("")
+        with st.expander(":information_source: Read Instructions"):
+            st.write("")
+        with st.expander(":video_camera: Watch Video"):
+            st.video('')
+            st.write("Video Source: ")
+        st.divider()
     
     elif selected_subcategory == "Core":
         st.subheader("Core Training")
@@ -61,6 +274,7 @@ elif page == "Fitness":
            st.image("Muscles-wall.jpeg")
            st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
         st.divider()
+        
         st.subheader("Boat pose")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Sit on the floor with your legs extended in front of you. Keep your spine tall and your hands resting on the floor beside your hips for support.")
