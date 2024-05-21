@@ -372,7 +372,7 @@ elif page == "Fitness":
         st.subheader("Side Leg Raises")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Stand up straight with your feet together and your hands on your hips.")
-            st.write("2. Movement: Slowly lift your right leg straight out to the side.")
+            st.write("2. Slowly lift your right leg straight out to the side.")
             st.write("3. Pause, then slowly lower the leg. Keep your hips even throughout.")
             st.write("4. Repeat exercise and change legs.")
         with st.expander(":video_camera: Watch Video"):
@@ -394,7 +394,7 @@ elif page == "Fitness":
         st.subheader("Standing Kickbacks")
         with st.expander(":information_source: Read Instructions"):
             st.write("1. Lift one leg off the ground and extend it behind you. Keep your knee straight and squeeze your glutes as you lift your leg.")
-            st.wirte("2. Keep Core Engaged: Throughout the exercise, keep your core tight.")
+            st.write("2. Keep Core Engaged: Throughout the exercise, keep your core tight.")
             st.write("3. Repeat exercise, and then switch legs.")
         with st.expander(":video_camera: Watch Video"):
             st.video('https://youtu.be/pdP0uJXvc44')
