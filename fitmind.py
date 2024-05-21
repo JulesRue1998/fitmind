@@ -782,7 +782,7 @@ elif page == "Fitness":
                 st.write(übung)
         
         with tab2:
-            st.header(":orange:[Intermediate Training]")
+            st.header(":orange[Intermediate Training]")
             st.write("Here are 8 randomized exercises for your legs. Do 3-4 sets with each 10 repetitions. Take a break of 45 Seconds in between the exercises.")
             zufällige_übungen_intermediate = random.sample(legs_fitness_übungen, 8)
             for übung in zufällige_übungen_intermediate:
@@ -881,7 +881,7 @@ elif page == "Fitness":
            st.header(":red[Advanced Training]")
 
     elif second_subcategory == "Full Body":
-        st.subheader("Randomized Upper Body Workout")
+        st.subheader("Randomized Full Body Workout")
 
         tab1, tab2, tab3 = st.tabs([":green-background[Beginner]", ":orange-background[Intermediate]", ":red-background[Advanced]"])
 
