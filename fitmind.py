@@ -297,7 +297,7 @@ elif page == "Fitness":
 
         st.subheader("Hip Thrusts")
         with st.expander(":information_source: Read Instructions"):
-            st.write( 1. Lie on your back on the floor, with knees bent, feet planted firmly on the floor.")
+            st.write("1. Lie on your back on the floor, with knees bent, feet planted firmly on the floor.")
             st.write("2. Press your heels into the floor, driving your hips upwards. Pause at the top, making sure to squeeze your glutes.") 
             st.write("3. Slowly return to your starting position")
             st.write("4. Repeat for a desired amount.")
