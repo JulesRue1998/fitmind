@@ -1398,8 +1398,8 @@ elif page == "Fitness":
 
 
 elif page == "Mental Health":
-    st.title("Mental Health :reminder_ribbon: :green_heart:")
-    st.write("Mental health is a crucial aspect of overall well-being, encompassing emotional, psychological, and social well-being. It affects how we think, feel, and act, influencing our ability to handle stress, relate to others, and make decisions. Good mental health promotes productivity, healthy relationships, and the ability to adapt to change and adversity. However, mental health issues such as anxiety, depression, and stress are common and can impact anyone. It's important to seek support when needed, practice self-care, and foster environments that promote mental wellness. Addressing mental health with the same importance as physical health can lead to a more balanced and fulfilling life. To support your mental wellness journey, we offer a variety of mental health trackers and supplements on our website for you to discover.")
+    st.title(":green[Mental Health] :reminder_ribbon: :green_heart:")
+    st.write(":green-background[Mental health is a crucial aspect of overall well-being, encompassing emotional, psychological, and social well-being. It affects how we think, feel, and act, influencing our ability to handle stress, relate to others, and make decisions. Good mental health promotes productivity, healthy relationships, and the ability to adapt to change and adversity. However, mental health issues such as anxiety, depression, and stress are common and can impact anyone. It's important to seek support when needed, practice self-care, and foster environments that promote mental wellness. Addressing mental health with the same importance as physical health can lead to a more balanced and fulfilling life. To support your mental wellness journey, we offer a variety of mental health trackers and supplements on our website for you to discover.]")
     st.sidebar.subheader("Mental Health Subcategories")
     Mental_Health_Subcategories = [" ", "Stress & Mood Tracker", "Sleep tracker", "Supplements"]
     selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
@@ -1408,7 +1408,7 @@ elif page == "Mental Health":
         st.write(" ")
     
     elif selected_subcategory == "Stress & Mood Tracker":
-        st.subheader("Track your stress ")
+        st.subheader(":green[Track your stress]")
         st.write('Enter your stress level for each day.')
         # Text elements
         st.write("How is your mood today?")
@@ -1428,7 +1428,7 @@ elif page == "Mental Health":
         st.line_chart(mood_data.set_index('Datum'))
     
     elif selected_subcategory == "Sleep tracker":
-        st.subheader("Track your sleep")
+        st.subheader(":purple[Track your sleep]")
         st.write("Enter your sleep duration and quality for each day.")
 
         # Input Widgets
@@ -1451,7 +1451,7 @@ elif page == "Mental Health":
         st.line_chart(sleep_data.set_index('Date'))
 
     elif selected_subcategory == "Supplements":
-        st.title("Supplements to support your mental health")
+        st.title(":green[Supplements to support your mental health]")
         st.subheader("Sleeplessness")
         st.write("Herbal preparations with valerian root and hop cones can support and regulate sleep. These medicinal plants, whose effects complement each other, help to calm the mind and improve sleep disorders. Valerian increases the urge to sleep and shortens the time it takes to fall asleep, similar to the body's own messenger substance adenosine. Hops regulate the cycle of sleep and wakefulness, similar to the hormone melatonin.")
         col1, col2 = st.columns(2)
