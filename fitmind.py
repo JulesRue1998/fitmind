@@ -22,7 +22,7 @@ page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitne
 if page == "FitMind - Introduction":
     st.title("Welcome to FitMind!")
     st.markdown("""
-    FitMind is a health app that combines fitness and mental wellbeing to help users lead a balanced and healthy life.
+    Welcome to FitMind - your companion for mental and physical health! Discover a world of self-care and wellbeing with our wide range of exercises, specially designed for beginners, intermediates and experts. From mental care to strength training and endurance, we offer programs that adapt perfectly to your fitness level. Our app not only offers exercises, but also a variety of tools to track and optimize your progress. Keep track of everything with our trackers for water, sleep, mood, BMI and get valuable insights into your health. Let FitMind become your loyal companion on the road to a healthier and happier life. Start your journey to a balanced mind and a strong body today! 
     """)
     st.write("FitMind helps you to achieve your fitness goals and improve your mental well-being at the same time.")
 
