@@ -26,6 +26,7 @@ if page == "FitMind - Introduction":
     Discover a world of self-care and wellbeing with our wide range of exercises, specially designed for beginners, intermediates and experts. From mental care to strength training and endurance, we offer programs that adapt perfectly to your fitness level. Our app not only offers exercises, but also a variety of tools to track and optimize your progress. 
     Keep track of everything with our trackers for water, sleep, mood, BMI and get valuable insights into your health. Let FitMind become your loyal companion on the road to a healthier and happier life. Start your journey to a balanced mind and a strong body today! 
     """)
+    st.image("Bilder/selfcare.jpg")
     
 elif page == "Fitness":
     st.title("Fitness")
