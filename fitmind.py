@@ -1398,6 +1398,7 @@ elif page == "Fitness":
 
 
 elif page == "Mental Health":
+    st.title("Mental Healt :reminder_ribbon: :green_heart:")
     st.sidebar.subheader("Mental Health Subcategories")
     Mental_Health_Subcategories = [" ", "Stress & Mood Tracker", "Sleep tracker", "Supplements"]
     selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
