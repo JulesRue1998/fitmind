@@ -29,7 +29,7 @@ if page == "FitMind - Introduction":
     st.image("Bilder/selfcare.jpg")
     
 elif page == "Fitness":
-    st.title("Fitness")
+    st.title("Fitness :weight_lifter:")
     st.subheader("Choose your level")
     st.subheader(":green[Beginners]")
     st.write(":green-background[If you're new to exercise or a particular exercise, start with 1 to 2 sets with 10 repetitions per exercise. Focus on learning proper form and gradually increasing the number of sets as you become more comfortable with the movements.]")
