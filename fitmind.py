@@ -6,6 +6,40 @@ import matplotlib.pyplot as plt
 import random
 import json
 
+# Pfad zur JSON-Datei in der die Aufgaben gespeichert sind. (nicht für das randomized Workout)
+file_path = 'exercises.json'
+
+# Funktion, die das json-file öffnet und die Aufgaben der entsprechenden Kategorie ausgibt
+def show_exercises_by_category(file_path, category):
+    # Öffnen und Lesen der JSON-Datei
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+
+    # Filtern der Übungen basierend auf der Kategorie
+    exercises = data['exercises'].get(category, [])
+
+    # Überprüfen, ob Übungen gefunden wurden
+    if not exercises:
+        st.write(f"No exercises found in the '{category}' category.")
+        return
+    
+    # Anzeigen der gefilterten Übungen
+    for exercise in exercises:
+        st.subheader(exercise['name'])
+        with st.expander(":information_source: Read Instructions"):
+            instructions = exercise['instructions']
+            if isinstance(instructions, list):
+                for instruction in instructions:
+                    st.write(instruction)
+            else:
+                st.write(instructions)
+                
+        if exercise['video']:
+            with st.expander(":video_camera: Watch Video"):
+                st.video(exercise['video'])
+                st.write(f"Video Source: {exercise['video']}")
+        st.divider()
+
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health"])
 
