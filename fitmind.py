@@ -4,17 +4,7 @@ import numpy as np
 from datetime import datetime
 import matplotlib.pyplot as plt
 import random
-
-def display_exercise_info(exercise_name, instructions, video_url):
-    st.subheader(exercise_name)
-    with st.expander(":information_source: Read Instructions"):
-        for instruction in instructions:
-            st.write(instruction)
-    if video_url:
-        with st.expander(":video_camera: Watch Video"):
-            st.video(video_url)
-            st.write(f"Video Source: {video_url}")
-    st.divider()
+import json
 
 st.sidebar.header("Menu")
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health"])
