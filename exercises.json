@@ -71,7 +71,63 @@
           "video": "https://youtu.be/-KVhapnEtuk"
         }
       ],
-      "Back": [],
+      "Back": [
+          {
+          "name": "Bird Dogs",
+          "instructions": "",
+          "video": "https://youtu.be/vzU5xrs1gMQ"
+        },
+        {
+          "name": "Cat Camel Stretch",
+          "instructions": "",
+          "video": "https://youtu.be/c2kKOjpzK14"
+        },
+        {
+          "name": "Cobra Pose",
+          "instructions": "",
+          "video": "https://youtu.be/JDcdhTuycOI"
+        },
+        {
+          "name": "Dive Bomber",
+          "instructions": "",
+          "video": "https://youtu.be/mvNcSF-nXg4"
+        },
+        {
+          "name": "Prone T Raises",
+          "instructions": "",
+          "video": "https://youtu.be/3GJoiYUYwr0"
+        },
+        {
+          "name": "Prone W Raises",
+          "instructions": "",
+          "video": "https://youtu.be/EJpwME9qcEI"
+        },
+        {
+          "name": "Prone Y Raises",
+          "instructions": "",
+          "video": "https://youtu.be/w1AWGKubE5U"
+        },
+        {
+          "name": "Reverse Snow Angels",
+          "instructions": "",
+          "video": "https://youtu.be/8tQUrvafTdg"
+        },
+        {
+          "name": "Seated Forward Folds",
+          "instructions": "",
+          "video": "https://youtu.be/xwGv90wpgKU"
+        },
+        {
+          "name": "Supermans",
+          "instructions": "",
+          "video": "https://youtu.be/z6PJMT2y8GQ"
+        },
+        {
+          "name": "Swimmers",
+          "instructions": "",
+          "video": "https://youtu.be/nzzn3YbFp2w"
+        }
+      ],
       "Core": [
         {
           "name": "Boat Pose",
@@ -242,7 +298,7 @@
             ],
             "video": "https://youtu.be/7UVgs18Y1P4"
           }
-    ],
+        ],
       "Glutes": [
         {
             "name": "Bridge",
