@@ -74,12 +74,15 @@ elif page == "Fitness":
     st.write("This app was designed so that people who are new to sports can start their workouts without any gym equipment. Of course, people who want a more intensive workout can use their dumbbells, resistance bands and other equipment for their workouts")
 
     st.divider()
-    
+
+    #Erstellen einer untergeordneten Sidebar
     st.sidebar.subheader("Workouts")
-        
+    #Kategorien für die unterschiedlichen Körperabschnitte    
     Workouts = [" ", "Arms", "Back", "Core", "Glutes", "Legs"]
+    #Erstellen der Auswahlbox für die Kategorien
     selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
-                
+
+    #Design dieser Kategorien der untergeordneten Sidebar
     if selected_subcategory == " ":
         st.subheader(" ")
         st.write(" ")
@@ -96,7 +99,8 @@ elif page == "Fitness":
            st.image("Bilder/arm-muscle.jpeg")
            st.write("Image Source: https://media.geeksforgeeks.org/wp-content/uploads/20240328112244/Diagram-of-arm-muscle.png")
         st.divider()
-
+        
+        #Funktion öffnet Json-File, in dem die Uebungen gespeichert sind 
         show_exercises_by_category(file_path, selected_subcategory)
     
     elif selected_subcategory == "Back":
@@ -111,7 +115,8 @@ elif page == "Fitness":
            st.image("Bilder/Back-Muscles-jpeg.webp")
            st.write("Image Source: https://samarpanphysioclinic.com/muscles-of-the-back/")
         st.divider()
-        
+
+        #Funktion öffnet Json-File, in dem die Uebungen gespeichert sind 
         show_exercises_by_category(file_path, selected_subcategory)
     
     elif selected_subcategory == "Core":
@@ -126,7 +131,8 @@ elif page == "Fitness":
            st.image("Bilder/Muscles-wall.jpeg")
            st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
         st.divider()
-        
+
+        #Funktion öffnet Json-File, in dem die Uebungen gespeichert sind 
         show_exercises_by_category(file_path, selected_subcategory)
         
         
@@ -143,6 +149,7 @@ elif page == "Fitness":
            st.write("Image source: https://asitisnutrition.com/blogs/health/7-exercises-to-achieve-strong-butt-improve-your-posture")
         st.divider()
 
+        #Funktion öffnet Json-File, in dem die Uebungen gespeichert sind 
         show_exercises_by_category(file_path, selected_subcategory)
         
     elif selected_subcategory == "Legs":
@@ -158,17 +165,18 @@ elif page == "Fitness":
            st.write("Image source: https://www.muskelpower.de/beinmuskeln/")
         st.divider()
 
+        #Funktion öffnet Json-File, in dem die Uebungen gespeichert sind 
         show_exercises_by_category(file_path, selected_subcategory)
 
-  
+    #Erstellen einer neuen Sidebar für das Randomized workout mit den verschiedenen Kategorien
     st.sidebar.subheader("Randomized workout")
     second_subcategory = st.sidebar.selectbox("Choose a randomized workout", ["  ", "Arms", "Back", "Core", "Glutes", "Legs", "Lower Body", "Upper Body", "Full Body"])
-    
+
     if second_subcategory == " ":
         st.subheader(" ")
         st.write(" ")
 
-    
+    #Design für die unterschiedlichen Kategorien
     elif second_subcategory == "Arms":
         arms_fitness_übungen = [
             "Arm Circles",
@@ -189,25 +197,25 @@ elif page == "Fitness":
         st.subheader("Randomized Arm Workout")
 
         tab1, tab2, tab3 = st.tabs([":green-background[Beginner]", ":orange-background[Intermediate]", ":red-background[Advanced]"])
-
+    
         with tab1:
            st.header(":green[Beginner Training]")
            st.write("Here are 5 randomized exercises for your arms. Do 1-2 sets with each 10 repetitions. Take a break of 60 Seconds in between the exercises.")
-           zufällige_übungen_beginner = random.sample(arms_fitness_übungen, 5)
+           zufällige_übungen_beginner = random.sample(arms_fitness_übungen, 5) #5 zufällige Uebungen aus der gewählten Kategorie
            for übung in zufällige_übungen_beginner:
                st.write(übung)
                
         with tab2:
            st.header(":orange[Intermediate Training]")
            st.write("Here are 8 randomized exercises for your arms. Do 3-4 sets with each 10 repetitions. Take a break of 45 Seconds in between the exercises.")
-           zufällige_übungen_intermediate = random.sample(arms_fitness_übungen, 8)
+           zufällige_übungen_intermediate = random.sample(arms_fitness_übungen, 8) #8 zufällige Uebungen aus der gewählten Kategorie
            for übung in zufällige_übungen_intermediate:
                st.write(übung)
         
         with tab3:
            st.header(":red[Advanced Training]")
            st.write("Here are 11 randomized exercises for your arms. Do 4-5 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
-           zufällige_übungen_advanced = random.sample(arms_fitness_übungen, 11)
+           zufällige_übungen_advanced = random.sample(arms_fitness_übungen, 11) #11 zufällige Uebungen aus der gewählten Kategorie
            for übung in zufällige_übungen_advanced:
                st.write(übung)
             
@@ -634,7 +642,9 @@ elif page == "Fitness":
            st.write("Here are 11 randomized exercises for your whole body. Do 5-6 sets with each 10 repetitions. Take a break of 30 Seconds in between the exercises.")
            zufällige_übungen_beginner = random.sample(Full_Body_fitness_übungen, 11)
            for übung in zufällige_übungen_beginner:
-               st.write(übung)            
+               st.write(übung)    
+
+    #Fitnesstracker als dritte Unterkategorie
     st.sidebar.subheader("Fitness Tracker")
     third_subcategory = st.sidebar.selectbox("Choose a Fitness Tracker", ["  ", "water intake", "BMI-Calculator"])
     
