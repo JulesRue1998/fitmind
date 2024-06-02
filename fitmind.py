@@ -1,3 +1,4 @@
+# Importieren der verwendeten Bibliotheken
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -39,10 +40,14 @@ def show_exercises_by_category(file_path, category):
                 st.video(exercise['video'])
                 st.write(f"Video Source: {exercise['video']}")
         st.divider()
-
+        
+#Erstellen der Hauptsidebar 
 st.sidebar.header("Menu")
+
+#Erstellen der Kategorien für die Hauptsidebar
 page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health"])
 
+#Design der Intro-Seite mit Bild
 if page == "FitMind - Introduction":
     st.title("Welcome to FitMind!")
     st.markdown("""
