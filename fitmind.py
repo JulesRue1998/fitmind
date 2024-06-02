@@ -56,9 +56,10 @@ if page == "FitMind - Introduction":
     Keep track of everything with our trackers for water, sleep, mood, BMI and get valuable insights into your health. Let FitMind become your loyal companion on the road to a healthier and happier life. Start your journey to a balanced mind and a strong body today! 
     """)
     st.image("Bilder/selfcare.jpg")
-    
+
+#Design der Fitness-Seite mit Bild
 elif page == "Fitness":
-    st.title("Fitness :weight_lifter:")
+    st.title("Fitness :weight_lifter:") #Emoji als Titel
     st.subheader("Choose your level")
     st.subheader(":green[Beginners]")
     st.write(":green-background[If you're new to exercise or a particular exercise, start with 1 to 2 sets with 10 repetitions per exercise. Focus on learning proper form and gradually increasing the number of sets as you become more comfortable with the movements.]")
@@ -74,11 +75,10 @@ elif page == "Fitness":
 
     st.divider()
     
-    if page == "Fitness":
-        st.sidebar.subheader("Workouts")
+    st.sidebar.subheader("Workouts")
         
-        Workouts = [" ", "Arms", "Back", "Core", "Glutes", "Legs"]
-        selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
+    Workouts = [" ", "Arms", "Back", "Core", "Glutes", "Legs"]
+    selected_subcategory = st.sidebar.selectbox("Choose a specific area", Workouts)
                 
     if selected_subcategory == " ":
         st.subheader(" ")
