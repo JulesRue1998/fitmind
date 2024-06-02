@@ -3,5 +3,6 @@ pandas
 numpy
 datetime
 matplotlib
-
+streamlit-authenticator
+api_calls
 
