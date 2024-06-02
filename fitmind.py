@@ -170,7 +170,6 @@ def show_main_page():
     page = st.sidebar.radio("Choose what you need",["FitMind - Introduction", "Fitness", "Mental Health"])
 
    if page == "FitMind - Introduction":
-    st.title("Welcome to FitMind!")
     st.markdown("""
     Welcome to FitMind - your companion for mental and physical health! 
     Discover a world of self-care and wellbeing with our wide range of exercises, specially designed for beginners, intermediates and experts. From mental care to strength training and endurance, we offer programs that adapt perfectly to your fitness level. Our app not only offers exercises, but also a variety of tools to track and optimize your progress. 
@@ -924,7 +923,7 @@ def show_main_page():
     st.sidebar.text("fitmindbyjc@gmail.com")
 
 def startpage():
-    st.title("Willkommen zur Streamlit App")
+    st.title("Welcome to Fitmind")
 
     # Initialisierungsstatus für Login
     if 'logged_in' not in st.session_state:
