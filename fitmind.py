@@ -171,9 +171,11 @@ def show_main_page():
 
     if page == "FitMind - Introduction":
         st.markdown("""
-        FitMind is a health app that combines fitness and mental wellbeing to help users lead a balanced and healthy life.
+        Welcome to FitMind - your companion for mental and physical health! 
+        Discover a world of self-care and wellbeing with our wide range of exercises, specially designed for beginners, intermediates and experts. From mental care to strength training and endurance, we offer programs that adapt perfectly to your fitness level. Our app not only offers exercises, but also a variety of tools to track and optimize your progress. 
+        Keep track of everything with our trackers for water, sleep, mood, BMI and get valuable insights into your health. Let FitMind become your loyal companion on the road to a healthier and happier life. Start your journey to a balanced mind and a strong body today! 
         """)
-        st.write("FitMind helps you to achieve your fitness goals and improve your mental well-being at the same time.")
+        st.image("Bilder/selfcare.jpg")
 
     elif page == "Fitness":
         st.title("Fitness")
@@ -807,6 +809,9 @@ def show_main_page():
 
 
     elif page == "Mental Health":
+        st.title(":green[Mental Health] :reminder_ribbon: :green_heart:")
+        st.write(":green-background[Mental health is a crucial aspect of overall well-being, encompassing emotional, psychological, and social well-being. It affects how we think, feel, and act, influencing our ability to handle stress, relate to others, and make decisions. Good mental health promotes productivity, healthy relationships, and the ability to adapt to change and adversity. However, mental health issues such as anxiety, depression, and stress are common and can impact anyone. It's important to seek support when needed, practice self-care, and foster environments that promote mental wellness. Addressing mental health with the same importance as physical health can lead to a more balanced and fulfilling life. To support your mental wellness journey, we offer a variety of mental health trackers and supplements on our website for you to discover.]")
+        st.image("Bilder/Mental Health Cat.jpeg")
         st.sidebar.subheader("Mental Health Subcategories")
         Mental_Health_Subcategories = [" ", "Stress & Mood Tracker", "Sleep tracker", "Supplements"]
         selected_subcategory = st.sidebar.selectbox("Choose a tracker", Mental_Health_Subcategories)
