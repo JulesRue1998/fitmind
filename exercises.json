@@ -166,32 +166,61 @@
         },
         {
           "name": "Dive Bomber",
-          "instructions": "The dive bomber, also known as the Hindu push-up, is a dynamic exercise that targets multiple muscle groups, including the chest, shoulders, arms, and core. Start in a downward dog position with your hands shoulder-width apart and your hips lifted towards the ceiling. From this position, shift your weight forward, lowering your chest towards the ground while keeping your hips lifted and your elbows tucked in close to your body. As you lower your chest towards the ground, arch your back and look up towards the ceiling, moving into a swooping motion. Then, reverse the movement by pushing through your arms, lifting your chest up and back towards the starting position while pressing your hips back towards the ceiling. This exercise resembles a combination of a push-up and a downward dog stretch, providing a comprehensive upper body and core workout while also improving flexibility and mobility in the shoulders and spine.",
+          "instructions": [
+            "1. Start in a downward dog position with your hands shoulder-width apart and your hips lifted towards the ceiling. From this position, shift your weight forward, lowering your chest towards the ground while keeping your hips lifted and your elbows tucked in close to your body.",
+            "2. As you lower your chest towards the ground, arch your back and look up towards the ceiling, moving into a swooping motion.",
+            "3. Then, reverse the movement by pushing through your arms, lifting your chest up and back towards the starting position while pressing your hips back towards the ceiling."
+          ],
           "video": "https://youtu.be/mvNcSF-nXg4"
         },
         {
           "name": "Prone T Raises",
-          "instructions": "",
+          "instructions": [
+            "1. Lay face down on the floor with your arms outstretched to the sides, like the letter 'T'. Ensure you aren't shrugging your shoulders.",
+            "2. Squeeze your shoulder blades together and lift your arms off the floor and towards the ceiling, again without shrugging.",
+            "3. Hold for 2 seconds and return to starting position.",
+            "4. Repeat exercise."
+          ]
           "video": "https://youtu.be/3GJoiYUYwr0"
         },
         {
           "name": "Prone W Raises",
-          "instructions": "Prone W Raises are an effective exercise for strengthening the muscles of the upper back and shoulders. Start by lying face down on a mat or exercise bench with your arms extended straight out in front of you, forming a W-shape with your thumbs pointing up toward the ceiling. Engage your core muscles to stabilize your spine and lift your chest slightly off the ground. Keeping your arms in the W position, squeeze your shoulder blades together as you lift your elbows upward and outward, focusing on using the muscles of your upper back to perform the movement. Hold the top position briefly, then lower your arms back down to the starting position with control. This exercise targets the muscles of the upper back, including the rhomboids and rear deltoids, and helps improve posture by strengthening the muscles that retract the shoulder blades.",
+          "instructions": [
+            "1. Start by lying face down on a mat or exercise bench with your arms extended straight out in front of you, forming a W-shape with your thumbs pointing up toward the ceiling.",
+            "2. Engage your core muscles to stabilize your spine and lift your chest slightly off the ground. Keeping your arms in the W position, squeeze your shoulder blades together as you lift your elbows upward and outward, focusing on using the muscles of your upper back to perform the movement.",
+            "3. Hold the top position briefly, then lower your arms back down to the starting position with control.",
+            "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/EJpwME9qcEI"
         },
         {
           "name": "Prone Y Raises",
-          "instructions": "Prone Y Raises are a beneficial exercise for targeting the muscles of the upper back, shoulders, and upper trapezius. To perform prone Y raises, lie face down on a mat or exercise bench with your arms extended straight out in front of you, forming a Y-shape with your thumbs pointing up toward the ceiling. Engage your core muscles to stabilize your spine and lift your chest slightly off the ground. Keeping your arms straight, lift them upward and outward in a controlled manner, focusing on using the muscles of your upper back and shoulders to perform the movement. Your goal is to create a Y shape with your arms, bringing them up to shoulder level or slightly above. Hold the top position briefly, then lower your arms back down to the starting position with control. Prone Y Raises help strengthen the muscles responsible for shoulder extension and upward rotation, contributing to improved posture and shoulder stability.",
+          "instructions": [
+            "1. Lie face down on a mat or exercise bench with your arms extended straight out in front of you, forming a Y-shape with your thumbs pointing up toward the ceiling.",
+            "2. Engage your core muscles to stabilize your spine and lift your chest slightly off the ground. Keeping your arms straight, lift them upward and outward in a controlled manner, focusing on using the muscles of your upper back and shoulders to perform the movement."
+            "3. Hold the top position briefly, then lower your arms back down to the starting position with control.",
+            "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/w1AWGKubE5U"
         },
         {
           "name": "Reverse Snow Angels",
-          "instructions": "Reverse snow angels are an excellent exercise for targeting the muscles of the upper back, shoulders, and posterior deltoids. To perform reverse snow angels, lie face down on a mat or exercise bench with your arms extended straight out to the sides, palms facing down towards the floor. Engage your core muscles to stabilize your spine and lift your chest slightly off the ground. Keeping your arms straight, lift them upward and inward in a sweeping motion, bringing them towards each other above your head. Imagine making a snow angel motion in reverse. Your goal is to create a wide arc with your arms while keeping them straight and maintaining control throughout the movement. Hold the top position briefly, then reverse the motion and lower your arms back down to the starting position with control. Reverse snow angels help strengthen the muscles of the upper back and shoulders, improve shoulder mobility, and promote better posture by targeting the muscles that retract the shoulder blades.",
+          "instructions": [
+            "1. Lie face down on a mat or exercise bench with your arms extended straight out to the sides, palms facing down towards the floor.", 
+            "2. Engage your core muscles to stabilize your spine and lift your chest slightly off the ground. Keeping your arms straight, lift them upward and inward in a sweeping motion, bringing them towards each other above your head.",
+            "3. Hold the top position briefly, then reverse the motion and lower your arms back down to the starting position with control.",
+            "4. Repeat exercise."
+          ], 
           "video": "https://youtu.be/8tQUrvafTdg"
         },
         {
           "name": "Seated Forward Folds",
-          "instructions": "Seated forward folds, also known as Paschimottanasana in yoga, are a calming and rejuvenating yoga pose that stretches the entire back side of the body, including the spine, hamstrings, and calves. To perform seated forward folds, sit on the floor with your legs extended straight out in front of you. Engage your core muscles to lengthen your spine and sit up tall. On an inhale, reach your arms overhead, lengthening your spine even more. Then, on an exhale, hinge at your hips and slowly begin to fold forward from your hips, leading with your chest. Keep your spine long as you fold forward, reaching your hands towards your feet or shins. If you're able to, you can grasp your feet or ankles with your hands. Keep your neck relaxed and avoid rounding your spine excessively. Hold the forward fold for several breaths, breathing deeply into the stretch. With each inhale, lengthen your spine, and with each exhale, deepen the stretch by gently folding forward a little more. Seated forward folds help calm the mind, relieve stress and anxiety, and stretch tight muscles in the back and legs. They can also help improve digestion and stimulate the abdominal organs.",
+          "instructions": [
+            "1. Sit on the floor with your legs extended straight out in front of you.",
+            "2. Engage your core muscles to lengthen your spine and sit up tall. On an inhale, reach your arms overhead, lengthening your spine even more.",
+            "3. Then, on an exhale, hinge at your hips and slowly begin to fold forward from your hips, leading with your chest. Keep your spine long as you fold forward, reaching your hands towards your feet or shins.",
+            "4. Hold the forward fold for several breaths, breathing deeply into the stretch."
+          ],
           "video": "https://youtu.be/xwGv90wpgKU"
         },
         {
