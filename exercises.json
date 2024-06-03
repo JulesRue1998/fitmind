@@ -13,12 +13,22 @@
         },
         {
           "name": "Bicep Curls",
-          "instructions": "The video demonstrates how to perform a basic bicep curl, an essential exercise for strengthening the biceps. To execute the movement, stand with feet shoulder-width apart, hold a dumbbell in each hand with palms facing forward, and curl the weights up towards the shoulders while keeping the elbows close to the body. Lower the weights back down in a controlled manner to complete the repetition. This exercise helps build and tone the bicep muscles effectively.",
+          "instructions": [
+              "1. Stand straight with a dumbbell or water bottles in each hand, your feet shoulder-width apart, and hands by your sides.",
+              "2. Squeeze the biceps and lift the dumbbells. Keep the elbows close to your body and the upper arms stationary, only the forearms should move.",
+              "3. Once the dumbbells are at shoulder level, slowly lower the arms to the starting position.",
+              "4. Repeat."
+          ],
           "video": "https://youtu.be/TVflFTempWA?t=20"
         },
         {
           "name": "Chair Dips",
-          "instructions": "The video demonstrates how to perform chair dips, an effective exercise for strengthening the triceps.",
+          "instructions": [
+              "1. Sit on the edge of a bench or chair, hands supporting your weight.",
+              "2. Position your feet away from the bench, legs straight and heels on the floor.",
+              "3. Lower yourself until your upper arms are parallel to the ground, then push back up.",
+              "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/HCf97NPYeGY"
         },
         {
@@ -32,59 +42,116 @@
         },
         {
           "name": "Plank Shoulder Taps",
-          "instructions": "Plank Shoulder Taps is an effective core exercise where you maintain a plank position and alternate tapping your opposite shoulder with each hand. This exercise improves core stability and strengthens the shoulders and arms.",
+          "instructions": [
+              "1. Start in a plank position, with your wrists under your shoulders and your feet hip-width apart.",
+              "2. Touch your left shoulder with your right hand and return to plank position.",
+              "3. Touch your right shoulder with your left hand and continue alternating sides until the set is complete."
+          ],
           "video": "https://youtu.be/8rgurWd-PB8"
         },
         {
           "name": "Reverse Plank",
-          "instructions": "The Reverse plank is a core exercise where you sit on the floor with your legs extended in front of you and your hands placed behind your hips. Lift your hips off the ground, creating a straight line from your head to your heels. This exercise strengthens the core, lower back, and glutes while improving overall body stability.",
+          "instructions": [
+              "1. Press into your palms and lift your hips and torso toward the ceiling. Look up to the ceiling during this move.",
+              "2. Squeeze your core and pull your belly button back toward your spine.",
+              "3. Lower your hips and torso back to the floor, returning to the starting position."
+          ],
           "video": "https://www.youtube.com/watch?v=v2pPWNSDorE"
         },
         {
           "name": "Walking Plank",
-          "instructions": "The Walking Plank is a dynamic core exercise where you start in a plank position and then lower yourself onto your forearms one arm at a time, then return to the starting position by straightening one arm at a time. This exercise engages the entire core, shoulders, and arms while also improving coordination and stability.",
+          "instructions": [
+              "1. Get into a forearm plank with your shoulders in line with your elbows and forearms parallel to each other on the ground.",
+              "2. Pushing the ground with your right hand, straighten your right arm into a high plank, followed by your left arm.",
+              "3. Then, bring your right forearm back to the ground and then your left forearm.",
+              "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/0EePC0_n6J4"
         },
         {
           "name": "Push-Ups",
-          "instructions": "Push-ups are a fundamental bodyweight exercise where you start in a plank position with your hands slightly wider than shoulder-width apart. Lower your body until your chest nearly touches the ground, then push yourself back up to the starting position. This exercise primarily targets the chest, shoulders, and triceps while also engaging the core for stability.",
+          "instructions": [
+              "1. With your legs extended back, place the hands below the shoulders, slightly wider than shoulder-width apart.",
+              "2. Start bending your elbows and lower your chest until it’s just above the floor.",
+              "3. Push back to the starting position.",
+              "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/NE96m3TvI2o"
         },
         {
           "name": "Diamond Push-Ups",
-          "instructions": "Diamond push-ups are a variation of the traditional push-up where you place your hands close together directly under your chest, forming a diamond shape with your index fingers and thumbs. Lower your body down, keeping your elbows close to your sides, and then push back up to the starting position. This exercise targets the triceps and chest muscles more intensely than regular push-ups while also engaging the shoulders and core for stability.",
+          "instructions": [
+              "1. Get into a standard push-up position. Except this time move your hands together so that your thumbs are touching together and your index fingers are touching together, forming a diamond shape in the open area between your hands.",
+              "2. Next, lower yourself down to the ground so that your chest almost touches your hands, pause, then push yourself back up.",
+              "3. Repeat exercise."
+          ],
           "video": "https://youtu.be/XtU2VQVuLYs"
         },
         {
           "name": "Decline Push-Ups",
-          "instructions": "Decline push-ups are a challenging variation of the standard push-up where your feet are elevated on a platform, such as a bench or a step, creating a decline angle. Start in a plank position with your hands on the ground and your feet elevated. Lower your body towards the ground, keeping your elbows close to your sides, then push back up to the starting position. This exercise primarily targets the upper chest, shoulders, and triceps, while also engaging the core and stabilizer muscles for balance.",
+          "instructions": [
+              "1. Place a bench or chair horizontally behind you and place both hands on a yoga mat slightly wider than shoulder-width with your feet together on the bench behind you, resting on the balls of your feet.",
+              "2. While maintaining a straight back and stabilising through your abdominals, bend your elbows and lower your torso towards the floor until your arms form two 90-degree angles.",
+              "3. Push through your chest and extend your arms to lift your body back into starting position.",
+              "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/QBlYp-EwHlo"
         },
         {
           "name": "Incline Push-Ups",
-          "instructions": "Incline push-ups are a modification of the traditional push-up where your hands are elevated on a platform, such as a bench or a step, creating an incline angle. Begin in a plank position with your hands on the elevated surface and your feet on the ground. Lower your body towards the platform, keeping your elbows close to your sides, then push back up to the starting position. This variation targets the lower chest and shoulders while reducing the amount of weight placed on the arms, making it a suitable option for beginners or those working on building strength.",
+          "instructions": [
+              "1. Place a bench horizontally in front of you and place both hands on the bench slightly further than shoulder-width apart with feet together on the floor behind you, resting on the balls of your feet.",
+              "2. While maintaining a neutral spine, bend your elbows and lower your torso towards the bench until your arms form two 90-degree angles.",
+              "3. Push through your chest and extend your elbows to lift your body back into the starting position."
+              "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/yAbg3_pJKvw"
         },
         {
           "name": "Plank to Push-Ups",
-          "instructions": "Plank to Push-Ups is a dynamic exercise that combines the plank and push-up movements. Start in a plank position with your hands directly under your shoulders and your body in a straight line from head to heels. Then, one arm at a time, lower yourself onto your forearms into a forearm plank position. Next, push yourself back up onto your hands, one arm at a time, returning to the starting plank position. This exercise targets the chest, shoulders, triceps, and core muscles while also improving upper body strength and stability.",
+          "instructions": [
+              "1. Start in a push up position with hands and elbows stacked under your shoulders, with your body in a straight line from shoulders to heels.",
+              "2. Transition into a forearm plank by lowering down to rest on your forearms with elbows under the shoulders. Squeeze the abs to maintain a neutral spine.",
+              "3. Hold the plank for around 5 seconds, then transition back into push up position while keeping your knees and hips off the floor.",
+              "4. Bend at the elbows to lower your chest towards the floor to make a push up, make sure your arms stay close to your sides.",
+              "5. Push back into the starting position and repeat exercise."
+          ],
           "video": "https://youtu.be/56vUOad6Irs"
         },
         {
           "name": "Wall Push-Ups",
-          "instructions": "Wall push-ups are a beginner-friendly variation of the traditional push-up that can be done using a wall for support. Begin by standing facing a wall with your arms extended and your hands flat against the wall at shoulder height. Lean your body towards the wall, bending your elbows to lower your chest towards the wall, then push yourself back to the starting position by straightening your arms. This exercise primarily targets the chest, shoulders, and triceps while also engaging the core for stability. It's an excellent option for those who are new to strength training or working on building upper body strength.",
+          "instructions": [
+              "1. Stand with your feet a few feet away from a wall.",
+              "2. Slowly bend your elbows and lower your chest toward the wall.",
+              "3. Focus on keeping your body aligned as you pause in this position.",
+              "4. Push through your hands and straighten your arms, returning to the starting position.",
+              "5. Repeat exercise"
+          ],
           "video": "https://youtu.be/-KVhapnEtuk"
         }
       ],
       "Back": [
           {
           "name": "Bird Dogs",
-          "instructions": "Bird dogs are a core-strengthening exercise that also targets stability and balance. Start on your hands and knees with your wrists aligned under your shoulders and your knees under your hips. Engage your core to stabilize your spine. Simultaneously extend one arm straight forward and the opposite leg straight back, keeping your hips level and your spine neutral. Hold for a moment, then return to the starting position and switch sides, extending the opposite arm and leg. Alternate sides in a controlled manner, focusing on maintaining balance and stability throughout the movement. Bird dogs help strengthen the muscles of the core, lower back, glutes, and shoulders while also improving coordination and balance.",
+          "instructions": [
+              "1. Start on your hands and knees with the hands under the shoulders and the knees under the hips.",
+              "2. Extend one leg and the opposite arm at the same time.",
+              "3. Pause for 3 to 5 seconds, return to the starting position, and switch sides.",
+              "4. Repeat exercise."
+          ],
           "video": "https://youtu.be/vzU5xrs1gMQ"
         },
         {
           "name": "Cat Camel Stretch",
-          "instructions": "The cat-camel stretch is a dynamic exercise that targets the muscles of the spine and helps improve flexibility and mobility in the back. Begin on your hands and knees with your wrists aligned under your shoulders and your knees under your hips. Inhale as you arch your back, dropping your belly towards the floor and lifting your head and tailbone towards the ceiling (this is the cat position). Exhale as you round your back, tucking your chin to your chest and arching your spine towards the ceiling (this is the camel position). Move between these two positions in a smooth, flowing motion, coordinating your breath with each movement. The cat-camel stretch can help alleviate tension in the back, improve spinal mobility, and promote relaxation.",
+          "instructions": [
+              "1. Get down on your hands and knees on the floor. Relax your head, and allow it to droop.",
+              "2. Round your back up toward the ceiling until you feel a nice stretch in your upper, middle, and lower back.",
+              "3. Hold this stretch for as long as it feels comfortable.",
+              "4. Return to the starting position with a flat back while you are on all fours.",
+              "5. Let your back sway by pressing your stomach toward the floor. Lift your buttocks toward the ceiling.",
+              "6. Hold this position for 15 to 30 seconds and return to the starting position.",
+              "7. Repeat at least 5 times."
+          ],
           "video": "https://youtu.be/c2kKOjpzK14"
         },
         {
