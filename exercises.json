@@ -713,13 +713,24 @@
       },
       {
         "name": "Marching Hip Raises",
-        "instructions": "Marching hip raises are an effective exercise for targeting the glutes, hamstrings, and core muscles, particularly the lower abdominals. To perform marching hip raises, start by lying flat on your back on a mat with your knees bent and your feet flat on the floor. Engage your core muscles to stabilize your spine and press your lower back into the mat. Lift your hips off the ground by squeezing your glutes and driving through your heels until your body forms a straight line from your shoulders to your knees. Maintain this hip raise position as you lift one knee towards your chest, keeping your thigh parallel to the ground. Hold the top position briefly, then lower your foot back to the ground. Repeat the movement on the opposite side, lifting the opposite knee towards your chest. Continue alternating legs in a marching motion while maintaining the hip raise position throughout the exercise. Focus on engaging your glutes and core muscles to stabilize your pelvis and prevent your hips from dropping as you lift each knee. Marching hip raises help strengthen the glutes, hamstrings, and core muscles, improve hip stability, and enhance overall lower body strength and control. They can be performed for a set number of repetitions or as part of a dynamic warm-up or core workout routine.",
+        "instructions": [
+            "1. Start by lying flat on your back on a mat with your knees bent and your feet flat on the floor.",
+            "2. Engage your core muscles, press your lower back into the mat and lift your hips off the ground by squeezing your glutes and driving through your heels until your body forms a straight line from your shoulders to your knees.",
+            "3. Maintain this hip raise position as you lift one knee towards your chest, keeping your thigh parallel to the ground.",
+            "4. Hold the top position briefly, then lower your foot back to the ground. Repeat the movement on the opposite side, lifting the opposite knee towards your chest.",
+            "5. Continue alternating legs in a marching motion while maintaining the hip raise position throughout the exercise."
+        ],
         "video": "https://youtu.be/VfUSA0y2JeE"
       },
       {
         "name": "Pulsing Side Lying Leg Raises",
-        "instructions": "Pulsing side-lying leg raises are a targeted exercise for the outer thighs, hips, and glutes, providing a dynamic challenge to these muscle groups. To perform this exercise, lie on your side with your bottom arm extended out for support and your head resting comfortably on it. Keep your legs straight and stacked on top of each other. Engage your core muscles to stabilize your spine and lift your top leg a few inches off the ground. Instead of lifting the leg up and down in a full range of motion, pulse it up and down in a small, controlled motion within a short range. Focus on squeezing the outer thigh and glute muscles with each pulse. Aim to maintain tension in the muscles throughout the entire set. After completing the desired number of pulses, switch to the other side and repeat the exercise. Pulsing side-lying leg raises help strengthen and tone the outer thighs, hips, and glutes, promoting better lower body stability and balance. They can be incorporated into a lower body workout routine or used as a targeted exercise for muscle strengthening and endurance.",
-        "video": "https://youtu.be/Kk2fiskUG98"
+        "instructions": [
+            "1. Lie on your side with your bottom arm extended out for support and your head resting comfortably on it.",
+            "2. Keep your legs straight and stacked on top of each other, engage your core muscles to stabilize your spine and lift your top leg a few inches off the ground.",
+            "3. Instead of lifting the leg up and down in a full range of motion, pulse it up and down in a small, controlled motion within a short range. Focus on squeezing the outer thigh and glute muscles with each pulse.",
+            "4. After completing the desired number of pulses, switch to the other side and repeat the exercise."
+        ],
+            "video": "https://youtu.be/Kk2fiskUG98"
       },
       {
         "name": "Rainbow Leg Lifts",
@@ -734,7 +745,12 @@
       },
       {
         "name": "Standing Knee Raises",
-        "instructions": "Standing knee raises are a simple yet effective exercise for targeting the hip flexors, quadriceps, and core muscles. To perform standing knee raises, start by standing tall with your feet hip-width apart and your arms by your sides. Engage your core muscles to stabilize your spine and maintain good posture throughout the exercise. Lift one knee up towards your chest as high as you comfortably can while keeping your torso upright. Hold the top position briefly, then lower your leg back down to the starting position with control. Repeat the movement on the same leg for the desired number of repetitions, then switch to the opposite leg and repeat. Focus on lifting your knee using the muscles of your hip and core, rather than swinging your leg up with momentum. Standing knee raises can be performed for a set number of repetitions or as part of a dynamic warm-up routine to activate the muscles of the lower body and improve hip mobility. They can also be incorporated into a strength training or balance routine to target the core and lower body muscles.",
+        "instructions": [
+            "1. Start by standing tall with your feet hip-width apart and your arms by your sides.",
+            "2. Engage your core muscles and lift one knee up towards your chest as high as you comfortably can while keeping your torso upright.",
+            "3. Hold the top position briefly, then lower your leg back down to the starting position with control.",
+            "4. Repeat the movement on the same leg for the desired number of repetitions, then switch to the opposite leg and repeat."
+        ],
         "video": "https://youtu.be/O_8EUJ7i-PI"
       },
       {
