@@ -228,7 +228,7 @@ def show_main_page():
         
             with col2:
                 st.subheader("used Muscles")
-                st.image("Rückenmuskulatur.jpeg")
+                st.image("Bilder/Rückenmuskulatur.jpeg")
                 st.write("Image Source: https://samarpanphysioclinic.com/muscles-of-the-back/")
                 st.divider()
             
@@ -244,7 +244,7 @@ def show_main_page():
         
             with col2:
                 st.subheader("used Muscles")
-                st.image("Muscles-wall.jpeg")
+                st.image("Bilder/Muscles-wall.jpeg")
                 st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
                 st.divider()
             
@@ -261,7 +261,7 @@ def show_main_page():
             
             with col2:
                 st.subheader("Used Muscles")
-                st.image("glutes_muscles_480x480.jpeg")
+                st.image("Bilder/glutes_muscles_480x480.jpeg")
                 st.write("Image source: https://asitisnutrition.com/blogs/health/7-exercises-to-achieve-strong-butt-improve-your-posture")
                 st.divider()
 
@@ -890,7 +890,7 @@ def show_main_page():
                 st.write("Lasea is taken once a day, preferably in the evening with a meal and a glass of still water. Lasea is for adults aged 18 and over and is available over the counter in pharmacies and drugstores.")
         
             with col2:
-                st.image("Lasea.jpeg")
+                st.image("Bilder/Lasea.jpeg")
                 st.write("https://www.lasea.ch/sites/g/files/oawcqg281/files/styles/landscape_extra_large/public/2023-02/lasea-lavendelol_0.jpg.webp?itok=NfKPykot")
             st.divider()
             
@@ -902,7 +902,7 @@ def show_main_page():
                 st.write("Adults over the age of 18 take 2 tablets a day, one before breakfast and one before lunch. The tablet should be taken with a glass of water.")
         
             with col2:
-                st.image("vitango.jpeg")
+                st.image("Bilder/vitango.jpeg")
                 st.write("https://www.schwabepharma.ch/sites/g/files/oawcqg1436/files/styles/landscape_full/public/2022-04/vitango-stress-muedigkeit-packshot-deutsch.jpg.webp?itok=tIReNZPR")
             st.divider()
             
