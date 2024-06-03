@@ -214,7 +214,7 @@ def show_main_page():
                 st.subheader("used Muscles")
                 st.image("Bilder/arm-muscle.jpeg")
                 st.write("Image Source: https://media.geeksforgeeks.org/wp-content/uploads/20240328112244/Diagram-of-arm-muscle.png")
-                st.divider()
+            st.divider()
             
             category = 'Arms'
             show_exercises_by_category(file_path, category)      
@@ -230,7 +230,7 @@ def show_main_page():
                 st.subheader("used Muscles")
                 st.image("Bilder/Rückenmuskulatur.jpeg")
                 st.write("Image Source: https://samarpanphysioclinic.com/muscles-of-the-back/")
-                st.divider()
+            st.divider()
             
             category = 'Back'
             show_exercises_by_category(file_path, category)
@@ -246,7 +246,7 @@ def show_main_page():
                 st.subheader("used Muscles")
                 st.image("Bilder/Muscles-wall.jpeg")
                 st.write("Image source: https://cdn.britannica.com/13/125813-050-BB16AC7C/Muscles-wall.jpg")
-                st.divider()
+            st.divider()
             
             category = 'Core'
             show_exercises_by_category(file_path, category)
@@ -263,7 +263,7 @@ def show_main_page():
                 st.subheader("Used Muscles")
                 st.image("Bilder/glutes_muscles_480x480.jpeg")
                 st.write("Image source: https://asitisnutrition.com/blogs/health/7-exercises-to-achieve-strong-butt-improve-your-posture")
-                st.divider()
+            st.divider()
 
             category = 'Glutes'
             show_exercises_by_category(file_path, category)
@@ -279,7 +279,7 @@ def show_main_page():
                 st.subheader("used Muscles")
                 st.image("Bilder/beinmuskeln.jpg")
                 st.write("Image source: https://www.muskelpower.de/beinmuskeln/")
-                st.divider()
+            st.divider()
 
             category = 'Legs'
             show_exercises_by_category(file_path, category)
