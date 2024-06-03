@@ -3,7 +3,12 @@
       "Arms": [
         {
           "name": "Arm Circles",
-          "instructions": "The video demonstrates the arm circles exercise, which is a simple yet effective way to warm up your shoulder muscles. It involves extending your arms out to the sides and making small, controlled circles forward for a set period, followed by reversing the direction. This exercise helps improve shoulder mobility and can be done anywhere without any equipment.",
+          "instructions": [
+              "1. Stand straight with your feet shoulder-width apart.",
+              "2. Raise and extend your arms to the sides without bending the elbows.",
+              "3. Slowly rotate your arms forward, making small circles of about 1 foot in diameter.",
+              "4. Complete a set in one direction and then switch, rotating backward."
+          ],
           "video": "https://youtu.be/UVMEnIaY8aU"
         },
         {
