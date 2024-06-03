@@ -277,7 +277,7 @@ def show_main_page():
                 
             with col2:
                 st.subheader("used Muscles")
-                st.image("beinmuskeln.jpg")
+                st.image("Bilder/beinmuskeln.jpg")
                 st.write("Image source: https://www.muskelpower.de/beinmuskeln/")
                 st.divider()
 
