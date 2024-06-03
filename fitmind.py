@@ -877,7 +877,7 @@ def show_main_page():
                 st.write("Adults and adolescents from 12 years of age take 1 tablet per day, about 30min to 1h before planned bedtime")
         
             with col2:
-                st.image("Zeller-Schlaf-Forte.png")
+                st.image("Bilder/Zeller-Schlaf-Forte.png")
                 st.write("Image Source: https://zellerag.ch/media/cnrnvuav/zell_zeller_schlaf_forte_30filmtabl_de.png?anchor=bottomcenter&mode=max&format=png&width=940&lazyload=true&lazyloadPixelated=true&height=705&preferFocalPoint=false&useCropDimensions=false&maxwidth=3200&maxheight=3200&c.focalPoint=0.5%2C0.5&c.finalmode=crop&c.zoom=false")
             st.divider()
 
@@ -914,7 +914,7 @@ def show_main_page():
                 st.write("The preparation should be taken for at least 14 days until it takes effect. At the start of treatment, take 1 tablet 3 times a day with meals and a little liquid. After 2 weeks, take 1 tablet twice a day. A treatment period of 4-6 weeks is recommended.")
         
             with col2:
-                st.image("Hyperiforce.png")
+                st.image("Bilder/Hyperiforce.png")
                 st.write("https://www.avogel-company.ch/img/client/av3-packshots-deutsch/2020_Hyperiforce_120T_CH_d.png?m=1608019976")
             st.divider()
             
