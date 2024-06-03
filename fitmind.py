@@ -829,6 +829,11 @@ def show_main_page():
 
             st.write("How stressed have you been today")
             stress_level = st.slider("Stresslevel", 0, 10, 5)
+
+             # Save Button
+            if st.button("Save"):
+            # Hier kannst du den Code zum Speichern der Daten implementieren
+                st.write("Mood data saved successfully!")
         
             # Chart elements
             mood_data = pd.DataFrame({
